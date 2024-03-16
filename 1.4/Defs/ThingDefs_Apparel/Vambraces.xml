@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_ApparelFabricatedBase" Name="OuterRim_VambraceBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_Vambraces</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<costList>
+			<OuterRim_Durasteel>180</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>0.3</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<apparel>
+			<scoreOffset>4</scoreOffset>
+			<wornGraphicPath>Things/Alpha/Alpha</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>HypertechVambrace</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_VambraceBase">
+		<defName>OuterRim_Vambrace_FlameProjector</defName>
+		<label>vambrace (flame projector)</label>
+		<description>A wrist mounted bracer equipped with a flame projector.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Vambraces/Vambrace_Flamer</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>VambraceOffensive</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_FlameProjector</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_VambraceBase">
+		<defName>OuterRim_Vambrace_KnockoutDart</defName>
+		<label>vambrace (knockout dart)</label>
+		<description>A wrist mounted bracer equipped with a knockout dart launcher, which fires a dart filled with a focused anesthetic compound, instantly knocking out the target.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Vambraces/Vambrace_DartLauncher</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>VambraceOffensive</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_KnockoutDart</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_VambraceBase">
+		<defName>OuterRim_Vambrace_Cryoban</defName>
+		<label>vambrace (cryoban)</label>
+		<description>A wrist mounted bracer equipped with a cryoban projector, this will temporarily freeze any pawn caught in the effect.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Vambraces/Vambrace_CryoBan</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>VambraceOffensive</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_CryoBanProjector</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_VambraceBase">
+		<defName>OuterRim_Vambrace_Whipcord</defName>
+		<label>vambrace (whipcord)</label>
+		<description>A wrist mounted bracer equipped with a whipcord launcher, can be used to restrain enemies temporarily or pull them into melee range.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Vambraces/Vambrace_Whipcord</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>VambraceOffensive</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_WhipcordStun</li>
+					<li>OuterRim_WhipcordPull</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- <ThingDef ParentName="OuterRim_VambraceBase" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>OuterRim_Vambrace_ToxDart</defName>
+		<label>vambrace (tox dart)</label>
+		<description>A wrist mounted bracer equipped with a tox dart, firing a dart filled with toxic substances causing the pawn hit to gain significant toxic buildup.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Vambraces/Vambrace_DartLauncher</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>VambraceOffensive</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_ToxDart</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef> -->
+
+</Defs>

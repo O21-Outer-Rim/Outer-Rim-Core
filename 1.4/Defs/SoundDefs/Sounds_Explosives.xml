@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>OuterRim_Explosive_Cryoban</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Grenades/Cryoban</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Explosive_Fragment</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Grenades/Fragment</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Explosive_Ion</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Grenades/Ion</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Explosive_Plasma</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Grenades/Plasma</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Explosive_Poison</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Grenades/Poison</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Explosive_Sonic</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Grenades/Sonic</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Explosive_Stun</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Grenades/Stun</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Explosive_Thermal</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Grenades/Thermal</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

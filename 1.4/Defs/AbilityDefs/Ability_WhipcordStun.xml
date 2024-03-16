@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Abilities.AbilityDef>
+		<defName>OuterRim_WhipcordStun</defName>
+		<label>whipcord stun</label>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<description>Fires out the whipcord intentionally hitting the target to stun them temporarily.</description>
+		<iconPath>OuterRim/Items/Vambraces/Vambrace_Whipcord</iconPath>
+		<showUndrafted>false</showUndrafted>
+		<castTime>0.5</castTime>
+		<range>16.9</range>
+		<targetMode>Pawn</targetMode>
+		<cooldownTime>5000</cooldownTime>
+		<!-- <castSound>Outland_Spell_MysticismFail</castSound> -->
+		<modExtensions>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>OuterRim_Bullet_WhipcordStun</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>OuterRim_Bullet_WhipcordStun</defName>
+		<label>whipcord stun</label>
+		<thingClass>VFECore.ExpandableProjectile</thingClass>
+		<graphicData>
+			<texPath>OuterRim/Projectile/Proj_Whipcord</texPath>
+			<texPathFadeOut>OuterRim/Projectile/Proj_WhipcordFadeOut</texPathFadeOut>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Stun</damageDef>
+			<speed>45</speed>
+			<damageAmountBase>8</damageAmountBase>
+			<stoppingPower>2.0</stoppingPower>
+		</projectile>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.85</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
+
+</Defs>

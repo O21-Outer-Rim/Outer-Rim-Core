@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBenchBase">
+		<defName>OuterRim_HypertechResearchBench</defName>
+		<label>hypertech research bench</label>
+		<description>A hypertech bench with computers and electronic measurement equipment. Allows even more rapid research, and unlocks Hypertech research projects. Functionally can replace the Hi-Tech Research Bench and Multi-Analyzer.</description>
+		<thingClass>Building_ResearchBench</thingClass>
+		<graphicData>
+			<texPath>OuterRim/Building/HypertechResearchBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(5,1)</size>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<surfaceType>Item</surfaceType>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Flammability>0.3</Flammability>
+			<ResearchSpeedFactor>1.1</ResearchSpeedFactor>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<ComponentSpacer>14</ComponentSpacer>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Fabrication</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>750</basePowerConsumption>
+				<shortCircuitInRain>true</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>OuterRim_HypertechTerminal</li>
+					<li>OuterRim_HypertechTerminalWide</li>
+					<li MayRequire="Neronix17.OuterRim.GalacticEmpire">OuterRim_ResearchCore_GalacticEmpire</li>
+					<li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_ResearchCore_RebelAlliance</li>
+					<li MayRequire="Neronix17.OuterRim.Csilla">OuterRim_ResearchCore_ChissAscendancy</li>
+					<li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_ResearchCore_Mandalorian</li>
+					<li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_ResearchCore_OldRepublic</li>
+					<li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_ResearchCore_SithEmpire</li>
+					<li MayRequire="Neronix17.OuterRim.GalacticRepublic">OuterRim_ResearchCore_GalacticRepublic</li>
+					<!-- <li MayRequire="Neronix17.OuterRim.Separatists">OuterRim_ResearchCore_Separatists</li> -->
+				</linkableFacilities>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_ResearchBenchSubstitutes">
+				<actLikeResearchBench>
+					<li>HiTechResearchBench</li>
+				</actLikeResearchBench>
+				<actLikeResearchFacility>
+					<li>MultiAnalyzer</li>
+				</actLikeResearchFacility>
+			</li>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_HypertechTerminal</defName>
+		<label>hypertech terminal</label>
+		<description>A hypertech computer interface, versatile access to various programs for base personel.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/HypertechTerminal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+		</graphicData>
+		<size>(2, 1)</size>
+		<fillPercent>0.50</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellIcon>DiningChair</interactionCellIcon>
+		<statBases>
+			<Mass>20</Mass>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Flammability>0.3</Flammability>
+			<JoyGainFactor>1.1</JoyGainFactor>
+		</statBases>
+		<building>
+			<joyKind>Gaming_Cerebral</joyKind>
+      		<forceShowRoomStats>true</forceShowRoomStats>
+		</building>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</researchPrerequisites>
+		<costList>
+			<OuterRim_Durasteel>120</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>250</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.1</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>4</maxSimultaneous>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_HypertechTerminalWide</defName>
+		<label>hypertech terminal (wide)</label>
+		<description>A hypertech computer interface, versatile access to various programs for base personel.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/HypertechTerminalWide</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+		</graphicData>
+		<size>(4, 1)</size>
+		<fillPercent>0.50</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellIcon>DiningChair</interactionCellIcon>
+		<statBases>
+			<Mass>20</Mass>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Flammability>0.3</Flammability>
+			<JoyGainFactor>1.1</JoyGainFactor>
+		</statBases>
+		<building>
+			<joyKind>Gaming_Cerebral</joyKind>
+      		<forceShowRoomStats>true</forceShowRoomStats>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>240</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>8</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.2</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>2</maxSimultaneous>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<JobDef>
+		<defName>OuterRim_ResearchJoyJob</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>playing holonet sabaac.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1</joyGainRate>
+		<joySkill>Intellectual</joySkill>
+		<joyXpPerTick>0.004</joyXpPerTick>
+		<joyKind>Gaming_Cerebral</joyKind>
+		<taleOnCompletion>PlayedGame</taleOnCompletion>
+	</JobDef>
+
+	<JoyGiverDef>
+		<defName>OuterRim_ResearchJoy</defName>
+		<giverClass>JoyGiver_InteractBuildingInteractionCell</giverClass>
+		<baseChance>1.5</baseChance>
+		<thingDefs>
+			<li>OuterRim_HypertechTerminal</li>
+			<li>OuterRim_HypertechTerminalWide</li>
+		</thingDefs>
+		<jobDef>OuterRim_ResearchJoyJob</jobDef>
+		<joyKind>Gaming_Cerebral</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+</Defs>

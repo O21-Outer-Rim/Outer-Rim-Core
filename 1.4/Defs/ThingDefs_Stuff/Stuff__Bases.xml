@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase" Name="OuterRimFabric" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Resource/Cloth</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>30</minRewardCount>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase" Name="OuterRimMetal" Abstract="True">
+		<graphicData>
+			<texPath>OuterRim/Items/MetalSlate</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<smeltable>true</smeltable>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase" Name="OuterRimStone" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Resource/StoneBlocks</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Stone_Drop</soundInteract>
+		<soundDrop>Stone_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<thingCategories>
+			<li>StoneBlocks</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Stony</li>
+			</categories>
+			<appearance>Bricks</appearance>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

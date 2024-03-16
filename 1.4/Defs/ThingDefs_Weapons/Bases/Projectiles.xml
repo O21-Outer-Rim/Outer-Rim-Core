@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseBullet" Name="OuterRimBlasterBase_Projectile" Abstract="True">
+		<label>blaster bolt</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>OuterRim_Blaster</damageDef>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
+			<speed>100</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- Red Plasma -->
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_PistolRed</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Red</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_RifleRed</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Red</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>8</damageAmountBase>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_SniperRed</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Red</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>24</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_ScattergunRed</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/Scattergun_Red</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>36</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<!-- Blue Plasma -->
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_PistolBlue</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Blue</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+			<extraDamages>
+				<li>
+					<def>OuterRim_Ion</def>
+					<amount>9</amount>
+					<armorPenetration>0.25</armorPenetration>
+					<chance>0.33</chance>
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_RifleBlue</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Blue</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>9</damageAmountBase>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
+			<extraDamages>
+				<li>
+					<def>OuterRim_Ion</def>
+					<amount>4</amount>
+					<armorPenetration>0.25</armorPenetration>
+					<chance>0.33</chance>
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_SniperBlue</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Blue</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>27</damageAmountBase>
+			<armorPenetrationBase>0.30</armorPenetrationBase>
+			<extraDamages>
+				<li>
+					<def>OuterRim_Ion</def>
+					<amount>15</amount>
+					<armorPenetration>0.25</armorPenetration>
+					<chance>0.33</chance>
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<!-- Green Plasma -->
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_PistolGreen</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Green</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>14</damageAmountBase>
+			<armorPenetrationBase>0.20</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_RifleGreen</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Green</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>7</damageAmountBase>
+			<armorPenetrationBase>0.10</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_SniperGreen</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Green</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>21</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<!-- Ion -->
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_PistolIon</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Blue</texPath>
+		</graphicData>
+		<projectile>
+			<damageDef>OuterRim_Ion</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_RifleIon</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Blue</texPath>
+		</graphicData>
+		<projectile>
+			<damageDef>OuterRim_Ion</damageDef>
+			<damageAmountBase>3</damageAmountBase>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_SniperIon</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Blue</texPath>
+		</graphicData>
+		<projectile>
+			<damageDef>OuterRim_Ion</damageDef>
+			<damageAmountBase>9</damageAmountBase>
+			<armorPenetrationBase>0.30</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>OuterRim_ResearchTab</defName>
+		<label>Outer Rim</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef Name="OuterRim_ResearchBaseMain" Abstract="True">
+		<tab>OuterRim_ResearchTab</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>OuterRim_HypertechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+
+</Defs>

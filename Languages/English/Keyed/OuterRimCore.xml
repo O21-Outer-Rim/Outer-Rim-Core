@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Vanilla Trading Expanded -->
+	<VTE.OR_ChissBankName>Ascendancy Bank</VTE.OR_ChissBankName>
+
+	<!-- Tibanna -->
+	<OuterRim.CantPlaceHere>Cannot place here, no valid resource deposit covered.</OuterRim.CantPlaceHere>
+	<OuterRim.NoStorage>No Valid Storage Connected</OuterRim.NoStorage>
+	<OuterRim.NoCapacity>Connected Storage Full</OuterRim.NoCapacity>
+	<OuterRim.TibannaValve>Switches tibanna flow on/off</OuterRim.TibannaValve>
+	<OuterRim.TibannaValveDesc>Switches tibanna flow on/off. A pawn will come open/close the valve.</OuterRim.TibannaValveDesc>
+
+	<!-- Force Users -->
+	<OuterRim.AbilityStatsForceEnergy>Force Energy</OuterRim.AbilityStatsForceEnergy>
+	<OuterRim.AbilityDisableReasonForceEnergyLack>Doesn't have enough force energy left</OuterRim.AbilityDisableReasonForceEnergyLack>
+	<OuterRim.UpgradeAbilityTip>You can upgrade this ability to {0} for {1} skill points</OuterRim.UpgradeAbilityTip>
+	<OuterRim.UpgradeLevelRequired>Level {0} required to upgrade</OuterRim.UpgradeLevelRequired>
+	<OuterRim.ForceAbilityNotKnown>Force ability not known to this pawn</OuterRim.ForceAbilityNotKnown>
+	<OuterRim.ForceUser_0Level>Force Sensitive</OuterRim.ForceUser_0Level>
+	<OuterRim.ForceUser_1Level>Force User</OuterRim.ForceUser_1Level>
+	<OuterRim.ForceUser_3Level>Force Adept</OuterRim.ForceUser_3Level>
+	<OuterRim.ForceUser_5Level>Force Knight</OuterRim.ForceUser_5Level>
+	<OuterRim.ForceUser_7Level>Force Master</OuterRim.ForceUser_7Level>
+
+	<!-- Holotable -->
+	<OuterRim.SilverCurrencyCost>{0} Silver</OuterRim.SilverCurrencyCost>
+
+</LanguageData>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef Name="OuterRim_TraderCaravanBase" Abstract="True">
+		<label>trader</label>
+		<stockGenerators>
+			<!-- Resources -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~3000</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_ComponentHypertech</thingDef>
+				<countRange>20~60</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_Durasteel</thingDef>
+				<countRange>500~800</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Gold</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef" MayRequire="Neronix17.OuterRim.MedicalSystems">
+				<thingDef>OuterRim_Bacta</thingDef>
+				<countRange>50~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_Tibanna</thingDef>
+				<countRange>300~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_BactaSpray</thingDef>
+				<countRange>25~50</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_KoltoGelPack</thingDef>
+				<countRange>25~50</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Textiles</categoryDef>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<totalPriceRange>400~800</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>ResourcesRaw</categoryDef>
+				<thingDefCountRange>2~4</thingDefCountRange>
+				<totalPriceRange>400~800</totalPriceRange>
+			</li>
+			<!-- TODO: Replace with Outer Rim foods -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MealSurvivalPack</thingDef>
+				<countRange>30~65</countRange>
+			</li>
+
+			<!-- TODO: Replace with Outer Rim drugs -->
+			<!-- <li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<thingDefCountRange>3~4</thingDefCountRange>
+				<totalPriceRange>700~1500</totalPriceRange>
+			</li> -->
+
+			<!-- Implants -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TechHediff</tradeTag>
+				<thingDefCountRange>2~4</thingDefCountRange>
+				<countRange>1~1</countRange>
+			</li>
+
+			<!-- Droids -->
+			<li MayRequire="Neronix17.OuterRim.DroidDepot" Class="StockGenerator_Tag">
+				<tradeTag>DroidParts_Makeshift</tradeTag>
+				<thingDefCountRange>1~6</thingDefCountRange>
+				<countRange>5~10</countRange>
+			</li>
+			<li MayRequire="Neronix17.OuterRim.DroidDepot" Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_DroidBrain</thingDef>
+				<countRange>1~6</countRange>
+			</li>
+			<li MayRequire="Neronix17.OuterRim.DroidDepot" Class="StockGenerator_SingleDef">
+				<thingDef>Asimov_Chargepack</thingDef>
+				<countRange>12~24</countRange>
+			</li>
+			<li MayRequire="Neronix17.OuterRim.DroidDepot" Class="Asimov.StockGenerator_Automatons">
+				<countRange>-2~2</countRange>
+				<pawnKinds>
+					<li>OuterRim_GNKDroid</li>
+					<li>OuterRim_MSEDroid</li>
+					<li>OuterRim_RSeriesDroid</li>
+				</pawnKinds>
+				<hediffs>
+					<li>OuterRim_RestraintBolt</li>
+				</hediffs>
+			</li>
+
+			<!-- Buying -->
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>

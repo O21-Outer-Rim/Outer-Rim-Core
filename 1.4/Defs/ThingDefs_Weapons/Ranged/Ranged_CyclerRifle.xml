@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_SniperRifle">
+		<defName>OuterRim_CyclerRifle</defName>
+		<label>cycler rifle</label>
+		<description>A slugthrower weapon which fires a solid projectile instead of plasma, which makes it a favorite weapon for hunting and is commonly used among lower tech societies in the galaxy. Despite the relatively primitive design, it does significantly more damage than a typical blaster rifle.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/CyclerRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<weaponClasses>
+			<li>LongShots</li>
+		</weaponClasses>
+		<weaponTags>
+			<li>ORTuskenSniper</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+		</statBases>
+		<costList Inherit="False">
+			<OuterRim_Durasteel>40</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>1</OuterRim_ComponentHypertech>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_CyclerRifleProjectile</defaultProjectile>
+				<warmupTime>1.3</warmupTime>
+				<range>36.9</range>
+				<soundCast>Shot_BoltActionRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>OuterRim_CyclerRifleProjectile</defName>
+		<label>cycler rifle bullet</label>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>28</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>120</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

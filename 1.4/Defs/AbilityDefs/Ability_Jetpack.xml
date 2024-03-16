@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Abilities.AbilityDef Name="OuterRimJetpackAbilityBase" Abstract="True">
+		<label>jetpack flight</label>
+		<description>Use jetpack to fly a short distance.</description>
+		<abilityClass>OuterRimCore.Ability_Jetpack</abilityClass>
+		<targetMode>Location</targetMode>
+		<castTime>0.5</castTime>
+		<range>16.9</range>
+		<cooldownTime>15000</cooldownTime>
+		<castSound>OuterRim_Shot_RocketLauncher</castSound>
+	</VFECore.Abilities.AbilityDef>
+
+	<ThingDef ParentName="PawnFlyerBase">
+		<defName>OuterRim_JetpackJump_Flyer</defName>
+		<thingClass>VFECore.Abilities.AbilityPawnFlyer</thingClass>
+		<pawnFlyer>
+			<flightDurationMin>1</flightDurationMin>
+			<flightSpeed>10</flightSpeed>
+		</pawnFlyer>
+		<altitudeLayer>Skyfaller</altitudeLayer>
+	</ThingDef>
+
+</Defs>

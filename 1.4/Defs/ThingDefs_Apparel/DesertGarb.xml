@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_UniformBodyFabricatedBase">
+		<defName>OuterRim_DesertGarb</defName>
+		<label>desert garb</label>
+		<description>A simple robe, tightly clasped to help protect from blowing sand better.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/JawaRobes/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList Inherit="False" />
+		<apparel>
+			<tags Inherit="False">
+				<li>ORJawa</li>
+				<li>ORTusken</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/JawaRobes/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li> <weight>10</weight> <only>(184, 79, 72)</only> </li>
+				<li> <weight>10</weight> <only>(117, 70, 67)</only> </li>
+				<li> <weight>10</weight> <only>(117, 92, 67)</only> </li>
+				<li> <weight>10</weight> <only>(171, 124, 77)</only> </li>
+				<li> <weight>10</weight> <only>(158, 157, 100)</only> </li>
+				<li> <weight>10</weight> <only>(136, 158, 100)</only> </li>
+				<li> <weight>10</weight> <only>(132, 145, 110)</only> </li>
+				<li> <weight>10</weight> <only>(87, 130, 109)</only> </li>
+				<li> <weight>10</weight> <only>(107, 143, 135)</only> </li>
+				<li> <weight>10</weight> <only>(59, 59, 59)</only> </li>
+				<li> <weight>10</weight> <only>(104, 101, 130)</only> </li>
+				<li> <weight>10</weight> <only>(134, 115, 148)</only> </li>
+				<li> <weight>10</weight> <only>(168, 141, 163)</only> </li>
+				<li> <weight>10</weight> <only>(130, 130, 130)</only> </li>
+				<li> <weight>10</weight> <only>(179, 179, 179)</only> </li>
+				<li> <weight>10</weight> <only>(92, 92, 92)</only> </li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_UniformHeadwearFabricatedBase">
+		<defName>OuterRim_DesertHood</defName>
+		<label>desert hood</label>
+		<description>A simple hood, tightly clasped to help protect from blowing sand better.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Cloak/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList Inherit="False" />
+		<apparel>
+			<bodyPartGroups Inherit="False">
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>ORHermit</li>
+				<li>ORBasicApparel</li>
+				<li>ORJawa</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Cloak/Head</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li> <weight>10</weight> <only>(184, 79, 72)</only> </li>
+				<li> <weight>10</weight> <only>(117, 70, 67)</only> </li>
+				<li> <weight>10</weight> <only>(117, 92, 67)</only> </li>
+				<li> <weight>10</weight> <only>(171, 124, 77)</only> </li>
+				<li> <weight>10</weight> <only>(158, 157, 100)</only> </li>
+				<li> <weight>10</weight> <only>(136, 158, 100)</only> </li>
+				<li> <weight>10</weight> <only>(132, 145, 110)</only> </li>
+				<li> <weight>10</weight> <only>(87, 130, 109)</only> </li>
+				<li> <weight>10</weight> <only>(107, 143, 135)</only> </li>
+				<li> <weight>10</weight> <only>(59, 59, 59)</only> </li>
+				<li> <weight>10</weight> <only>(104, 101, 130)</only> </li>
+				<li> <weight>10</weight> <only>(134, 115, 148)</only> </li>
+				<li> <weight>10</weight> <only>(168, 141, 163)</only> </li>
+				<li> <weight>10</weight> <only>(130, 130, 130)</only> </li>
+				<li> <weight>10</weight> <only>(179, 179, 179)</only> </li>
+				<li> <weight>10</weight> <only>(92, 92, 92)</only> </li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

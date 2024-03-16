@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<DamageDef ParentName="Bomb">
+		<defName>OuterRim_Ion</defName>
+		<label>Ion</label>
+		<workerClass>TabulaRasa.DamageWorker_AdvExt</workerClass>
+		<externalViolenceForMechanoids>true</externalViolenceForMechanoids>
+		<deathMessage>{0} has been ioned to death.</deathMessage>
+		<harmsHealth>false</harmsHealth>
+		<makesBlood>false</makesBlood>
+		<impactSoundType>Electric</impactSoundType>
+		<defaultDamage>50</defaultDamage>
+		<explosionSnowMeltAmount>0</explosionSnowMeltAmount>
+		<explosionCellFleck>BlastEMP</explosionCellFleck>
+		<explosionColorEdge>(0.8, 0.8, 0.8, 0.8)</explosionColorEdge>
+		<explosionInteriorFleck>ElectricalSpark</explosionInteriorFleck>
+		<soundExplosion>Explosion_EMP</soundExplosion>
+		<combatLogRules>Damage_EMP</combatLogRules>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_DamageAdv">
+				<hediff>OuterRim_IonBuildup</hediff>
+				<hediffSev>0.5</hediffSev>
+				<increaseSevPerShot>0.3</increaseSevPerShot>
+				<stunPawn>true</stunPawn>
+				<wholeBody>true</wholeBody>
+			</li>
+		</modExtensions>
+	  </DamageDef>
+
+</Defs>

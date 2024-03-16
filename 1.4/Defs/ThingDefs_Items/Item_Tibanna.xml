@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>OuterRim_Tibanna</defName>
+		<label>tibanna</label>
+		<description>Tibanna is a relatively rare gas, typically used to power blasters.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/TibannaTank</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<MarketValue>1.0</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<deepCommonality>2</deepCommonality>
+		<deepCountPerPortion>65</deepCountPerPortion>
+		<deepLumpSizeRange>30~40</deepLumpSizeRange>
+		<deepCountPerCell>500</deepCountPerCell>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.069</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<deepColor>(174, 105, 191)</deepColor>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>
