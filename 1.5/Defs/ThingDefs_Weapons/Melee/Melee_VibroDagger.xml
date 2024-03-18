@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimMeleeBase_Sharp">
+		<defName>OuterRim_VibroDagger</defName>
+		<label>vibro-dagger</label>
+		<description>A variation of vibroweapon, small and light making it great for fast attacks.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/VibroDagger</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<techLevel>Ultra</techLevel>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>0.35</Mass>
+		</statBases>
+		<weaponTags>
+			<li>ORVibroweapon</li>
+		</weaponTags>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Outer Rim Core Research-->
+
+	<!-- ====== General ====== -->
+
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_HypertechFabrication</defName>
+		<label>Hypertech Fabrication</label>
+		<description>Unlocks the crafting of Hypertech Components and many of the basic items and equipment crafted using them.</description>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<baseCost>8000</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+			<defName>OuterRim_LightInstallations</defName>
+			<label>Light Installations</label>
+			<description>Unlocks access to a number of automated installations, making life on the Rim a little easier.</description>
+			<prerequisites>
+				<li>OuterRim_HypertechFabrication</li>
+			</prerequisites>
+			<baseCost>1000</baseCost>
+			<researchViewX>1</researchViewX>
+			<researchViewY>0.5</researchViewY>
+		</ResearchProjectDef>
+		
+		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+			<defName>OuterRim_MediumInstallations</defName>
+			<label>Medium Installations</label>
+			<description>Unlocks the building of larger and more efficient installations.</description>
+			<prerequisites>
+				<li>OuterRim_LightInstallations</li>
+			</prerequisites>
+			<baseCost>2000</baseCost>
+			<researchViewX>2</researchViewX>
+			<researchViewY>0.5</researchViewY>
+		</ResearchProjectDef>
+		
+		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+			<defName>OuterRim_HeavyInstallations</defName>
+			<label>Heavy Installations</label>
+			<description>Unlocks the building of the biggest and most efficient installations.</description>
+			<prerequisites>
+				<li>OuterRim_MediumInstallations</li>
+			</prerequisites>
+			<baseCost>4000</baseCost>
+			<researchViewX>3</researchViewX>
+			<researchViewY>0.5</researchViewY>
+		</ResearchProjectDef>
+
+		<!-- ====== Turrets ====== -->
+	
+		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+			<defName>OuterRim_LightTurrets</defName>
+			<label>Light Turrets</label>
+			<description>Unlocks access to a number of turrets, they will typically also require a factions weapons to be unlocked to be buildable.</description>
+			<prerequisites>
+				<li>OuterRim_LightInstallations</li>
+			</prerequisites>
+			<baseCost>1000</baseCost>
+			<researchViewX>2</researchViewX>
+			<researchViewY>0</researchViewY>
+		</ResearchProjectDef>
+		
+		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+			<defName>OuterRim_MediumTurrets</defName>
+			<label>Medium Turrets</label>
+			<description>Unlocks access to a number of turrets, they will typically also require a factions weapons to be unlocked to be buildable.</description>
+			<prerequisites>
+				<li>OuterRim_MediumInstallations</li>
+				<li>OuterRim_LightTurrets</li>
+			</prerequisites>
+			<baseCost>1500</baseCost>
+			<researchViewX>3</researchViewX>
+			<researchViewY>0</researchViewY>
+		</ResearchProjectDef>
+		
+		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+			<defName>OuterRim_HeavyTurrets</defName>
+			<label>Heavy Turrets</label>
+			<description>Unlocks access to a number of turrets, they will typically also require a factions weapons to be unlocked to be buildable.</description>
+			<prerequisites>
+				<li>OuterRim_HeavyInstallations</li>
+				<li>OuterRim_MediumTurrets</li>
+			</prerequisites>
+			<baseCost>2000</baseCost>
+			<researchViewX>4</researchViewX>
+			<researchViewY>0</researchViewY>
+		</ResearchProjectDef>
+		
+		<!-- <ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+			<defName>OuterRim_OrbitalTurrets</defName>
+			<label>Orbital Turrets</label>
+			<description>Turrets specifically designed to target things in orbit or airborne objects.</description>
+			<prerequisites>
+				<li>OuterRim_HeavyTurrets</li>
+			</prerequisites>
+			<researchViewX>5</researchViewX>
+			<researchViewY>0</researchViewY>
+		</ResearchProjectDef> -->
+
+	<!-- ====== Additional Researches ====== -->
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_TechBelts</defName>
+		<label>tech belts</label>
+		<description>Unlocks crafting of a variety of equipment belts.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>2</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_StimBelts</defName>
+		<label>stim belts</label>
+		<description>Unlocks crafting of a variety of stim belts.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>2</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_Jetpacks</defName>
+		<label>jetpacks</label>
+		<description>Unlocks crafting of jetpacks.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<baseCost>8000</baseCost>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_Vambraces</defName>
+		<label>vambraces</label>
+		<description>Unlocks crafting of a variety of vambrace equipment.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>3</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

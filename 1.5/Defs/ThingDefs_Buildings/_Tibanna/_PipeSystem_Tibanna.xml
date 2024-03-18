@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PipeSystem.PipeNetDef>
+		<defName>OuterRim_TibannaNetwork</defName>
+		<label>tibanna pipe network</label>
+		<resource>
+			<name>Tibanna</name>
+			<unit>m3</unit>
+			<color>(174, 105, 191)</color>
+		</resource>
+		<pipeDefs>
+			<li>OuterRim_TibannaPipe</li>
+			<li>OuterRim_TibannaPipeUnderground</li>
+		</pipeDefs>
+		<designator>
+			<deconstructIconPath>OuterRim/Building/TibannaPipeDeconstruct_MenuIcon</deconstructIconPath>
+			<designationCategoryDef>OuterRim_ArchitectHypertech</designationCategoryDef>
+		</designator>
+		<overlayOptions>
+			<overlayColor>(174, 105, 191)</overlayColor>
+		</overlayOptions>
+		<modExtensions>
+			<li Class="OuterRimCore.DefModExt_ExtractableResource">
+				<thing>OuterRim_Tibanna</thing>
+			</li>
+		</modExtensions>
+	</PipeSystem.PipeNetDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_TibannaPipe</defName>
+		<label>tibanna pipe</label>
+		<description>Can be placed under walls and other buildings.</description>
+		<thingClass>PipeSystem.Building_Pipe</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>OuterRim/Building/TibannaPipe_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom10</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>OuterRim/Building/TibannaPipe_MenuIcon</uiIconPath>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<!-- <blueprintGraphicData>
+				<texPath>OuterRim/Building/TibannaPipe_Atlas</texPath>
+			</blueprintGraphicData> -->
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>35</WorkToBuild>
+		</statBases>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<costList>
+			<OuterRim_Durasteel>1</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="PipeSystem.CompProperties_Resource">
+				<pipeNet>OuterRim_TibannaNetwork</pipeNet>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PipeSystem.PlaceWorker_Pipe</li>
+		</placeWorkers>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatTibanna</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_TibannaPipeUnderground</defName>
+		<label>tibanna pipe (underground)</label>
+		<description>Can be placed under walls and other buildings. Identical to the normal one just not visible.</description>
+		<thingClass>PipeSystem.Building_Pipe</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Alpha</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom10</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>OuterRim/Building/TibannaPipe_MenuIcon</uiIconPath>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>OuterRim/Building/TibannaPipe_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>35</WorkToBuild>
+		</statBases>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<costList>
+			<OuterRim_Durasteel>1</OuterRim_Durasteel>
+		</costList>
+		<comps>
+			<li Class="PipeSystem.CompProperties_Resource">
+				<pipeNet>OuterRim_TibannaNetwork</pipeNet>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PipeSystem.PlaceWorker_Pipe</li>
+		</placeWorkers>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatTibanna</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_TibannaValve</defName>
+		<label>tibanna valve</label>
+		<description>Switches tibanna flow on/off.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>OuterRim/Building/TibannaSwitch_Off</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowWireConnection>false</allowWireConnection>
+		</building>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<placingDraggableDimensions>0</placingDraggableDimensions>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="PipeSystem.CompProperties_PipeValve">
+				<pipeNet>OuterRim_TibannaNetwork</pipeNet>
+				<alwaysLinkToPipes>true</alwaysLinkToPipes>
+			</li>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>OuterRim/Items/TibannaTank/TibannaTank_a</commandTexture>
+				<commandLabelKey>OuterRim.TibannaValve</commandLabelKey>
+				<commandDescKey>OuterRim.TibannaValveDesc</commandDescKey>
+			</li>
+		</comps>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<tickerType>Normal</tickerType>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatTibanna</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_TibannaBottler</defName>
+		<label>tibanna bottler</label>
+		<description>A tibanna bottler. Used to extract tibanna cannisters from the network.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>OuterRim/Building/TibannaBottler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>600</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>0.5</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>OuterRim_Tibanna</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>OuterRim_Tibanna</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<comps>
+			<li Class="PipeSystem.CompProperties_ConvertResourceToThing">
+				<pipeNet>OuterRim_TibannaNetwork</pipeNet>
+				<thing>OuterRim_Tibanna</thing>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatTibanna</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_TibannaSiphon</defName>
+		<label>tibanna siphon</label>
+		<description>A tibanna siphon. Used to insert tibanna cannisters into the network.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>OuterRim/Building/TibannaSiphon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>600</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>0.5</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>OuterRim_Tibanna</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>OuterRim_Tibanna</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="PipeSystem.CompProperties_ConvertThingToResource">
+				<pipeNet>OuterRim_TibannaNetwork</pipeNet>
+				<thing>OuterRim_Tibanna</thing>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatTibanna</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

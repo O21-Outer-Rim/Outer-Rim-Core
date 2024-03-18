@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_FusionReactorPortable</defName>
+		<label>fusion reactor (portable)</label>
+		<description>Produces electricity through plasma fusion using an unknown material which never seems to deplete.</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/FusionCell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.15, 1.15)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1.0</fillPercent>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MarketValue>10000</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-10</Beauty>
+			<Mass>20</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(1,1)</size>
+		<costList>
+			<OuterRim_Durasteel>900</OuterRim_Durasteel>
+			<Uranium>50</Uranium>
+			<OuterRim_ComponentHypertech>30</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+			  <glowRadius>3</glowRadius>
+			  <glowColor>(227,168,233,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>-4000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>10</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+			</li>
+			<li Class="CompProperties_Breakdownable" />
+		</comps>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory />
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<thingCategories>
+			<li>BuildingsSpecial</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			<li>ExoticBuilding</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatPower</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_FusionReactorLight</defName>
+		<label>fusion reactor (light)</label>
+		<description>Produces electricity through plasma fusion using tibanna. The process it uses produces a lot of heat, building outdoors or in a cooled chamber is best to deal with it.</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/FusionFurnace</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.3, 3.3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>0.9</fillPercent>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-30</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+		<costList>
+			<OuterRim_Durasteel>900</OuterRim_Durasteel>
+			<Uranium>50</Uranium>
+			<OuterRim_ComponentHypertech>30</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="PipeSystem.CompProperties_RefillWithPipes">
+				<pipeNet>OuterRim_TibannaNetwork</pipeNet>
+				<thing>OuterRim_Tibanna</thing>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(227,168,233,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>-8000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>4.0</fuelConsumptionRate>
+				<fuelCapacity>60.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>OuterRim_Tibanna</li>
+					</thingDefs>
+				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>30</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+			</li>
+			<li Class="CompProperties_Breakdownable" />
+		</comps>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>OuterRim_LightInstallations</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatPower</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_FusionReactorHeavy</defName>
+		<label>fusion reactor (heavy)</label>
+		<description>Produces electricity through plasma fusion using tibanna. The process it uses produces a massive amount of heat which is only easily cooled by geothermal steam geysers. Must be placed on a steam geyser.</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/FusionGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+			<shadowData>
+				<volume>(6.03,1.0,5.25)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,5.4,6)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-30</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(6,6)</size>
+		<costList>
+			<OuterRim_Durasteel>3200</OuterRim_Durasteel>
+			<Uranium>200</Uranium>
+			<OuterRim_ComponentHypertech>150</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="PipeSystem.CompProperties_RefillWithPipes">
+				<pipeNet>OuterRim_TibannaNetwork</pipeNet>
+				<thing>OuterRim_Tibanna</thing>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>14</glowRadius>
+				<glowColor>(227,168,233,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlantSteam</compClass>
+				<basePowerConsumption>-40000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>5.0</fuelConsumptionRate>
+				<fuelCapacity>180.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>OuterRim_Tibanna</li>
+					</thingDefs>
+				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>400</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+			</li>
+			<li Class="CompProperties_Breakdownable" />
+		</comps>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_OnSteamGeyser</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>OuterRim_HeavyInstallations</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatPower</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

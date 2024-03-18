@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="OuterRimBlasterBase_Pistol" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1.5</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.58</AccuracyMedium>
+			<AccuracyLong>0.47</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<OuterRim_Tibanna>20</OuterRim_Tibanna>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<weaponTags Inherit="False">
+			<li>ORGun</li>
+			<li>ORPistol</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>OuterRim_AnyWeapons</li>
+			<li>OuterRim_Pistol</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="OuterRimBlasterBase_Rifle" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>2.4</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<OuterRim_Durasteel>45</OuterRim_Durasteel>
+			<OuterRim_Tibanna>20</OuterRim_Tibanna>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+		<weaponTags Inherit="False">
+			<li>ORGun</li>
+			<li>ORRifle</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>OuterRim_AnyWeapons</li>
+			<li>OuterRim_Rifle</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="OuterRimBlasterBase_SniperRifle" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>4.0</Mass>
+			<AccuracyTouch>0.34</AccuracyTouch>
+			<AccuracyShort>0.54</AccuracyShort>
+			<AccuracyMedium>0.68</AccuracyMedium>
+			<AccuracyLong>0.47</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<OuterRim_Durasteel>60</OuterRim_Durasteel>
+			<OuterRim_Tibanna>20</OuterRim_Tibanna>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<weaponTags Inherit="False">
+			<li>ORGun</li>
+			<li>ORSniper</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>OuterRim_AnyWeapons</li>
+			<li>OuterRim_Sniper</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="OuterRimBlasterBase_HeavyWeapon" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>5.5</Mass>
+			<!-- Accuracy and cooldown for heavy weapons needs to be done per-weapon because functionality varies heavily. -->
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<OuterRim_Durasteel>80</OuterRim_Durasteel>
+			<OuterRim_Tibanna>40</OuterRim_Tibanna>
+			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
+		</costList>
+		<weaponTags Inherit="False">
+			<li>ORGun</li>
+			<li>ORHeavyWeapon</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>OuterRim_AnyWeapons</li>
+			<li>OuterRim_Heavy</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>

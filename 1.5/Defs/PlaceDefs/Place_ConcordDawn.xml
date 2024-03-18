@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PlaceDef>
+		<defName>OuterRim_ConcordDawn</defName>
+		<tags>
+			<li>OuterRim_OriginMandalorian</li>
+		</tags>
+		<placeRules>
+			<rulesStrings>
+				<!-- A mandalorian planet devastated during the hundreds of wars it suffered. -->
+				<li>place_name->Concord Dawn</li>
+				<li>place_adjective->Mandalorian</li>
+				<li>place_summary->devastated war world</li>
+				<li>place_community->nomad encampment</li>
+				<li>place_powerCenter->third moon</li>
+				<li>place_job->protector</li>
+				<li>place_job->bounty hunter</li>
+				<li>place_job->mercenary</li>
+				<li>place_job->warrior</li>
+				<li>place_personalWeapon->blaster pistol</li>
+				<li>place_massWeapon->orbital bombardment</li>
+				<li>place_foeLeader->viceroy</li>
+				<li>place_foeSoldiers->super commandos</li>
+			</rulesStrings>
+		</placeRules>
+	</PlaceDef>
+
+</Defs>

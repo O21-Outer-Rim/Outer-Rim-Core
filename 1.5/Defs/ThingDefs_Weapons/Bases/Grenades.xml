@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="OuterRim_BaseMakeableGrenade" ParentName="BaseWeapon" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers Inherit="False">
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="OuterRim_BaseGrenadeProjectile" Abstract="True">
+		<category>Projectile</category>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Projectile_Explosive</thingClass>
+		<label>projectile</label>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<projectile>
+			<speed>12</speed>
+			<arcHeightFactor>2</arcHeightFactor>
+			<shadowSize>0.4</shadowSize>
+		</projectile>
+	</ThingDef>
+
+</Defs>

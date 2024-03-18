@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ====== Light Miner ====== -->
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_MineralMinerLight</defName>
+		<label>mineral miner (light)</label>
+		<description>Produces minerals from deposits deep underground. Must be placed outside of the coverage of any other Mineral Miners.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/LightMining</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.3, 3.3)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0.3</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<surfaceType>Item</surfaceType>
+		<pathCost>10000</pathCost>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>0.9</fillPercent>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<drawerType>RealtimeOnly</drawerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="TabulaRasa.CompProperties_Mining">
+				<tickCostMultiplier>4</tickCostMultiplier>
+				<costDebuffPercent>0.02</costDebuffPercent>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<inspectorTabs>
+			<li>TabulaRasa.ITab_Mining</li>
+		</inspectorTabs>
+		<placeWorkers>
+			<li>TabulaRasa.PlaceWorker_PlaceNearThing</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+		</building>
+		<costList>
+			<Steel>350</Steel>
+			<OuterRim_ComponentHypertech>10</OuterRim_ComponentHypertech>
+		</costList>
+		<researchPrerequisites>
+			<li>OuterRim_LightInstallations</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PlaceNearThing">
+				<radius>16</radius>
+				<thingDefs>
+					<li>OuterRim_MineralMinerLight</li>
+					<li>OuterRim_MineralMinerMedium</li>
+					<li>OuterRim_MineralMinerHeavy</li>
+				</thingDefs>
+				<blacklist>True</blacklist>
+			</li>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Medium Miner ====== -->
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_MineralMinerMedium</defName>
+		<label>mineral miner (medium)</label>
+		<description>Produces minerals from deposits deep underground. Must be placed outside of the coverage of any other Mineral Miners.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/MediumMining</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.8, 4.8)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0.3</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<size>(4,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<surfaceType>Item</surfaceType>
+		<pathCost>10000</pathCost>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>0.9</fillPercent>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<drawerType>RealtimeOnly</drawerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1200</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="TabulaRasa.CompProperties_Mining">
+				<tickCostMultiplier>2.5</tickCostMultiplier>
+				<costDebuffPercent>0.04</costDebuffPercent>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<inspectorTabs>
+			<li>TabulaRasa.ITab_Mining</li>
+		</inspectorTabs>
+		<placeWorkers>
+			<li>TabulaRasa.PlaceWorker_PlaceNearThing</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>600</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>18</OuterRim_ComponentHypertech>
+		</costList>
+		<researchPrerequisites>
+			<li>OuterRim_MediumInstallations</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PlaceNearThing">
+				<radius>16</radius>
+				<thingDefs>
+					<li>OuterRim_MineralMinerLight</li>
+					<li>OuterRim_MineralMinerMedium</li>
+					<li>OuterRim_MineralMinerHeavy</li>
+				</thingDefs>
+				<blacklist>True</blacklist>
+			</li>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Heavy Miner ====== -->
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_MineralMinerHeavy</defName>
+		<label>mineral miner (heavy)</label>
+		<description>Produces minerals from deposits deep underground. Must be placed outside of the coverage of any other Mineral Miners.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/HeavyMining</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6, 6)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>20000</WorkToBuild>
+			<Flammability>0.3</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<size>(5,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<surfaceType>Item</surfaceType>
+		<pathCost>10000</pathCost>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>0.9</fillPercent>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<drawerType>RealtimeOnly</drawerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>2000</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="TabulaRasa.CompProperties_Mining">
+				<tickCostMultiplier>1.0</tickCostMultiplier>
+				<costDebuffPercent>0.06</costDebuffPercent>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<inspectorTabs>
+			<li>TabulaRasa.ITab_Mining</li>
+		</inspectorTabs>
+		<placeWorkers>
+			<li>TabulaRasa.PlaceWorker_PlaceNearThing</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+		</building>
+		<costList>
+			<OuterRim_Durasteel>1200</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>26</OuterRim_ComponentHypertech>
+		</costList>
+		<researchPrerequisites>
+			<li>OuterRim_HeavyInstallations</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PlaceNearThing">
+				<radius>16</radius>
+				<thingDefs>
+					<li>OuterRim_MineralMinerLight</li>
+					<li>OuterRim_MineralMinerMedium</li>
+					<li>OuterRim_MineralMinerHeavy</li>
+				</thingDefs>
+				<blacklist>True</blacklist>
+			</li>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

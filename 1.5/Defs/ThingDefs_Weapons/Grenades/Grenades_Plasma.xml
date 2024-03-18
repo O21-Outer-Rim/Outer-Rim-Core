@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Weapon ========================== -->
+
+	<ThingDef ParentName="OuterRim_BaseMakeableGrenade">
+		<defName>OuterRim_PlasmaGrenade</defName>
+		<label>plasma grenade</label>
+		<description>Lightweight and highly damaging explosives.</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>OuterRim/Items/PlasmaGrenade/PlasmaGrenade_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.3</uiIconScale>
+		<soundInteract>Interact_Grenade</soundInteract>
+		<techLevel>Ultra</techLevel>
+		<statBases>
+			<Mass>1</Mass>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+			<WorkToMake>12000</WorkToMake>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>25</OuterRim_Durasteel>
+			<OuterRim_Tibanna>120</OuterRim_Tibanna>
+		</costList>
+		<weaponTags>
+			<li>ORGrenade</li>
+		</weaponTags>
+		<thingCategories>
+			<li>Grenades</li>
+		</thingCategories>
+		<verbs>
+			<li>
+				<label>throw plasma grenade</label>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>14.9</range>
+				<forcedMissRadius>1.5</forcedMissRadius>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>5</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OuterRim_PlasmaGrenadeProj</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.66</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ==================== Projectile ========================== -->
+
+	<ThingDef ParentName="OuterRim_BaseGrenadeProjectile">
+		<defName>OuterRim_PlasmaGrenadeProj</defName>
+		<label>plasma grenade</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>OuterRim/Items/PlasmaGrenade/PlasmaGrenade_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<explosionRadius>4.9</explosionRadius >
+			<damageDef>Flame</damageDef>
+			<!-- Use default damage from explosion def -->
+			<explosionDelay>120</explosionDelay>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Pack ========================== -->
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>OuterRim_PlasmaGrenadeBelt</defName>
+		<label>plasma grenade belt</label>
+		<description>Lightweight and highly damaging explosives strapped to a belt. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. Can be reloaded using plasma grenades.</description>
+		<techLevel>Ultra</techLevel>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>5</maxCharges>
+				<ammoDef>OuterRim_PlasmaGrenade</ammoDef>
+				<ammoCountToRefill>1</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>frag</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<label>throw plasma grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>14.9</range>
+				<forcedMissRadius>1.5</forcedMissRadius>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>5</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OuterRim_PlasmaGrenadeProj</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<OuterRim_PlasmaGrenade>1</OuterRim_PlasmaGrenade>
+		</costList>
+		<graphicData>
+			<texPath>OuterRim/Items/PlasmaGrenadePack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>500</WorkToMake>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<generateAllowChance>0.15</generateAllowChance>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>ORThermalDetBelt</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Packs/Grenades/PlasmaGrenade</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+				<north>
+					<offset>(-0.30,-0.25)</offset>
+					<hulk>
+						<offset>(-0.0,-0.15)</offset>
+					</hulk>
+					<fat>
+						<offset>(-0.0,-0.0)</offset>
+					</fat>
+					<thin>
+						<offset>(0.10,-0.0)</offset>
+					</thin>
+				</north>
+				<south>
+					<offset>(0.25,-0.20)</offset>
+					<hulk>
+						<offset>(-0.0,-0.10)</offset>
+					</hulk>
+					<fat>
+						<offset>(-0.0,-0.0)</offset>
+					</fat>
+					<thin>
+						<offset>(-0.10,-0.0)</offset>
+					</thin>
+				</south>
+				<east>
+					<offset>(-0.15,-0.25)</offset>
+					<hulk>
+						<offset>(-0.0,-0.15)</offset>
+					</hulk>
+					<fat>
+						<offset>(-0.10,-0.10)</offset>
+					</fat>
+				</east>
+				<west>
+					<offset>(0.15,-0.25)</offset>
+					<hulk>
+						<offset>(-0.0,-0.15)</offset>
+					</hulk>
+					<fat>
+						<offset>(-0.0,-0.10)</offset>
+					</fat>
+				</west>
+				<male>
+					<scale>(0.75,0.75)</scale>
+				</male>
+				<female>
+					<scale>(0.75,0.75)</scale>
+				</female>
+				<thin>
+					<scale>(0.7,0.7)</scale>
+				</thin>
+				<hulk>
+					<scale>(0.9,0.9)</scale>
+				</hulk>
+				<fat>
+					<scale>(0.9,0.9)</scale>
+				</fat>
+			</wornGraphicData>
+		</apparel>
+	</ThingDef>
+
+</Defs>

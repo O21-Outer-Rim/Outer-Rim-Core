@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PlaceDef>
+		<defName>OuterRim_Halcyon</defName>
+		<tags>
+			<li>OuterRim_OriginSeperatist</li>
+		</tags>
+		<placeRules>
+			<rulesStrings>
+				<!-- Forest world -->
+				<li>place_name->Halcyon</li>
+				<li>place_adjective->Halcyites</li>
+				<li>place_summary->forest world</li>
+				<li>place_community->colony</li>
+				<li>place_powerCenter->first colony</li>
+				<li>place_job->farmer</li>
+				<li>place_job->politician</li>
+				<li>place_job->trader</li>
+				<li>place_job->hunter</li>
+				<li>place_personalWeapon->blaster rifle</li>
+				<li>place_massWeapon->orbital bombardment</li>
+				<li>place_foeLeader->general</li>
+				<li>place_foeSoldiers->clone troopers</li>
+			</rulesStrings>
+		</placeRules>
+	</PlaceDef>
+
+</Defs>

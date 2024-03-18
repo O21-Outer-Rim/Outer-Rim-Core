@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_TechBeltBase">
+		<defName>OuterRim_Belt_StealthFieldGen</defName>
+		<label>tech belt (stealth field gen.)</label>
+		<description>A belt which can generate an active stealth field turning its user almost completely invisible, requires a full day to cycle its charge after use.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_StealthFieldGen</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>StealthFieldGen</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_StealthField</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

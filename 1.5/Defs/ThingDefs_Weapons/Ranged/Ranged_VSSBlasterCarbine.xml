@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Rifle">
+		<defName>OuterRim_VSSBlasterCarbine</defName>
+		<label>vss blaster carbine</label>
+		<description>An overdesigned blaster carbine design typically found in use by the Pyke Syndicate, or those they crossed and failed to deal with.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/VSSBlasterCarbine</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>ORPykeRifle</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_RifleRed</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>32</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>OuterRim_Shot_E11BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Abilities.AbilityDef>
+		<defName>OuterRim_WhipcordPull</defName>
+		<label>whipcord pull</label>
+		<abilityClass>OuterRimCore.Ability_Pull</abilityClass>
+		<description>Uses whipcord to pull target into melee range.</description>
+		<iconPath>OuterRim/Items/Vambraces/Vambrace_Whipcord</iconPath>
+		<showUndrafted>false</showUndrafted>
+		<castTime>0.5</castTime>
+		<range>12.9</range>
+		<targetMode>Pawn</targetMode>
+		<cooldownTime>10000</cooldownTime>
+		<!-- <castSound>Outland_Spell_MysticismFail</castSound> -->
+	</VFECore.Abilities.AbilityDef>
+
+</Defs>

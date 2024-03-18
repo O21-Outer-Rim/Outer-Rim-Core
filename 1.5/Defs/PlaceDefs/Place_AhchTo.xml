@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PlaceDef>
+		<defName>OuterRim_AhchTo</defName>
+		<tags>
+			<li>OuterRim_OriginJedi</li>
+		</tags>
+		<placeRules>
+			<rulesStrings>
+				<!-- An ocean world with many small rocky islands, the origin of the Jedi Order. -->
+				<li>place_name->Ahch-To</li>
+				<li>place_adjective->Ahch-Tonian</li>
+				<li>place_summary->ocean world</li>
+				<li>place_community->island village</li>
+				<li>place_powerCenter->jedi temple</li>
+				<li>place_job->caretaker</li>
+				<li>place_job->jedi knight</li>
+				<li>place_personalWeapon->lightsaber</li>
+				<li>place_massWeapon->orbital bombardment</li>
+				<li>place_foeLeader->sith lord</li>
+				<li>place_foeSoldiers->troopers</li>
+			</rulesStrings>
+		</placeRules>
+	</PlaceDef>
+
+</Defs>

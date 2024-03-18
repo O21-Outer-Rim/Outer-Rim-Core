@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="OuterRimBuildingBase" ParentName="BuildingBase" Abstract="True">
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<thingClass>Building</thingClass>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimBenchBase" ParentName="OuterRimBuildingBase" Abstract="True">
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<Mass>20</Mass>
+		</statBases>
+		<interactionCellIcon>DiningChair</interactionCellIcon>
+		<comps>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimDoorBase" ParentName="OuterRimBuildingBase" Abstract="True">
+		<description>Self powered doors with automatic opening. Minimal slowdown on pawns passing through.</description>
+		<thingClass>Building_Door</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<category>Building</category>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<WorkToBuild>1500</WorkToBuild>
+			<MaxHitPoints>450</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+			<soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+			<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Door/Door_Blueprint</texPath>
+			</blueprintGraphicData>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<costList>
+			<OuterRim_Durasteel>50</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<placeWorkers>
+			<li>PlaceWorker_Conduit</li>
+			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Forbiddable">
+				<allowNonPlayer>true</allowNonPlayer>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SelfPoweredDoor" />
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimResearchCoreBase" ParentName="OuterRimBuildingBase" Abstract="True">
+		<description>Increases research speed when placed near hypertech research bench and unlocks new research projects. Each research bench can only connect to one of these.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<designationCategory />
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Mass>60</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>100</OuterRim_Durasteel>
+			<Plasteel>10</Plasteel>
+			<Gold>10</Gold>
+			<OuterRim_ComponentHypertech>8</OuterRim_ComponentHypertech>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.1</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

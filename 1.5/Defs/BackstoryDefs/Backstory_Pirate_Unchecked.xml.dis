@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_ScourgeOfTheOuterRim</defName>
+		<title>Scourge of the Outer Rim</title>
+		<titleShort>Scourge</titleShort>
+		<baseDesc>[PAWN_nameDef] was a notorious pirate, feared across the Outer Rim for [PAWN_possessive] ruthless plundering and cunning tactics. [PAWN_pronoun] raided starships, hijacked trade routes, and amassed a crew of cutthroat followers. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] piratical ways, raiding colonies, plundering resources, and instilling terror among the rimworld settlements while searching for a way back to [PAWN_possessive] former pirate haven.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_RogueSmuggler</defName>
+		<title>Rogue Smuggler</title>
+		<titleShort>Smuggler</titleShort>
+		<baseDesc>[PAWN_nameDef] was a cunning smuggler, expert in evading authorities and transporting illegal goods across star systems. [PAWN_pronoun] navigated secret routes, concealed contraband, and outsmarted law enforcement. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] applies [PAWN_possessive] smuggling expertise to run covert operations, smuggling goods and evading detection while dreaming of amassing wealth and power in the distant reaches of space.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticPrivateer</defName>
+		<title>Galactic Privateer</title>
+		<titleShort>Privateer</titleShort>
+		<baseDesc>[PAWN_nameDef] served as a privateer, operating under a letter of marque to raid and seize enemy vessels on behalf of a specific faction. [PAWN_pronoun] commanded a crew, engaged in naval battles, and plundered enemy ships for valuable cargo. Somehow, [PAWN_nameDef] found [PAWN_pronoun]self on a rimworld, where [PAWN_pronoun] leads [PAWN_possessive] privateer crew, raiding rival factions and extracting resources with ruthless efficiency while scheming to regain [PAWN_possessive] lost status among the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_SpaceCorsair</defName>
+		<title>Space Corsair</title>
+		<titleShort>Corsair</titleShort>
+		<baseDesc>[PAWN_nameDef] was a daring space corsair, notorious for [PAWN_possessive] raids on merchant vessels and space stations across the galaxy. [PAWN_pronoun] commanded a crew of ruthless pirates, seized valuable cargo, and evaded pursuit through hyperspace jump calculations. Eventually [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] piratical exploits, raiding spaceports and intercepting interstellar trade routes while searching for new treasures among the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticBuccaneer</defName>
+		<title>Galactic Buccaneer</title>
+		<titleShort>Buccaneer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a notorious galactic buccaneer, sailing the cosmic seas in search of plunder and adventure. [PAWN_pronoun] commanded a starship crew, engaged in space battles, and raided planetary settlements for valuable resources. Cast onto a rimworld, [PAWN_nameDef] adapts [PAWN_possessive] buccaneer skills, raiding colonies and spaceports, looting technology, and reveling in the thrill of the hunt for riches and glory.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_SkyPirate</defName>
+		<title>Sky Pirate</title>
+		<titleShort>Sky Pirate</titleShort>
+		<baseDesc>[PAWN_nameDef] was a renowned sky pirate, ruling the airways with [PAWN_possessive] fleet of airships and daring aerial raids. [PAWN_pronoun] pillaged floating cities, intercepted cargo transports, and evaded pursuit through cloud-covered skies. Stranded on a rimworld, [PAWN_nameDef] continues [PAWN_possessive] pirate legacy, raiding colonies from above, hijacking transport pods, and navigating the skies with unmatched skill while dreaming of the freedom of the open skies.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_InterstellarRogue</defName>
+		<title>Interstellar Rogue</title>
+		<titleShort>Rogue</titleShort>
+		<baseDesc>[PAWN_nameDef] was an interstellar rogue, navigating the galaxy's criminal underworld with charm and cunning. [PAWN_pronoun] engaged in smuggling, sabotage, and high-stakes heists, always one step ahead of law enforcement. Cast onto a rimworld, [PAWN_nameDef] continues [PAWN_possessive] rogue ways, infiltrating colonies, stealing valuable technology, and outsmarting security systems while scheming to assemble a crew and reignite [PAWN_possessive] life of galactic crime.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticMarauder</defName>
+		<title>Galactic Marauder</title>
+		<titleShort>Marauder</titleShort>
+		<baseDesc>[PAWN_nameDef] was a feared galactic marauder, leading a band of ruthless pirates in brutal raids across star systems. [PAWN_pronoun] pillaged settlements, commandeered starships, and left a trail of destruction in [PAWN_possessive] wake. Stranded on a rimworld, [PAWN_nameDef] adapts [PAWN_possessive] marauder skills, raiding colonies and caravans, terrorizing settlements, and dreaming of amassing power and infamy across the galaxy once more.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarRaider</defName>
+		<title>Stellar Raider</title>
+		<titleShort>Raider</titleShort>
+		<baseDesc>[PAWN_nameDef] was a stellar raider, commanding a fleet of starships and launching large-scale attacks on space stations and planetary outposts. [PAWN_pronoun] led battles, orchestrated sieges, and plundered entire colonies. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] raiding ways, attacking colonies with brutal force, seizing resources, and striving to build a new empire among the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StarlightScoundrel</defName>
+		<title>Starlight Scoundrel</title>
+		<titleShort>Scoundrel</titleShort>
+		<baseDesc>[PAWN_nameDef] was a cunning starlight scoundrel, navigating the cosmos with a mix of charm and trickery. [PAWN_pronoun] was a master of deception, conning wealthy star system elites and corporate tycoons out of their fortunes. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] scoundrel ways, running elaborate scams, orchestrating heists, and living life on the edge while plotting [PAWN_possessive] return to the galactic stage.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticRogue</defName>
+		<title>Galactic Rogue</title>
+		<titleShort>Rogue</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled galactic rogue, adept at infiltrating secure facilities and extracting valuable information or artifacts. [PAWN_pronoun] operated in the shadows, bypassing security systems and outsmarting high-tech defenses. Cast onto a rimworld, [PAWN_nameDef] applies [PAWN_possessive] rogue skills to covert operations, infiltrating colonies, stealing advanced technology, and maneuvering through the darkness while searching for clues to [PAWN_possessive] mysterious past.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_VoidVagabond</defName>
+		<title>Void Vagabond</title>
+		<titleShort>Vagabond</titleShort>
+		<baseDesc>[PAWN_nameDef] was a wanderer of the cosmic void, traversing star systems in search of adventure and fortune. [PAWN_pronoun] roamed space, encountering strange alien civilizations and discovering hidden relics of ancient technologies. Transported to a rimworld, [PAWN_nameDef] continues [PAWN_possessive] journey, exploring the unknown, studying alien artifacts, and unraveling the mysteries of the rimworld while longing for [PAWN_possessive] next thrilling spacefaring escapade.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_CorsairCaptain</defName>
+		<title>Corsair Captain</title>
+		<titleShort>Captain</titleShort>
+		<baseDesc>[PAWN_nameDef] was a fearsome corsair captain, known for [PAWN_possessive] leadership of a ruthless crew in the galactic underworld. [PAWN_pronoun] commanded starships, executed daring raids, and amassed a treasure trove of ill-gotten gains. Transported to a rimworld through an enigmatic anomaly, [PAWN_nameDef] now reigns as a pirate captain, plundering colonies, seizing resources, and scheming to rebuild [PAWN_possessive] pirate fleet to rule the rimworlds once more.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_SpacePrivateer</defName>
+		<title>Space Privateer</title>
+		<titleShort>Privateer</titleShort>
+		<baseDesc>[PAWN_nameDef] operated as a space privateer, carrying out lawful raids on enemy vessels and outposts under the banner of a powerful faction. [PAWN_pronoun] was a cunning commander, leading naval battles and seizing valuable cargo for [PAWN_possessive] employers. Stranded on a rimworld, [PAWN_nameDef] adapts [PAWN_possessive] privateer skills, raiding rival factions and colonies with precision, safeguarding valuable resources, and plotting to regain [PAWN_possessive] status among the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_PirateLord</defName>
+		<title>Pirate Lord</title>
+		<titleShort>Pirate Lord</titleShort>
+		<baseDesc>[PAWN_nameDef] held the title of pirate lord, ruling over a notorious pirate faction that terrorized the spaceways. [PAWN_pronoun] commanded a vast armada, laid siege to entire planets, and amassed unimaginable wealth. Stranded on a rimworld after a cosmic anomaly, [PAWN_nameDef] continues [PAWN_possessive] reign as a pirate lord, raiding colonies, amassing treasure, and harboring dreams of rebuilding [PAWN_possessive] pirate empire among the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StarfallSwindler</defName>
+		<title>Starfall Swindler</title>
+		<titleShort>Swindler</titleShort>
+		<baseDesc>[PAWN_nameDef] was a crafty starfall swindler, weaving elaborate schemes and scams across the galaxy. [PAWN_pronoun] orchestrated cons on planetary scales, duping entire corporations and governments out of credits. A mysterious anomaly transported [PAWN_nameDef] to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] swindling ways, running elaborate scams, manipulating factions, and living a life of deception while plotting [PAWN_possessive] grandest con yet.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticPirateCaptain</defName>
+		<title>Galactic Pirate Captain</title>
+		<titleShort>Pirate Captain</titleShort>
+		<baseDesc>[PAWN_nameDef] was a legendary galactic pirate captain, commanding a fearsome crew and terrorizing entire star systems. [PAWN_pronoun] orchestrated large-scale raids, plundered wealthy space stations, and ruled the cosmic seas with an iron fist. Cast onto a rimworld, [PAWN_nameDef] adapts [PAWN_possessive] captain skills, leading daring raids, commandeering spacecraft, and building a new pirate fleet while dreaming of reclaiming [PAWN_possessive] lost empire among the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_VoidPrivateer</defName>
+		<title>Void Privateer</title>
+		<titleShort>Privateer</titleShort>
+		<baseDesc>[PAWN_nameDef] served as a void privateer, sailing the interstellar seas under a legitimate letter of marque. [PAWN_pronoun] patrolled trade routes, engaged in naval battles, and plundered enemy ships in the name of [PAWN_possessive] sponsoring faction. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] privateering missions, defending colonies, raiding hostile factions, and securing valuable resources while striving to uphold [PAWN_possessive] oath as a privateer.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticFreebooter</defName>
+		<title>Galactic Freebooter</title>
+		<titleShort>Freebooter</titleShort>
+		<baseDesc>[PAWN_nameDef] was a resourceful galactic freebooter, living off the spoils of daring heists and salvage operations. [PAWN_pronoun] scavenged derelict starships, raided forgotten space stations, and amassed a collection of alien artifacts. Stranded on a rimworld, [PAWN_nameDef] puts [PAWN_possessive] expertise to use, exploring ancient ruins, salvaging advanced technology, and trading rare relics while seeking a way to escape the rimworld's confines and return to the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticMariner</defName>
+		<title>Galactic Mariner</title>
+		<titleShort>Mariner</titleShort>
+		<baseDesc>[PAWN_nameDef] was a seasoned galactic mariner, sailing the cosmic seas and exploring uncharted waters. [PAWN_pronoun] charted star systems, navigated asteroid fields, and discovered remote planets. Cast onto a rimworld, [PAWN_nameDef] adapts [PAWN_possessive] mariner skills, exploring rimworld waters, fishing alien aquatic life, and building makeshift starships while yearning for [PAWN_possessive] next great maritime adventure.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StarshipRaider</defName>
+		<title>Starship Raider</title>
+		<titleShort>Raider</titleShort>
+		<baseDesc>[PAWN_nameDef] was a notorious starship raider, infiltrating spacecraft, disabling defenses, and commandeering vessels for personal use. [PAWN_pronoun] staged daring boarding actions, pilfered valuable cargo, and made a name for [PAWN_possessive]self as a feared space pirate. Transported to a rimworld, [PAWN_nameDef] continues [PAWN_possessive] raids, hijacking transport pods, raiding trade ships, and mastering rimworld technology while plotting [PAWN_possessive] return to the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_AsteroidProspector</defName>
+		<title>Asteroid Prospector</title>
+		<titleShort>Prospector</titleShort>
+		<baseDesc>[PAWN_nameDef] was an experienced asteroid prospector, mining valuable resources from celestial bodies and asteroids. [PAWN_pronoun] operated mining drones, extracted precious minerals, and braved the vacuum of space for profit. Stranded on a rimworld, [PAWN_nameDef] applies [PAWN_possessive] mining skills, excavating rare ores, refining raw materials, and constructing advanced machinery while dreaming of striking it rich and regaining [PAWN_possessive] fortune among the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Mining</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticRenegade</defName>
+		<title>Galactic Renegade</title>
+		<titleShort>Renegade</titleShort>
+		<baseDesc>[PAWN_nameDef] was a galactic renegade, a rogue operative skilled in espionage, sabotage, and covert operations. [PAWN_pronoun] worked for shadowy organizations, executed black ops missions, and disappeared into the void when things got too hot. Cast onto a rimworld, [PAWN_nameDef] applies [PAWN_possessive] renegade skills, infiltrating enemy factions, conducting guerrilla warfare, and building a network of loyal allies while plotting [PAWN_possessive] return to the galactic underworld.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_SpaceWanderer</defName>
+		<title>Space Wanderer</title>
+		<titleShort>Wanderer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a space wanderer, traveling from planet to planet, experiencing the galaxy's wonders and mysteries. [PAWN_pronoun] explored alien cultures, studied ancient artifacts, and embraced the diversity of the cosmos. Stranded on a rimworld, [PAWN_nameDef] continues [PAWN_possessive] journey, observing rimworld life, documenting flora and fauna, and seeking to understand the secrets of this new world while yearning for [PAWN_possessive] next interstellar adventure.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticExplorer</defName>
+		<title>Galactic Explorer</title>
+		<titleShort>Explorer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a fearless galactic explorer, charting new star systems, discovering alien species, and mapping unexplored territories. [PAWN_pronoun] braved hazardous environments, encountered extraterrestrial civilizations, and made groundbreaking scientific discoveries. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] exploration, mapping the rimworld's geography, studying local fauna, and cataloging unique phenomena while striving to unravel the mysteries of this alien world.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_CosmicNomad</defName>
+		<title>Cosmic Nomad</title>
+		<titleShort>Nomad</titleShort>
+		<baseDesc>[PAWN_nameDef] was a cosmic nomad, living a transient life among the stars, moving from colony to colony, and adapting to diverse cultures. [PAWN_pronoun] embraced the nomadic lifestyle, trading goods, providing services, and forging connections across the galaxy. Cast onto a rimworld, [PAWN_nameDef] applies [PAWN_possessive] nomadic skills, trading with colonies, offering expertise, and mediating disputes while yearning for the camaraderie of spacefaring communities.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_DeepSpaceProspector</defName>
+		<title>Deep Space Prospector</title>
+		<titleShort>Prospector</titleShort>
+		<baseDesc>[PAWN_nameDef] was a daring deep space prospector, exploring asteroid belts and remote celestial bodies for valuable resources. [PAWN_pronoun] operated advanced mining equipment, discovered rare minerals, and harvested exotic elements. Transported to a rimworld, [PAWN_nameDef] applies [PAWN_possessive] prospecting skills, mining precious ores, refining raw materials, and constructing advanced machinery while dreaming of striking it rich and regaining [PAWN_possessive] fortune among the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Mining</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StarChartist</defName>
+		<title>Star Chartist</title>
+		<titleShort>Chartist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled star chartist, mapping the galaxy's constellations, planets, and star routes. [PAWN_pronoun] studied celestial patterns, guided spacefaring travelers, and navigated complex hyperspace routes. Cast onto a rimworld, [PAWN_nameDef] applies [PAWN_possessive] charting skills, mapping the rimworld's geography, studying local star formations, and analyzing astronomical anomalies while yearning for the vastness of unexplored space.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_ExoBiologist</defName>
+		<title>Exo Biologist</title>
+		<titleShort>Biologist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a renowned exo-biologist, studying alien life forms, ecosystems, and evolutionary patterns across the galaxy. [PAWN_pronoun] conducted field research, discovered new species, and unraveled the mysteries of extraterrestrial biology. Transported to a rimworld, [PAWN_nameDef] applies [PAWN_possessive] biological expertise, studying rimworld fauna, researching local ecosystems, and experimenting with genetic modifications while yearning for [PAWN_possessive] next great scientific revelation.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarEngineer</defName>
+		<title>Stellar Engineer</title>
+		<titleShort>Engineer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a brilliant stellar engineer, designing advanced spacecraft, propulsion systems, and energy sources. [PAWN_pronoun] revolutionized starship technology, enabling faster-than-light travel and efficient resource utilization. Stranded on a rimworld, [PAWN_nameDef] applies [PAWN_possessive] engineering skills, repairing and constructing rimworld infrastructure, designing innovative devices, and harnessing local resources while dreaming of rekindling [PAWN_possessive] interstellar engineering legacy.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_SpaceArcheologist</defName>
+		<title>Space Archeologist</title>
+		<titleShort>Archeologist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a space archaeologist, exploring ancient ruins, deciphering alien artifacts, and preserving lost civilizations' history. [PAWN_pronoun] unearthed relics, translated ancient texts, and pieced together forgotten knowledge. Cast onto a rimworld, [PAWN_nameDef] applies [PAWN_possessive] archeological skills, excavating rimworld ruins, deciphering alien hieroglyphs, and uncovering the mysteries of a lost civilization while yearning for [PAWN_possessive] next great historical discovery.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_SpacePilot</defName>
+		<title>Space Pilot</title>
+		<titleShort>Pilot</titleShort>
+		<baseDesc>[PAWN_nameDef] was a seasoned space pilot, flying starships of various sizes and shapes across the galaxy. [PAWN_pronoun] mastered complex maneuvers, navigated treacherous space routes, and engaged in high-stakes dogfights. Transported to a rimworld, [PAWN_nameDef] applies [PAWN_possessive] piloting skills, operating rimworld aircraft, leading aerial assaults, and defending colonies from airborne threats while dreaming of soaring through the galactic skies once more.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+</Defs>

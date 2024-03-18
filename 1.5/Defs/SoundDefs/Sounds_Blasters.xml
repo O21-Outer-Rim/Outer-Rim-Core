@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_BlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/Blaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_BlasterMiniBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/BlasterMinigun01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/BlasterMinigun02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/BlasterMinigun03</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/BlasterMinigun04</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/BlasterMinigun05</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_BowcasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/Bowcaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_DC15BlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DC15Blaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DC15Blaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DC15Blaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_DisintigratorBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/Disintigrator01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_DL44BlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DL44Blaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_DLT19DBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DLT19DBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DLT19DBlaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DLT19DBlaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_DLT20BBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DLT20BBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DLT20BBlaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DLT20BBlaster03</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DLT20BBlaster04</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_DroidBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DroidBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DroidBlaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DroidBlaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_DroidekaBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DroidekaBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/DroidekaBlaster02</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_E5BlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E5Blaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E5Blaster02</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_E10RBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E10RBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E10RBlaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E10RBlaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_E11BlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E11Blaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E11Blaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E11Blaster03</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E11Blaster04</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/E11Blaster05</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_EE3BlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EE3Blaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EE3Blaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EE3Blaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_EE13BlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EE13Blaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EE13Blaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EE13Blaster03</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EE13Blaster04</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EE13Blaster05</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_EnergyBowBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/EnergyBow01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_F11DBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/F11DBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/F11DBlaster02</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_GeonosianBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/GeonosianBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/GeonosianBlaster02</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_HeavyBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/HeavyBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/HeavyBlaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/HeavyBlaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_AltHeavyBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/HeavyBlasterB01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_RepeaterBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/RepeaterBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/RepeaterBlaster02</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_MaserBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/Maser01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/Maser02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/Maser03</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/Maser04</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_MediumBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/MediumBlaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_PowerBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/PowerBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/PowerBlaster02</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_ProbeDroidBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/ProbeDroidBlaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_SE14RBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/SE14RBlaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_SonicBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/SonicBlaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_SuperBattleDroidBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/SuperBattleDroidBlaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_AB75BoRifle</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/AB75BoRifle</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_CJ9BoRifle</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Blasters/CJ9BoRifle</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

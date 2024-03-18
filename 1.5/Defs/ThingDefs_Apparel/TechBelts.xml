@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_ApparelFabricatedBase" Name="OuterRim_TechBeltBase" Abstract="True">
+		<tickerType>Normal</tickerType>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_TechBelts</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.3</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<costList>
+			<OuterRim_Durasteel>180</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
+		</costList>
+		<apparel>
+			<scoreOffset>4</scoreOffset>
+			<wornGraphicPath>Things/Alpha/Alpha</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>HypertechBelt</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_TechBeltBase">
+		<defName>OuterRim_Belt_SoundDampener</defName>
+		<label>tech belt (sound dampener)</label>
+		<description>A belt which produces a sound dampening field around the user, particularly useful when hunting as it can allow even a novice to remain mostly undetectable to wildlife.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_SoundMuffler</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<HuntingStealth>0.75</HuntingStealth>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>SoundDampener</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_TechBeltBase">
+		<defName>OuterRim_Belt_TemperatureRegulator</defName>
+		<label>tech belt (temperature regulator)</label>
+		<description>A belt which produces a personal environmental field, lowering or raising the users temperature so they can withstand harsher temperatures in both the heat and cold.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_TemperatureRegulator</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>TemperatureRegulator</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_TechBeltBase">
+		<defName>OuterRim_Belt_NerveAmplifier</defName>
+		<label>tech belt (nerve amplifier)</label>
+		<description>A belt which generates energy waves numbing the pain receptors in the users body.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_NerveAmplifying</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.50</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>NerveAmplifier</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_TechBeltBase">
+		<defName>OuterRim_Belt_InertialInhibitor</defName>
+		<label>tech belt (inertial inhibitor)</label>
+		<description>A belt which generates an inertial field around its user, increasing their manouverability.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_InertialInhibitor</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<MoveSpeed>0.2</MoveSpeed>
+			<MeleeDodgeChance>15</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>InertialInhibitor</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<!-- <ThingDef ParentName="OuterRim_TechBeltBase">
+		<defName>OuterRim_Belt_SafetyHarness</defName>
+		<label>tech belt (safety harness)</label>
+		<description>A belt which generates a nullifying field around the user in a large radius, preventing mines from detonating.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_SafetyHarness</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>SafetyHarness</li>
+			</tags>
+		</apparel>
+	</ThingDef> -->
+
+</Defs>

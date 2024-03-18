@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- <ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_HydroponicsInstallation</defName>
+		<label>hydroponics installation</label>
+		<description>Produces crops safe from blight internally, and automatically harvests them with an efficiency that yields 150% per crop. After selecting a crop it will cycle for the full growth time of that crop on the first run, and output at a rate of 'days to grow' divided by 9, as it cycles through 9 chambers to keep a regular consistent output. It's recommended to set up a small array of these.\n\nExample: If a crop takes 18 days to grow, it will take 18 days to start producing, after which each cycle will take 2 days.</description>
+		<thingClass>TabulaRasa.Building_InternalHydroponics</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/MediumFlora</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.6, 3.6)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>0.9</fillPercent>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-30</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(3,3)</size>
+		<costList>
+			<OuterRim_Durasteel>200</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>8</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(227,168,233,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+		</comps>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>OuterRim_MediumInstallations</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef> -->
+
+</Defs>

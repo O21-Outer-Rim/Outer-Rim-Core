@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<DamageDef ParentName="Bomb">
+		<defName>OuterRim_ProtonBomb</defName>
+		<label>proton bomb</label>
+		<hediff>OuterRim_BlasterBurn</hediff>
+		<armorCategory>Heat</armorCategory>
+		<deathMessage>{0} took a proton bomb to the face.</deathMessage>
+		<defaultDamage>550</defaultDamage>
+		<defaultStoppingPower>2.0</defaultStoppingPower>
+		<defaultArmorPenetration>1.30</defaultArmorPenetration>
+		<additionalHediffs>
+			<li>
+				<hediff>OuterRim_IonBuildup</hediff>
+				<severityFixed>1</severityFixed>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+</Defs>

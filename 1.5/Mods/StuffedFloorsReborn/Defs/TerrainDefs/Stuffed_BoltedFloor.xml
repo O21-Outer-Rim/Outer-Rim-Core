@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsMetalBasicBase">
+		<defName>OuterRim_BoltedFloorStuffed</defName>
+		<label>bolted floor (h)</label>
+		<description>Bolted steel flooring tiles. They get a bonus to cleanliness.</description>
+		<texturePath>OuterRim/Terrain/BoltedFloor</texturePath>
+		<obsoletes>
+			<li>OuterRim_BoltedFloor_Steel</li>
+			<li>OuterRim_BoltedFloor_Silver</li>
+			<li>OuterRim_BoltedFloor_Gold</li>
+			<li>OuterRim_BoltedFloor_Durasteel</li>
+			<li>OuterRim_BoltedFloor_Beskar</li>
+			<li>OuterRim_BoltedFloor_PureBeskar</li>
+		</obsoletes>
+	</StuffedFloors.FloorTypeDef>
+
+</Defs>

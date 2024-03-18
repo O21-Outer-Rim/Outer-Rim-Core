@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Rifle">
+		<defName>OuterRim_BlasterCarbine</defName>
+		<label>blaster carbine</label>
+		<description>A simple blaster carbine designed for civilian use. Commonly found throughout the galaxy in the hands of people who want to keep their land and their life.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/BlasterCarbine</texPath>
+		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_RifleRed</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>32</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>OuterRim_Shot_E11BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

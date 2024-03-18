@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>OuterRim_ComponentHypertech</defName>
+		<label>hypertech component</label>
+		<description>Advanced circuitry and equipment used by various races across the galaxy in construction of common galactic technology.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/HypertechComponent</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>50</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>221</MarketValue>
+			<Mass>0.8</Mass>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OuterRimMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

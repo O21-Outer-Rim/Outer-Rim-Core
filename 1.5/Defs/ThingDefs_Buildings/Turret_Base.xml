@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Bases -->
+
+	<ThingDef Abstract="True" Name="OuterRim_BaseWeaponTurret" ParentName="BaseWeapon">
+		<destroyOnDrop>True</destroyOnDrop>
+		<menuHidden>true</menuHidden>
+		<tradeability>None</tradeability>
+		<useHitPoints>false</useHitPoints>
+		<weaponTags>
+			<li>TurretGun</li>
+		</weaponTags>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimBuildingBase" Name="OuterRim_TurretBase" Abstract="True">
+		<thingClass>TabulaRasa.Building_TurretGunSmart</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<tickerType>Normal</tickerType>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopDrawSize>2.7</turretTopDrawSize>
+			<turretTopOffset>(0, 0.05)</turretTopOffset>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+		</placeWorkers>
+		<uiIconScale>0.95</uiIconScale>
+	</ThingDef>
+
+	<ThingDef Abstract="True" Name="OuterRim_BaseArtilleryWeapon" ParentName="BaseWeaponTurret">
+		<weaponTags Inherit="False">
+			<li>Artillery</li>
+		</weaponTags>
+	</ThingDef>
+
+	<ThingDef Name="OuterRim_BaseArtilleryBuilding" ParentName="OuterRimBuildingBase" Abstract="True">
+		<thingClass>TabulaRasa.Building_TurretGunSmart</thingClass>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<stealable>false</stealable>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<inspectorTabs>
+			<li>ITab_Shells</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>30</Mass>
+			<Beauty>0</Beauty>
+		</statBases>
+		<building>
+			<turretBurstWarmupTime>4.0</turretBurstWarmupTime>
+			<turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+			<buildingTags>
+				<li>Artillery</li>
+			</buildingTags>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<uiIconScale>1.1</uiIconScale>
+	</ThingDef>
+
+</Defs>

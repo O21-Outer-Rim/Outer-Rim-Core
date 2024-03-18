@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- <TabulaRasa.UpdateDef>
+		<defName>OuterRim_Core_31112023</defName>
+		<date>2023/11/31</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Jawa Scavengers</header>
+				<text>If you have Galactic Diversity, a new hidden faction that only appears through periodic traders will be available. Comprised entirely of hooded Jawas with Ion blasters, these traders are likely to have a bunch of Outer Rim specific loot to sell.</text>
+				<image>OuterRim/Updates/MoistureFarmerUpdate/Jawas</image>
+			</li>
+			<li>
+				<header>Tusken Raiders</header>
+				<text>If you have Galactic Diversity, a faction of Tusken Raiders will be available, being nomadic they have no settlements you can see on the world map, and their tribe considers all outsiders an enemy that should be shot on sight and driven away from the world.</text>
+				<image>OuterRim/Updates/MoistureFarmerUpdate/Tuskens</image>
+			</li>
+			<li>
+				<header>Vehicles</header>
+				<text>If you have Vehicle Framework you'll find a new V-35 Courier landspeeder and research for it, as well as new craftable parts specifically for repulsor vehicles like landspeeders which will see a lot more use in coming updates. The V-35 is capable of holding up to three pawns and a decent chunk of cargo.</text>
+			</li>
+			<li>
+				<header>Tweaks Galore</header>
+				<text>Alongside the release of this update was a major overhaul to Tweaks Galore including a massive amount of new tweaks, some even extending to mods, this one is included in that, if you preferred the old explosive mechanoids, you can use Tweaks Galore to change it back to that. If you want it to affect droids too you can do that. You can even have a toggle over there for adding a small amount of ion buildup to EVERY blaster bolt. 
+					
+Why not include in the options for this mod? Because vertical integration is so hot right now. You can get Tweaks Galore if you haven't got it already using the links at the top of this update.</text>
+			</li>
+			<li>
+				<header>New Backstories</header>
+				<text>This update includes dozens of new backstories, they've been tagged to be used by the vanilla factions, as well as the new Outer Rim factions.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919227155</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Vehicle Framework</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3014915404</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef> -->
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Core_18112023</defName>
+		<date>2023/11/18</date>
+		<banner>OuterRim/UpdateBanner</banner>
+		<contentList>
+			<li>
+				<header>Changes</header>
+				<text>- Rebalanced the existing factions so now they show up only once you have a higher point value and in smaller numbers.
+- Changed vambrace body part reliance to shoulders instead of arms to work around an ancient issue with bionics and similar.
+- Various fixes and typo corrections.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919227155</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Core_29102023</defName>
+		<date>2023/10/29</date>
+		<banner>OuterRim/UpdateBanner</banner>
+		<contentList>
+			<li>
+				<header>New Apparel</header>
+				<text>Several full sets of armour and clothing have been added, ranging from ponchos and hermit hoods to bone and composite armour.</text>
+				<image>OuterRim/Updates/MoistureFarmerUpdate/Apparel</image>
+			</li>
+			<li>
+				<header>New Weapons</header>
+				<text>A bunch of blasters for unaffiliated gunners are now in this module, including a cycler rifle and scatterblaster.</text>
+			</li>
+			<li>
+				<header>New Factions</header>
+				<text>This update includes the option of two new faction type at world gen, Moisture Farmers, a collection of blaster weilding pawns wearing a variety of the new clothing and armour, and Binary Star Raiders, an always hostile faction alternative to Moisture Farmers. These are set up with the idea that you can either use them to replace the vanilla factions or have them as an addition, or not at all if you just disable them. If you have Galactic Diversity you'll see the xenotypes added in that dispersed throughout the factions too.</text>
+			</li>
+			<li>
+				<header>Changes</header>
+				<text>- Ion Buildup is now more gradual, and instead of explosive results on mechanoids it'll just kill them, with the same behaviour on the droids in Droid Depot.
+- Blue blaster projectiles (primarily used by the Galactic Republic weapons) now have a chance of applying a small amount of ion buildup.
+- Rebalanced Market Value of metals and hypertech components.
+- Rebalanced costs to craft some weapons.
+- Hypertech Component recipe is now slightly cheaper and quicker to make.
+- Taking quests from the holotable now has no cost at all, since you're doing them a damn favour.
+- Blaster bolts have a new texture.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919227155</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

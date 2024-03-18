@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Abilities.AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>OuterRim_StealthField</defName>
+		<label>stealth field</label>
+		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+		<description>Use stealth field generator to temporarily turn invisible.</description>
+		<iconPath>OuterRim/Items/Belts/Belt_StealthFieldGen</iconPath>
+		<targetFlecks>
+			<li>BlastDry</li>
+		</targetFlecks>
+		<targetMode>Self</targetMode>
+		<showUndrafted>true</showUndrafted>
+		<castTime>0.5</castTime>
+		<durationTime>3000</durationTime>
+		<cooldownTime>60000</cooldownTime>
+		<!-- <castSound>Outland_Spell_MysticismFail</castSound> -->
+		<modExtensions>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>OuterRim_StealthFieldHediff</hediff>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>OuterRim_StealthFieldHediff</defName>
+		<label>stealth field</label>
+		<description>A worn stealth field generator producing an effect to mask the users appearance from others, making them almost completely invisible.</description>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>True</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+			<li Class="HediffCompProperties">
+				<compClass>HediffComp_Invisibility</compClass>
+			</li>
+		</comps>
+	</HediffDef>
+
+</Defs>

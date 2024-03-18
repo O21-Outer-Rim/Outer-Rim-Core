@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatStructural</defName>
+		<label>Structural</label>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatStorage</defName>
+		<label>Storage</label>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatPower</defName>
+		<label>Power</label>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatProduction</defName>
+		<label>Production</label>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatMisc</defName>
+		<label>Misc</label>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatSecurity</defName>
+		<label>Security</label>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatTibanna</defName>
+		<label>Tibanna</label>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatVehicles</defName>
+		<label>Vehicles</label>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+</Defs>

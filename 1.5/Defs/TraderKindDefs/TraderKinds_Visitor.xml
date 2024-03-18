@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef Name="OuterRim_TraderVisitorBase" Abstract="True">
+		<label>trader</label>
+		<stockGenerators>
+			<!-- Resources -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>250~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_ComponentHypertech</thingDef>
+				<countRange>0~12</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MealSurvivalPack</thingDef>
+				<countRange>10~18</countRange>
+			</li>
+
+			<!-- Droids -->
+			<!-- <li Class="StockGenerator_SingleDef" MayRequire="Neronix17.OuterRim.DroidDepot">
+				<thingDef>OuterRim_DroidBattery_Full</thingDef>
+				<countRange>6~12</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef" MayRequire="Neronix17.OuterRim.DroidDepot">
+				<thingDef>OuterRim_DroidBattery_Empty</thingDef>
+				<countRange>6~12</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef" MayRequire="Neronix17.OuterRim.DroidDepot">
+				<thingDef>OuterRim_DroidBrain</thingDef>
+				<countRange>-2~2</countRange>
+			</li> -->
+
+			<!-- Medical -->
+			<li Class="StockGenerator_SingleDef" MayRequire="Neronix17.OuterRim.MedicalSystems">
+				<thingDef>OuterRim_Bacta</thingDef>
+				<countRange>3~10</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_BactaSpray</thingDef>
+				<countRange>1~6</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_KoltoGelPack</thingDef>
+				<countRange>1~6</countRange>
+			</li>
+
+			<!-- Weapons -->
+			<!-- <li Class="StockGenerator_WeaponsRanged">
+				<countRange>0~1</countRange>
+			</li> -->
+
+			<!-- Apparel -->
+			<!-- <li Class="StockGenerator_Clothes">
+				<countRange>0~1</countRange>
+			</li> -->
+
+			<!-- Buying -->
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>MusicalInstrument</tag>
+			</li>
+
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>

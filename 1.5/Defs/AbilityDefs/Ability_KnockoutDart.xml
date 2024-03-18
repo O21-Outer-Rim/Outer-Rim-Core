@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Abilities.AbilityDef>
+		<defName>OuterRim_KnockoutDart</defName>
+		<label>knockout dart</label>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<description>Fires a dart filled with a focused anesthetic compound, instantly knocking out the target.</description>
+		<iconPath>OuterRim/Items/Vambraces/Vambrace_DartLauncher</iconPath>
+		<showUndrafted>false</showUndrafted>
+		<castTime>0.5</castTime>
+		<range>16.9</range>
+		<targetMode>Pawn</targetMode>
+		<cooldownTime>15000</cooldownTime>
+		<!-- <castSound>Outland_Spell_MysticismFail</castSound> -->
+		<modExtensions>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>OuterRim_Bullet_KnockoutDart</projectile>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>OuterRim_Bullet_KnockoutDart</defName>
+		<label>knockout dart</label>
+		<graphicData>
+			<texPath>OuterRim/Projectile/Proj_Dart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>OuterRim_KnockoutDart</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<armorPenetrationBase>1</armorPenetrationBase>
+			<stoppingPower>1.0</stoppingPower>
+			<speed>90</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>
