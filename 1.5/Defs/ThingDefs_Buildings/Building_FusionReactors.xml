@@ -16,7 +16,7 @@
 		<passability>Impassable</passability>
 		<blockWind>true</blockWind>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
-		<fillPercent>1.0</fillPercent>
+		<fillPercent>0.6</fillPercent>
 		<blockLight>false</blockLight>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
@@ -93,7 +93,7 @@
 		<passability>Impassable</passability>
 		<blockWind>true</blockWind>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
-		<fillPercent>0.9</fillPercent>
+		<fillPercent>1</fillPercent>
 		<blockLight>false</blockLight>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
