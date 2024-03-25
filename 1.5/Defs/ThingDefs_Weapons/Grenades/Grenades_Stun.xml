@@ -127,6 +127,7 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
+			<researchPrerequisite>OuterRim_Explosives</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<OuterRim_StunGrenade>1</OuterRim_StunGrenade>

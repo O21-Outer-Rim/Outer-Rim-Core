@@ -261,14 +261,6 @@
 			</points>
 		</commonalityMultFromPopulationIntent>
 		<stockGenerators>
-			<li Class="StockGenerator_SingleDef" MayRequire="Neronix17.OuterRim.GalacticEmpire">
-				<thingDef>OuterRim_ResearchCore_GalacticEmpire</thingDef>
-				<countRange>-3~1</countRange>
-			</li>
-			<li Class="StockGenerator_SingleDef" MayRequire="Neronix17.OuterRim.RebelAlliance">
-				<thingDef>OuterRim_ResearchCore_RebelAlliance</thingDef>
-				<countRange>-3~1</countRange>
-			</li>
 			<!-- Resources -->
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>

@@ -26,7 +26,7 @@
 			</prerequisites>
 			<baseCost>1000</baseCost>
 			<researchViewX>1</researchViewX>
-			<researchViewY>0.5</researchViewY>
+			<researchViewY>0</researchViewY>
 		</ResearchProjectDef>
 		
 		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
@@ -38,7 +38,7 @@
 			</prerequisites>
 			<baseCost>2000</baseCost>
 			<researchViewX>2</researchViewX>
-			<researchViewY>0.5</researchViewY>
+			<researchViewY>0</researchViewY>
 		</ResearchProjectDef>
 		
 		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
@@ -50,7 +50,7 @@
 			</prerequisites>
 			<baseCost>4000</baseCost>
 			<researchViewX>3</researchViewX>
-			<researchViewY>0.5</researchViewY>
+			<researchViewY>0</researchViewY>
 		</ResearchProjectDef>
 
 		<!-- ====== Turrets ====== -->
@@ -64,7 +64,7 @@
 			</prerequisites>
 			<baseCost>1000</baseCost>
 			<researchViewX>2</researchViewX>
-			<researchViewY>0</researchViewY>
+			<researchViewY>0.5</researchViewY>
 		</ResearchProjectDef>
 		
 		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
@@ -77,7 +77,7 @@
 			</prerequisites>
 			<baseCost>1500</baseCost>
 			<researchViewX>3</researchViewX>
-			<researchViewY>0</researchViewY>
+			<researchViewY>0.5</researchViewY>
 		</ResearchProjectDef>
 		
 		<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
@@ -90,7 +90,7 @@
 			</prerequisites>
 			<baseCost>2000</baseCost>
 			<researchViewX>4</researchViewX>
-			<researchViewY>0</researchViewY>
+			<researchViewY>0.5</researchViewY>
 		</ResearchProjectDef>
 		
 		<!-- <ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
@@ -104,30 +104,94 @@
 			<researchViewY>0</researchViewY>
 		</ResearchProjectDef> -->
 
-	<!-- ====== Additional Researches ====== -->
+	<!-- ====== Blaster Researches ====== -->
 	
 	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
-		<defName>OuterRim_TechBelts</defName>
-		<label>tech belts</label>
-		<description>Unlocks crafting of a variety of equipment belts.</description>
+		<defName>OuterRim_Blastersmithing</defName>
+		<label>blastersmithing</label>
+		<description>Learn to craft blasters of various design, ranged weapons capable of spitting out superheated plasma, causing severe burns on a lightly armoured or unprotected target. Heat based weapons are not very useful against typical mechanoids, however Ion based blasters are highly effective against mechanoids as well as droids.</description>
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
 		<baseCost>4000</baseCost>
-		<researchViewX>2</researchViewX>
-		<researchViewY>4.5</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_HeavyWeaponry</defName>
+		<label>heavy weaponry</label>
+		<description>Advance your knowledge of hypertech weapons beyond simple blasters, narrowing the plasma shot to be more damaging for long range snipers, decreasing plasma heat to allow much more rapidfire weapons, or moving away from blasters altogether to create flamethrowers and rocket launchers.</description>
+		<prerequisites>
+			<li>OuterRim_Blastersmithing</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- ====== Armour Researches ====== -->
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_Armoursmithing</defName>
+		<label>armoursmithing</label>
+		<description>Learn to craft a variety of armours, from padded leatherwork to top of the line military gear. Whatever your need, there's likely to be an option covering you.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_HeavyArmour</defName>
+		<label>heavy armour</label>
+		<description>Advance your knowledge of hypertech personal defence techology, learn techniques that allow crafting heavy armour that minimizes movement restriction.</description>
+		<prerequisites>
+			<li>OuterRim_Armoursmithing</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- ====== Gadget Researches ====== -->
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_Explosives</defName>
+		<label>explosives</label>
+		<description>Learn to create advanced explosives, in forms for throwing towards groups of enemies or as a defensive measure with motion sensors to make mines.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_TechBelts</defName>
+		<label>tech belts</label>
+		<description>Learn to craft a variety of equipment belts, allowing sound dampening, temperature regulation or even pain control.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
 		<defName>OuterRim_StimBelts</defName>
 		<label>stim belts</label>
-		<description>Unlocks crafting of a variety of stim belts.</description>
+		<description>Learn to craft a variety of stim belts, providing options for slowing bleeding if wounded, increased adrenaline for faster running, or providing a higher pain tolerance.</description>
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
 		<baseCost>4000</baseCost>
 		<researchViewX>2</researchViewX>
-		<researchViewY>5</researchViewY>
+		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
@@ -139,7 +203,7 @@
 		</prerequisites>
 		<baseCost>8000</baseCost>
 		<researchViewX>3</researchViewX>
-		<researchViewY>4.5</researchViewY>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
@@ -150,8 +214,8 @@
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
 		<baseCost>4000</baseCost>
-		<researchViewX>3</researchViewX>
-		<researchViewY>5</researchViewY>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

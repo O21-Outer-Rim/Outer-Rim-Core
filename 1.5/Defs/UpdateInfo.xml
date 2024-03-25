@@ -51,6 +51,37 @@ Why not include in the options for this mod? Because vertical integration is so 
 	</TabulaRasa.UpdateDef> -->
 
 	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Core_01042024</defName>
+		<date>2024/04/01</date>
+		<banner>OuterRim/UpdateBanner</banner>
+		<contentList>
+			<li>
+				<header>1.5 Update</header>
+				<text>All Outer Rim modules have been updated, this comes with a lot of little changes that are spread accross them all, instead of doing a note for each one I'm just going to go through it all here real quick.\n\nResearch is now no longer faction specific, the some other research that didn't feel necessary has also been removed, instead now all armour and weapons are covered by blastersmithing and armoursmithing, heavy weapons and heavy armour research subjects. If anything doesn't fit those like say melee weapons, they'll just be unlocked with Hypertech Fabrication as they always were.\n\nIf you miss the ability to mostly only craft something for a specific faction, you've now got the option of faction specific hypertech fabricators, where it'll only be able to craft gear for that faction and all the generic non-faction gear.\n\nThis also means the faction research cores, and buffs they provided, are no longer in any of the modules.</text>
+			</li>
+			<li>
+				<header>New Content</header>
+				<text>Along with the update to 1.5 I have merged a module I was working on for some time with Core, it was going to be released as Outer Rim - Medical Systems, but I was slowly getting weighed down with having to make it optional in so many modules for spawned pawns to have cybernetics and similarly annoying issues to deal with. It's not a huge amount of new content, but it may have a significant impact on how you run your medbays now.
+- Bacta Pipe Network - New pipes and storage for Bacta, as well as a Bacta Breeder tank which will continuously generate Bacta once built.
+- Bacta Pod - Pod which heals pawns inside it at the cost of Bacta, of most wounds. It cannot heal scars or regenerate limbs, and won't have any effect on typical sicknesses. Pawns will automatically use one if there's one available that has enough Bacta connected to heal their wounds.
+- Cybernetics - A range of prosthetics, including makeshift variants for emergencies. Why use them over others? The stats are a little different, as are the costs, standard cybernetics are as good as the original, makeshift 75% so and advanced generally sits between Bionic and Archotech. Doesn't matter if you use them though, they're what will spawn on nps</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919227155</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+	<TabulaRasa.UpdateDef>
 		<defName>OuterRim_Core_18112023</defName>
 		<date>2023/11/18</date>
 		<banner>OuterRim/UpdateBanner</banner>

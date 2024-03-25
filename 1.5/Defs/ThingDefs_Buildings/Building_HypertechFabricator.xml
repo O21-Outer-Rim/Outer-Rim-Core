@@ -14,7 +14,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Steel>150</Steel>
+			<OuterRim_Durasteel>150</OuterRim_Durasteel>
 			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>

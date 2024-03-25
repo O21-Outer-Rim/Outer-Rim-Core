@@ -23,7 +23,7 @@
 			<recipeUsers Inherit="False">
 				<li>OuterRim_HypertechFabricator</li>
 			</recipeUsers>
-			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+			<researchPrerequisite>OuterRim_Blastersmithing</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<OuterRim_Durasteel>30</OuterRim_Durasteel>
@@ -81,7 +81,7 @@
 			<recipeUsers Inherit="False">
 				<li>OuterRim_HypertechFabricator</li>
 			</recipeUsers>
-			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+			<researchPrerequisite>OuterRim_Blastersmithing</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<OuterRim_Durasteel>45</OuterRim_Durasteel>
@@ -139,7 +139,7 @@
 			<recipeUsers Inherit="False">
 				<li>OuterRim_HypertechFabricator</li>
 			</recipeUsers>
-			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+			<researchPrerequisite>OuterRim_HeavyWeaponry</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<OuterRim_Durasteel>60</OuterRim_Durasteel>
@@ -196,7 +196,7 @@
 			<recipeUsers Inherit="False">
 				<li>OuterRim_HypertechFabricator</li>
 			</recipeUsers>
-			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+			<researchPrerequisite>OuterRim_HeavyWeaponry</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<OuterRim_Durasteel>80</OuterRim_Durasteel>

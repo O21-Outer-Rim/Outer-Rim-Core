@@ -34,6 +34,7 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
+			<researchPrerequisite>OuterRim_Armoursmithing</researchPrerequisite>
 		</recipeMaker>
 		<costList Inherit="False">
 			<OuterRim_Durasteel>10</OuterRim_Durasteel>
@@ -57,6 +58,7 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
+			<researchPrerequisite>OuterRim_Armoursmithing</researchPrerequisite>
 		</recipeMaker>
 		<costList Inherit="False">
 			<OuterRim_Durasteel>15</OuterRim_Durasteel>
@@ -80,6 +82,7 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
+			<researchPrerequisite>OuterRim_HeavyArmour</researchPrerequisite>
 		</recipeMaker>
 		<costList Inherit="False">
 			<OuterRim_ComponentHypertech>1</OuterRim_ComponentHypertech>

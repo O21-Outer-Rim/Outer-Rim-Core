@@ -31,8 +31,8 @@
 			<ResearchSpeedFactor>1.1</ResearchSpeedFactor>
 		</statBases>
 		<costList>
-			<Steel>350</Steel>
-			<ComponentSpacer>14</ComponentSpacer>
+			<OuterRim_Durasteel>175</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>7</OuterRim_ComponentHypertech>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
@@ -53,14 +53,6 @@
 				<linkableFacilities>
 					<li>OuterRim_HypertechTerminal</li>
 					<li>OuterRim_HypertechTerminalWide</li>
-					<li MayRequire="Neronix17.OuterRim.GalacticEmpire">OuterRim_ResearchCore_GalacticEmpire</li>
-					<li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_ResearchCore_RebelAlliance</li>
-					<li MayRequire="Neronix17.OuterRim.Csilla">OuterRim_ResearchCore_ChissAscendancy</li>
-					<li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_ResearchCore_Mandalorian</li>
-					<li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_ResearchCore_OldRepublic</li>
-					<li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_ResearchCore_SithEmpire</li>
-					<li MayRequire="Neronix17.OuterRim.GalacticRepublic">OuterRim_ResearchCore_GalacticRepublic</li>
-					<!-- <li MayRequire="Neronix17.OuterRim.Separatists">OuterRim_ResearchCore_Separatists</li> -->
 				</linkableFacilities>
 			</li>
 		</comps>

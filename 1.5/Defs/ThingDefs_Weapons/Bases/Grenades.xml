@@ -11,6 +11,7 @@
 				<li>OuterRim_HypertechFabricator</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>OuterRim_Explosives</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
