@@ -17,6 +17,7 @@
 		<explosionInteriorFleck>ElectricalSpark</explosionInteriorFleck>
 		<soundExplosion>Explosion_EMP</soundExplosion>
 		<combatLogRules>Damage_EMP</combatLogRules>
+		<causeStun>true</causeStun>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_DamageAdv">
 				<hediff>OuterRim_IonBuildup</hediff>
