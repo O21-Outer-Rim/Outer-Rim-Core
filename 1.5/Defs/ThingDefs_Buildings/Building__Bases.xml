@@ -17,14 +17,6 @@
 			<Mass>20</Mass>
 		</statBases>
 		<interactionCellIcon>DiningChair</interactionCellIcon>
-		<comps>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
-		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
-		</placeWorkers>
 		<building>
 			<buildingTags>
 				<li>Production</li>

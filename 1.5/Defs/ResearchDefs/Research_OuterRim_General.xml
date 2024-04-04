@@ -62,7 +62,7 @@
 			<prerequisites>
 				<li>OuterRim_LightInstallations</li>
 			</prerequisites>
-			<baseCost>1000</baseCost>
+			<baseCost>2000</baseCost>
 			<researchViewX>2</researchViewX>
 			<researchViewY>0.5</researchViewY>
 		</ResearchProjectDef>
@@ -75,7 +75,7 @@
 				<li>OuterRim_MediumInstallations</li>
 				<li>OuterRim_LightTurrets</li>
 			</prerequisites>
-			<baseCost>1500</baseCost>
+			<baseCost>3000</baseCost>
 			<researchViewX>3</researchViewX>
 			<researchViewY>0.5</researchViewY>
 		</ResearchProjectDef>
@@ -88,7 +88,7 @@
 				<li>OuterRim_HeavyInstallations</li>
 				<li>OuterRim_MediumTurrets</li>
 			</prerequisites>
-			<baseCost>2000</baseCost>
+			<baseCost>4000</baseCost>
 			<researchViewX>4</researchViewX>
 			<researchViewY>0.5</researchViewY>
 		</ResearchProjectDef>
@@ -113,7 +113,7 @@
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
-		<baseCost>4000</baseCost>
+		<baseCost>2000</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
@@ -139,7 +139,7 @@
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
-		<baseCost>4000</baseCost>
+		<baseCost>2000</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
@@ -165,8 +165,8 @@
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
-		<baseCost>4000</baseCost>
-		<researchViewX>1</researchViewX>
+		<baseCost>2000</baseCost>
+		<researchViewX>0</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 	
@@ -177,7 +177,7 @@
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
-		<baseCost>4000</baseCost>
+		<baseCost>2000</baseCost>
 		<researchViewX>1</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
@@ -189,7 +189,7 @@
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
-		<baseCost>4000</baseCost>
+		<baseCost>2000</baseCost>
 		<researchViewX>2</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
@@ -201,7 +201,7 @@
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
-		<baseCost>8000</baseCost>
+		<baseCost>4000</baseCost>
 		<researchViewX>3</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
@@ -213,7 +213,7 @@
 		<prerequisites>
 			<li>OuterRim_HypertechFabrication</li>
 		</prerequisites>
-		<baseCost>4000</baseCost>
+		<baseCost>2500</baseCost>
 		<researchViewX>2</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
