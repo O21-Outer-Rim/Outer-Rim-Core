@@ -4,6 +4,8 @@
 	<ResearchTabDef>
 		<defName>OuterRim_ResearchTab</defName>
 		<label>Outer Rim</label>
+		<generalTitle>Outer Rim research projects</generalTitle>
+		<generalDescription>Unlock hypertech techology from Outer Rim at the Hypertech Research Bench. You can get the initial hypertech components and durasteel from Outer Rim faction traders.</generalDescription>
 	</ResearchTabDef>
 
 	<ResearchProjectDef Name="OuterRim_ResearchBaseMain" Abstract="True">
