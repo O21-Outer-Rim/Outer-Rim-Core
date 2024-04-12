@@ -25,7 +25,6 @@
 			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
 		</costList>
 		<placeWorkers>
-			<li>PlaceWorker_ShowTurretRadius</li>
 		</placeWorkers>
 		<comps>
 			<li Class="PipeSystem.CompProperties_RefillWithPipes">

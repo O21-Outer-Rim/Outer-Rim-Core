@@ -30,7 +30,8 @@
 			<turretBurstCooldownTime>25</turretBurstCooldownTime>
 			<turretTopDrawSize>5</turretTopDrawSize>
 		</building>
-		<placeWorkers>
+		<placeWorkers Inherit="False">
+			<li>PlaceWorker_TurretTop</li>
 			<li>PlaceWorker_NotUnderRoof</li>
 		</placeWorkers>
 		<researchPrerequisites>

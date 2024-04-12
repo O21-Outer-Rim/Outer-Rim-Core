@@ -69,7 +69,6 @@
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 			</li>
 		</comps>
-		<designatorDropdown>OuterRim_LightLaserCannons</designatorDropdown>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
 				<subCategory>OuterRim_SubCatSecurity</subCategory>

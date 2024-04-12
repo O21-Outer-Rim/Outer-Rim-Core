@@ -73,7 +73,6 @@
 			<turretBurstCooldownTime>2.5</turretBurstCooldownTime>
 		</building>
 		<placeWorkers>
-			<li>PlaceWorker_ShowTurretRadius</li>
 			<li>PlaceWorker_NotUnderRoof</li>
 		</placeWorkers>
 		<researchPrerequisites>

@@ -38,6 +38,7 @@
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
 		</placeWorkers>
 		<uiIconScale>0.95</uiIconScale>
 	</ThingDef>
@@ -94,6 +95,7 @@
 			<li>PlaceWorker_NotUnderRoof</li>
 			<li>PlaceWorker_TurretTop</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>Mortars</li>
