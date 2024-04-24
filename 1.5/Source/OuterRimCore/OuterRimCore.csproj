@@ -32,16 +32,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Lib.Harmony.2.2.1\lib\net472\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.3.3\lib\net472\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Assembly-CSharp_public_1.4">
-      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp_public_1.4.dll</HintPath>
+    <Reference Include="Assembly-CSharp_public_1.5">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp_public_1.5.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PipeSystem">
@@ -89,11 +89,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="VanillaStorytellersExpanded">
-      <HintPath>..\..\..\..\..\..\VanillaExpandedTeam\VanillaExpandedFramework\1.4\Assemblies\VanillaStorytellersExpanded.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\workshop\content\294100\2023507013\1.5\Assemblies\VanillaStorytellersExpanded.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VFECore">
-      <HintPath>..\..\..\..\..\..\VanillaExpandedTeam\VanillaExpandedFramework\1.4\Assemblies\VFECore.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\workshop\content\294100\2023507013\1.5\Assemblies\VFECore.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -125,10 +125,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OuterRimCoreMod.cs" />
     <Compile Include="OuterRimCoreSettings.cs" />
-    <None Include="WorkGivers\WorkGiver_HaulToBactaPod.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
+    <None Include="WorkGivers\WorkGiver_HaulToBactaPod.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -15,7 +15,7 @@ namespace OuterRimCore
         {
             base.Tick();
 
-            if (pawn.stances.stunner.AffectedByEMP)
+            if (pawn.stances.stunner.CanBeStunnedByDamage(DamageDefOf.EMP) || pawn.stances.stunner.CanBeStunnedByDamage(OuterRimCoreDefOf.OuterRim_Ion))
             {
                 if (Severity >= 1f)
                 {

@@ -22,7 +22,7 @@ namespace OuterRimCore
 				Map map = pawn.Map;
 				AbilityPawnFlyer obj = (AbilityPawnFlyer)PawnFlyer.MakeFlyer(OuterRimCoreDefOf.OuterRim_JetpackJump_Flyer, pawn, targets.First().Cell, null, null);
 				obj.ability = this;
-				obj.target = targets.First().Cell.ToVector3() + new Vector3(0f, 0f, 0f);
+				obj.target = targets.First().Cell;
 				GenSpawn.Spawn(obj, targets.First().Cell, map);
 			}, "jetpackFlightAbility", doAsynchronously: false, null);
 		}

@@ -147,12 +147,12 @@ namespace OuterRimCore
                 var net = resource.PipeNet;
                 if (net.connectors.Count > 1)
                 {
-                    noCapacity = net.AvailableCapacity <= 0;
+                    noCapacity = net.AvailableCapacity < 1f;
 
                     if (!noCapacity)
                     {
+                        net.DistributeAmongStorage(1f, out float stored);
                         parent.Map.deepResourceGrid.SetAt(cell, resDef, count - 1);
-                        net.DistributeAmongStorage(1);
                         StartSustainer();
                     }
                     else

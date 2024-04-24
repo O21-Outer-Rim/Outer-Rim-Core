@@ -17,26 +17,24 @@ namespace OuterRimCore
             DefOfHelper.EnsureInitializedInCtor(typeof(OuterRimCoreDefOf));
         }
 
-        public static JobDef OuterRim_FrozenInCarbonite;
-        public static ThingDef OuterRim_JetpackJump_Flyer;
+        public static DamageDef 
+            OuterRim_Ion;
 
-        /// <summary>
-        /// Imperial Sound Effects
-        /// </summary>
-        // Raid Alert
-        public static SoundDef OuterRim_Imperial_ThreatBig;
+        public static JobDef 
+            OuterRim_FrozenInCarbonite;
 
-        /// <summary>
-        /// Rebel Sound Effects
-        /// </summary>
-        // Raid Alert
-        public static SoundDef OuterRim_Rebel_ThreatBig;
+        public static ThingDef 
+            OuterRim_JetpackJump_Flyer;
 
-        /// <summary>
-        /// Vanilla DefOfs needed that do not exist.
-        /// </summary>
-        public static RecordDef Kills;
-        public static RecordDef PawnsDowned;
-        public static StatDef MaxHitPoints;
+        public static SoundDef 
+            OuterRim_Imperial_ThreatBig,
+            OuterRim_Rebel_ThreatBig;
+
+        public static RecordDef 
+            Kills, 
+            PawnsDowned;
+
+        public static StatDef 
+            MaxHitPoints;
     }
 }
