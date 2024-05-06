@@ -89,7 +89,7 @@
 		<graphicData>
 			<texPath>OuterRim/Building/Installations/MediumMining</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4.8, 4.8)</drawSize>
+			<drawSize>(5.1, 5.1)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
 		<statBases>

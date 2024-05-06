@@ -3,9 +3,9 @@
 
 	<RecipeDef>
 		<defName>OuterRim_MakeComponentHypertech</defName>
-		<label>make hypertech component</label>
-		<description>Make an hypertech component.</description>
-		<jobString>Making hypertech component.</jobString>
+		<label>make hypertech component x2</label>
+		<description>Make hypertech components.</description>
+		<jobString>Making hypertech components.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -33,7 +33,6 @@
 			<thingDefs>
 				<li>ComponentSpacer</li>
 				<li>OuterRim_Durasteel</li>
-				<li>Gold</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -48,9 +47,9 @@
 
 	<RecipeDef>
 		<defName>OuterRim_MakeComponentHypertech_Expensive</defName>
-		<label>make hypertech component</label>
-		<description>Make an hypertech component.</description>
-		<jobString>Making hypertech component.</jobString>
+		<label>make hypertech component x1</label>
+		<description>Make a hypertech component.</description>
+		<jobString>Making a hypertech component.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -95,6 +94,59 @@
 		<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>8</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>OuterRim_MakeComponentHypertech_Efficient</defName>
+		<label>make hypertech component x3</label>
+		<description>Make hypertech components.</description>
+		<jobString>Making hypertech components.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>6000</workAmount>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_Durasteel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>OuterRim_Durasteel</li>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</products>
+		<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>10</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
