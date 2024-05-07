@@ -49,6 +49,7 @@
 		</building>
 		<recipes>
 			<li>OuterRim_MakeComponentHypertech</li>
+			<li>OuterRim_MakeComponentHypertech_Efficient</li>
 			<li>OuterRim_MakeDurafiber</li>
 			<li>OuterRim_DuracreteCrafting</li>
 			<li>OuterRim_PermacreteCrafting</li>
