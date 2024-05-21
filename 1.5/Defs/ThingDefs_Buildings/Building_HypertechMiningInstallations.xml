@@ -169,7 +169,7 @@
 		<graphicData>
 			<texPath>OuterRim/Building/Installations/HeavyMining</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(6, 6)</drawSize>
+			<drawSize>(6.5, 6.5)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
 
