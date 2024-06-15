@@ -21,6 +21,7 @@
 				<li>ORBasicApparel</li>
 				<li>ORJawa</li>
 				<li>ORTusken</li>
+				<li>ORForceUser</li>
 			</tags>
 			<wornGraphicPath>OuterRim/Apparel/Cloak/Apparel</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
@@ -72,6 +73,7 @@
 				<li>ORHermit</li>
 				<li>ORBasicApparel</li>
 				<li>ORJawa</li>
+				<li>ORForceUser</li>
 			</tags>
 			<wornGraphicPath>OuterRim/Apparel/Cloak/Head</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>

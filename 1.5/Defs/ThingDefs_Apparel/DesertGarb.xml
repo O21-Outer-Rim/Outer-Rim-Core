@@ -51,7 +51,7 @@
 		<label>desert hood</label>
 		<description>A simple hood, tightly clasped to help protect from blowing sand better.</description>
 		<graphicData>
-			<texPath>OuterRim/Apparel/Cloak/Head</texPath>
+			<texPath>OuterRim/Apparel/JawaRobes/Head</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -69,7 +69,7 @@
 				<li>ORBasicApparel</li>
 				<li>ORJawa</li>
 			</tags>
-			<wornGraphicPath>OuterRim/Apparel/Cloak/Head</wornGraphicPath>
+			<wornGraphicPath>OuterRim/Apparel/JawaRobes/Head</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
