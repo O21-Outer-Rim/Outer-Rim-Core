@@ -15,16 +15,6 @@
 		<weaponTags Inherit="False">
 			<li>ORMeleeSharp</li>
 		</weaponTags>
-		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponMelee</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</comps>
 	</ThingDef>
 
 	<ThingDef Name="OuterRimMeleeBase_Blunt" Abstract="True" ParentName="BaseMeleeWeapon_Blunt_Quality">
@@ -44,16 +34,6 @@
 		<weaponTags Inherit="False">
 			<li>ORMeleeBlunt</li>
 		</weaponTags>
-		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponMelee</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</comps>
 	</ThingDef>
 
 </Defs>
