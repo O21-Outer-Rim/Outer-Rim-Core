@@ -34,8 +34,8 @@
 				<showRemainingTime>True</showRemainingTime>
 			</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath" />
-			<li Class="HediffCompProperties">
-				<compClass>HediffComp_Invisibility</compClass>
+			<li Class="HediffCompProperties_Invisibility">
+        		<visibleToPlayer>true</visibleToPlayer>
 			</li>
 		</comps>
 	</HediffDef>
