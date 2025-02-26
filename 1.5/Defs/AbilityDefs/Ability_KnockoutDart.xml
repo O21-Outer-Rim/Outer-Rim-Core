@@ -8,7 +8,7 @@
 		<description>Fires a dart filled with a focused anesthetic compound, instantly knocking out the target.</description>
 		<iconPath>OuterRim/Items/Vambraces/Vambrace_DartLauncher</iconPath>
 		<showUndrafted>false</showUndrafted>
-		<castTime>0.5</castTime>
+		<castTime>1</castTime>
 		<range>16.9</range>
 		<targetMode>Pawn</targetMode>
 		<cooldownTime>15000</cooldownTime>

@@ -8,7 +8,7 @@
 		<description>Uses whipcord to pull target into melee range.</description>
 		<iconPath>OuterRim/Items/Vambraces/Vambrace_Whipcord</iconPath>
 		<showUndrafted>false</showUndrafted>
-		<castTime>0.5</castTime>
+		<castTime>1</castTime>
 		<range>12.9</range>
 		<targetMode>Pawn</targetMode>
 		<cooldownTime>10000</cooldownTime>

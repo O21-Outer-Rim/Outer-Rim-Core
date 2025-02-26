@@ -6,7 +6,7 @@
 		<description>Use jetpack to fly a short distance.</description>
 		<abilityClass>OuterRimCore.Ability_Jetpack</abilityClass>
 		<targetMode>Location</targetMode>
-		<castTime>0.5</castTime>
+		<castTime>1</castTime>
 		<range>16.9</range>
 		<cooldownTime>15000</cooldownTime>
 		<castSound>OuterRim_Shot_RocketLauncher</castSound>

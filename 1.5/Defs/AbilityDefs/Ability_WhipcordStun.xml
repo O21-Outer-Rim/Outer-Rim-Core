@@ -8,7 +8,7 @@
 		<description>Fires out the whipcord intentionally hitting the target to stun them temporarily.</description>
 		<iconPath>OuterRim/Items/Vambraces/Vambrace_Whipcord</iconPath>
 		<showUndrafted>false</showUndrafted>
-		<castTime>0.5</castTime>
+		<castTime>1</castTime>
 		<range>16.9</range>
 		<targetMode>Pawn</targetMode>
 		<cooldownTime>5000</cooldownTime>

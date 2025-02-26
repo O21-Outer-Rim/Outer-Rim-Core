@@ -12,7 +12,7 @@
 		</targetFlecks>
 		<targetMode>Self</targetMode>
 		<showUndrafted>true</showUndrafted>
-		<castTime>0.5</castTime>
+		<castTime>1</castTime>
 		<durationTime>3000</durationTime>
 		<cooldownTime>60000</cooldownTime>
 		<!-- <castSound>Outland_Spell_MysticismFail</castSound> -->

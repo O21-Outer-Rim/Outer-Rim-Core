@@ -8,7 +8,7 @@
 		<description>Projects a blast of fire in a cone towards the target.</description>
 		<iconPath>OuterRim/Items/Vambraces/Vambrace_Flamer</iconPath>
 		<showUndrafted>false</showUndrafted>
-		<castTime>0.5</castTime>
+		<castTime>1</castTime>
 		<range>12.9</range>
 		<targetMode>Pawn</targetMode>
 		<targetingParameters>
