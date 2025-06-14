@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef Name="OuterRim_MercenaryBase" Abstract="True">
+		<race>Human</race>
+		<defaultFactionType>OuterRim_BinaryStarRaiders</defaultFactionType>
+		<chemicalAddictionChance>0.1</chemicalAddictionChance>
+		<invNutrition>2.55</invNutrition>
+		<apparelMoney>99999~99999</apparelMoney> <!-- Shitty ass loadout system, replace it later. -->
+		<itemQuality>Normal</itemQuality>
+		<backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+		<maxGenerationAge>65</maxGenerationAge>
+		<combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+	</PawnKindDef>
+
+	<!-- Low merc tier - grenadiers -->
+
+	<PawnKindDef Abstract="True" Name="OuterRim_GrenadierBase" ParentName="OuterRim_MercenaryBase">
+		<race>Human</race>
+		<gearHealthRange>0.7~2.3</gearHealthRange>
+		<initialWillRange>1~3</initialWillRange>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>ORBodysuit</li>
+			<li>ORBasicApparel</li>
+			<li>ORPaddedArmour</li>
+			<li>ORBoneArmour</li>
+			<li>ORChitinArmour</li>
+			<li>ORCompositeArmour</li>
+		</apparelTags>
+		<weaponMoney>1600~1800</weaponMoney>
+		<weaponTags>
+			<li>ORRifle</li>
+			<li>ORVibroweapon</li>
+		</weaponTags>
+		<techHediffsChance>0.15</techHediffsChance>
+		<techHediffsMoney>500~1500</techHediffsMoney>
+		<techHediffsTags>
+			<li>ORMakeshift</li>
+			<li>ORCybernetic</li>
+		</techHediffsTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<inventoryOptions>
+			<skipChance>0.95</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>OuterRim_KoltoGelPack</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_GrenadierBase">
+		<defName>OuterRim_Grenadier_Destructive</defName>
+		<label>grenadier</label>
+		<combatPower>170</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<isGoodBreacher>true</isGoodBreacher>
+		<apparelTags>
+			<li>ORFragGrenadeBelt</li>
+		</apparelTags>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_GrenadierBase">
+		<defName>OuterRim_Grenadier_Ion</defName>
+		<label>ion grenadier</label>
+		<combatPower>155</combatPower>
+		<apparelTags>
+			<li>ORIonGrenadeBelt</li>
+		</apparelTags>
+		<initialResistanceRange>15~24</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_GrenadierBase">
+		<defName>OuterRim_Grenadier_CryoBan</defName>
+		<label>cryoban grenadier</label>
+		<combatPower>155</combatPower>
+		<apparelTags>
+			<li>ORCryoBanGrenadeBelt</li>
+		</apparelTags>
+		<initialResistanceRange>18~28</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Mid merc tier - gunner, slasher, sniper, heavy -->
+
+	<PawnKindDef ParentName="OuterRim_MercenaryBase" Name="OuterRim_MercenaryMidTierBase" Abstract="True">
+		<techHediffsChance>0.15</techHediffsChance>
+		<techHediffsMoney>700~1200</techHediffsMoney>
+		<techHediffsTags>
+			<li>ORCybernetic</li>
+			<li>ORAdvanced</li>
+		</techHediffsTags>
+		<initialWillRange>2~4</initialWillRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_MercenaryMidTierBase" Name="OuterRim_MercenaryGunnerBase">
+		<defName>OuterRim_Mercenary_Gunner</defName>
+		<label>mercenary gunner</label>
+		<combatPower>185</combatPower>
+		<gearHealthRange>0.7~3.2</gearHealthRange>
+		<apparelTags>
+			<li>ORBodysuit</li>
+			<li>ORBasicApparel</li>
+			<li>ORBoneArmour</li>
+			<li>ORChitinArmour</li>
+			<li>ORCompositeArmour</li>
+			<li>ORStunGrenadeBelt</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<weaponMoney>1125~1600</weaponMoney>
+		<weaponTags>
+			<li>ORRifle</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<combatEnhancingDrugsChance>0.05</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>OuterRim_KoltoGelPack</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>4~14</range>
+			</li>
+		</skills>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_MercenaryMidTierBase" Name="OuterRim_MercenarySniperBase">
+		<defName>OuterRim_Mercenary_Sniper</defName>
+		<label>mercenary sniper</label>
+		<combatPower>210</combatPower>
+		<gearHealthRange>0.7~3.2</gearHealthRange>
+		<apparelTags>
+			<li>ORBodysuit</li>
+			<li>ORBasicApparel</li>
+			<li>ORBoneArmour</li>
+			<li>ORChitinArmour</li>
+			<li>ORCompositeArmour</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<weaponMoney>1600~1800</weaponMoney>
+		<weaponTags>
+			<li>ORSniper</li>
+		</weaponTags>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>OuterRim_KoltoGelPack</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~16</range>
+			</li>
+		</skills>
+		<initialResistanceRange>13~20</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_MercenaryMidTierBase" Name="OuterRim_MercenarySlasherBase">
+		<defName>OuterRim_Mercenary_Slasher</defName>
+		<label>mercenary slasher</label>
+		<combatPower>240</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>0.7~3.2</gearHealthRange>
+		<apparelTags>
+			<li>ORBodysuit</li>
+			<li>ORBasicApparel</li>
+			<li>ORBoneArmour</li>
+			<li>ORChitinArmour</li>
+			<li>ORCompositeArmour</li>
+			<li>ORStunGrenadeBelt</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Apparel_ShieldBelt</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<weaponMoney>1125~1600</weaponMoney>
+		<weaponTags>
+			<li>ORVibroweapon</li>
+		</weaponTags>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>OuterRim_KoltoGelPack</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_MercenaryMidTierBase" Name="OuterRim_MercenaryHeavyBase">
+		<defName>OuterRim_Mercenary_Heavy</defName>
+		<label>heavy mercenary</label>
+		<labelPlural>heavy mercenaries</labelPlural>
+		<combatPower>240</combatPower>
+		<gearHealthRange>0.7~3.2</gearHealthRange>
+		<apparelTags>
+			<li>ORBodysuit</li>
+			<li>ORBasicApparel</li>
+			<li>ORBoneArmour</li>
+			<li>ORChitinArmour</li>
+			<li>ORCompositeArmour</li>
+			<li>ORStunGrenadeBelt</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<weaponMoney>2650~3200</weaponMoney>
+		<weaponTags>
+			<li>ORHeavy</li>
+		</weaponTags>
+		<initialResistanceRange>14~23</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Elite tier - merc elite, pirate boss -->
+
+	<PawnKindDef Name="OuterRim_MercenaryEliteTierBase" ParentName="OuterRim_MercenaryBase">
+		<defName>OuterRim_PirateBoss</defName>
+		<label>boss</label>
+		<labelPlural>bosses</labelPlural>
+		<factionLeader>true</factionLeader>
+		<canBeSapper>true</canBeSapper>
+		<initialResistanceRange>17~27</initialResistanceRange>
+		<combatPower>230</combatPower>
+		<maxGenerationAge>45</maxGenerationAge>
+		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+		<gearHealthRange>1~1</gearHealthRange>
+		<apparelTags>
+			<li>ORBodysuit</li>
+			<li>ORBasicApparel</li>
+			<li>ORBoneArmour</li>
+			<li>ORChitinArmour</li>
+			<li>ORCompositeArmour</li>
+			<li>ORRISArmour</li>
+			<li>ORStunGrenadeBelt</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+		<weaponMoney>800~1600</weaponMoney>
+		<weaponTags>
+			<li>ORRifle</li>
+			<li>ORSniper</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<techHediffsMoney>1000~1200</techHediffsMoney>
+		<techHediffsTags>
+			<li>ORCybernetic</li>
+			<li>ORAdvanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.35</techHediffsChance>
+		<combatEnhancingDrugsChance>0.80</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+		<initialWillRange>3~5</initialWillRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRim_MercenaryEliteTierBase" Name="OuterRim_MercenaryEliteBase">
+		<defName>OuterRim_Mercenary_Elite</defName>
+		<label>elite mercenary</label>
+		<labelPlural>elite mercenaries</labelPlural>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>OuterRim_KoltoGelPack</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~15</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+</Defs>

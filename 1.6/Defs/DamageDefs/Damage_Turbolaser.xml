@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<DamageDef ParentName="Bomb">
+		<defName>OuterRim_Turbolaser</defName>
+		<label>turbo laser</label>
+		<workerClass>NoCamShakeExplosions.DamageWorker_BombNoCamShake</workerClass>
+		<hediff>OuterRim_BlasterBurn</hediff>
+		<armorCategory>Heat</armorCategory>
+		<deathMessage>{0} was obliterated by a turbolaser.</deathMessage>
+	</DamageDef>
+
+</Defs>

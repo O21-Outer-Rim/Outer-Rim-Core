@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_BARMST12Scattergun</defName>
+		<label>barm-st12 scattergun</label>
+		<description>The BARM-ST12 scattergun was a type of pump-action scatterblaster, the blaster equivalent of a shotgun.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/BARMST12Scattergun</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>ORHeavy</li>
+			<li>ORRebelAny</li>
+			<li>ORRebelHeavy</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_ScattergunRed</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>17</range>
+				<soundCast>OuterRim_Shot_DLT19DBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

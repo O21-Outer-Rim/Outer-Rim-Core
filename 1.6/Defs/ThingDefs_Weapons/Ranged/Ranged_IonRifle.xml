@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_SniperRifle">
+		<defName>OuterRim_IonRifle</defName>
+		<label>ion rifle</label>
+		<description>A medium range rifle designed to produce a precise ion pulse, heavily affecting any droid it hits with a strong EMP.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/IonRifle</texPath>
+			<drawSize>1.0</drawSize>	
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORIonRifle</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>OuterRim_IonWeapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_RifleIon</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>31</range>
+				<soundCast>OuterRim_Shot_DLT19DBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

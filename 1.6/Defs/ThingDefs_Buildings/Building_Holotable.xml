@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_HoloTable</defName>
+		<label>holotable</label>
+		<description>An interactive holographic region map used to plan out strategy prior to and during battle, or simply to survey the surroundings for other purposes like civic planning or for communication with others.\n\nNote: Primary use of this table is for requesting quests in exchange for goodwill. Quests refresh once a year.</description>
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<texPath>OuterRim/Building/HoloTable</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<hasInteractionCell>false</hasInteractionCell>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>8800</WorkToBuild>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>150</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>14</OuterRim_ComponentHypertech>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</researchPrerequisites>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>400</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(152,167,250,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="VanillaStorytellersExpanded.CompProperties_QuestGiver">
+				<floatOptionLabel>View contracts</floatOptionLabel>
+				<jobToGive>OuterRim_UseHoloTable</jobToGive>
+				<questGiver>OuterRim_HoloTable_QuestGiver</questGiver>
+				<questManagerID>1</questManagerID>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<JobDef>
+		<defName>OuterRim_UseHoloTable</defName>
+		<driverClass>VanillaStorytellersExpanded.JobDriver_UseQuestGiver</driverClass>
+		<reportString>using holotable.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<VanillaStorytellersExpanded.QuestGiverDef>
+		<defName>OuterRim_HoloTable_QuestGiver</defName>
+		<currency Class="VanillaStorytellersExpanded.GoodwillCurrency">
+			<costToAcceptQuest>0</costToAcceptQuest>
+			<minimunGoodwillRequirement>0</minimunGoodwillRequirement>
+		</currency>
+		<workerClass>VanillaStorytellersExpanded.QuestWorker</workerClass>
+		<windowClass>VanillaStorytellersExpanded.Window_Contracts</windowClass>
+		<windowTitleKey>VEF.AvailableContracts</windowTitleKey>
+		<generateOnce>true</generateOnce>
+		<hideGeneratedQuestsInVanilla>true</hideGeneratedQuestsInVanilla>
+		<maximumAvailableQuestCount>10</maximumAvailableQuestCount>
+		<onlyOneReward>true</onlyOneReward>
+		<resetEveryTick>3600000</resetEveryTick> <!-- every 1 year -->
+	</VanillaStorytellersExpanded.QuestGiverDef>
+
+</Defs>

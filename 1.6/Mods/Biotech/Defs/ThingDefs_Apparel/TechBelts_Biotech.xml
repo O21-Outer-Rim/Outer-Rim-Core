@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_TechBeltBase">
+		<defName>OuterRim_Belt_ToxShield</defName>
+		<label>tech belt (tox shield)</label>
+		<description>A belt which generates an invisible barrier preventing toxins from getting too close to the user.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_ToxShield</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+			<tags>
+				<li>ToxShield</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

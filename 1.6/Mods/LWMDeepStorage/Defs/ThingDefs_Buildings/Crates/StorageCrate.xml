@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimStorageBase">
+		<defName>OuterRim_StorageCrate</defName>
+		<label>storage crate</label>
+		<description>A storage crate built for transporting various goods on board starships.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Storage/BoxSmall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<uiIconScale>0.7</uiIconScale>
+		<surfaceType>Item</surfaceType>
+		<pathCost>30</pathCost>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>False</rotatable>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>3</Beauty>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+		</costList>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<priority>Important</priority>
+				<filter Inherit="false">
+					<categories>
+						<li>ResourcesRaw</li>
+						<li>Textiles</li>
+						<li>MortarShells</li>
+						<li>Drugs</li>
+						<li>PlantMatter</li>
+					</categories>
+					<thingDefs>
+						<li>Kibble</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<comps>
+			<li Class="LWM.DeepStorage.Properties">
+				<maxNumberStacks>4</maxNumberStacks>
+				<minTimeStoringTakes>450</minTimeStoringTakes>
+				<additionalTimeEachStack>70</additionalTimeEachStack>
+				<additionalTimeEachDef>5</additionalTimeEachDef>
+				<overlayType>SumOfAllItems</overlayType>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

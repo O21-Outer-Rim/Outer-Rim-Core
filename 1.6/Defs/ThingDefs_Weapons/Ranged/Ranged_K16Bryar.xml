@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_K16BryarBlaster</defName>
+		<label>k-16 bryar blaster</label>
+		<description>Deceptive by design, the K-16 appeared to be a regular blaster pistol; however, it featured a modified power unit capable of releasing its entire heat source in one powerful blast as secondary fire.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/K16Bryar</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>ORRebelAny</li>
+			<li>ORRebelLight</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_PistolRed</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>24</range>
+				<soundCast>OuterRim_Shot_MediumBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

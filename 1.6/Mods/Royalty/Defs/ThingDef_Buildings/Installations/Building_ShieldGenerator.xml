@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_ShieldGenerator</defName>
+		<label>hypertech shield generator</label>
+		<description>A high power shield generator capable of defending against both land and air attacks. Does not prevent passage of pawns or fire, but will vaporize of drop pods containing enemies, treating them as high speed projectiles.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/ShieldGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6, 6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>30000</WorkToBuild>
+			<Flammability>0.3</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<size>(5,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<surfaceType>Item</surfaceType>
+		<pathCost>10000</pathCost>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<hasInteractionCell>false</hasInteractionCell>
+		<comps>
+            <li Class="TabulaRasa.CompProperties_Shield">
+                <compClass>TabulaRasa.Comp_Shield</compClass>
+
+                <interceptAirProjectiles>true</interceptAirProjectiles>
+                <interceptGroundProjectiles>true</interceptGroundProjectiles>
+				<podBlocker>true</podBlocker>
+                <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+				<resetTime>8000</resetTime>
+
+				<powerUsageRange>-6000~-24000</powerUsageRange>
+
+				<useAmbientCooling>false</useAmbientCooling>
+				<stressReduction>1.0</stressReduction>
+
+				<stressPerDamage>0.005</stressPerDamage>
+				<empDamageFactor>6.0</empDamageFactor>
+				<shieldOverloadThreshold>0.97</shieldOverloadThreshold>
+				<shieldOverloadChance>0.1</shieldOverloadChance>
+                <extraOverloadRange>10</extraOverloadRange>
+                <overloadDamageType>EMP</overloadDamageType>
+                
+				<explodeOnCollapse>false</explodeOnCollapse>
+
+                <shieldCanBeOffset>true</shieldCanBeOffset>
+                <shieldCanBeScaled>true</shieldCanBeScaled>
+                <shieldScaleLimits>16~128</shieldScaleLimits>
+                <shieldScaleDefault>64</shieldScaleDefault>
+                
+                <shieldCanBeColored>true</shieldCanBeColored>
+                <shieldColour>(82, 131, 255)</shieldColour>
+            </li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>-6000</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>400</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+			</li>
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusherPowered</compClass>
+                <heatPerSecond>0</heatPerSecond>
+                <heatPushMinTemperature>3000</heatPushMinTemperature>
+                <heatPushMaxTemperature>3000</heatPushMaxTemperature>
+            </li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+		</building>
+        <placeWorkers>
+			<li>TabulaRasa.PlaceWorker_ShowShieldRadius</li>
+        </placeWorkers>
+		<costList>
+			<OuterRim_Durasteel>2400</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>60</OuterRim_ComponentHypertech>
+		</costList>
+		<researchPrerequisites>
+			<li MayRequire="neronix17.shieldgenerators">ShieldGen_AdvancedShieldTech</li>
+			<li>OuterRim_HeavyInstallations</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatSecurity</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

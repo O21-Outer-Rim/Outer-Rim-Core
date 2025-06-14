@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<SoundDef>
+		<defName>OuterRim_Imperial_ThreatBig</defName>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/DeathStarAlarm</clipPath>
+					</li>
+				</grains>
+        		<volumeRange>70~70</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Rebel_ThreatBig</defName>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/YavinAlarm</clipPath>
+					</li>
+				</grains>
+        		<volumeRange>70~70</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Corellian_ThreatBig</defName>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/CorellianAlarm</clipPath>
+					</li>
+				</grains>
+        		<volumeRange>70~70</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Lucrehulk_ThreatBig</defName>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/LucrehulkAlarm</clipPath>
+					</li>
+				</grains>
+        		<volumeRange>70~70</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

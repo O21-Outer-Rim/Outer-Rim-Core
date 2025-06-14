@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_SmugglerCaptain</defName>
+		<title>Smuggler Captain</title>
+		<titleShort>Captain</titleShort>
+		<baseDesc>Once a renowned smuggler captain, you were on the run from the authorities when your ship was damaged and forced to crash-land on this planet. You've hidden your identity, but your past often catches up with you. Your charm and resourcefulness have saved you more times than you can count, and you're determined to turn this new world into your own profitable venture.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_DroidEngineer</defName>
+		<title>Droid Engineer</title>
+		<titleShort>Droid Engineer</titleShort>
+		<baseDesc>A skilled engineer specialized in droid technology, you were stranded on this planet after your escape pod malfunctioned. You've salvaged parts from your wrecked pod to build a small army of helpful droids. Your expertise in robotics and machinery is unmatched, and you're determined to create a technological utopia amidst the wilderness.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_BountyHunter</defName>
+		<title>Bounty Hunter</title>
+		<titleShort>Bounty Hunter</titleShort>
+		<baseDesc>Once a feared bounty hunter in the Outer Rim, [PAWN_nameDef] was known for [PAWN_possessive] relentless pursuit and deadly accuracy. [PAWN_pronoun] roamed the galaxy capturing criminals and collecting bounties, always one step ahead of the law. However, a botched mission led to a deadly confrontation with a notorious crime lord, resulting in [PAWN_nameDef]'s escape to the rimworld. Now, [PAWN_pronoun] continues [PAWN_possessive] dangerous profession, hunting down targets and surviving in the lawless wilderness.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_Smuggler</defName>
+		<title>Smuggler</title>
+		<titleShort>Smuggler</titleShort>
+		<baseDesc>Once a notorious smuggler operating in the galactic underworld, [PAWN_nameDef] was skilled at evading authorities and transporting illegal goods across star systems. [PAWN_pronoun] had a reputation for successfully navigating through blockades and delivering cargo undetected. However, a risky deal went sour, and [PAWN_nameDef] found [PAWN_pronoun]self on the run. [PAWN_pronoun] fled to the rimworld, seeking refuge and a chance to rebuild [PAWN_possessive] smuggling empire away from the prying eyes of the law.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_MoistureFarmer</defName>
+		<title>Moisture Farmer</title>
+		<titleShort>Moisture Farmer</titleShort>
+		<baseDesc>Originating from the arid planet of Tatooine, [PAWN_nameDef] grew up as a moisture farmer, harvesting precious water from the planet's atmosphere. [PAWN_pronoun] spent [PAWN_possessive] days tending to moisture vaporators, developing a deep understanding of water conservation and agricultural techniques. When raiders attacked [PAWN_nameDef]'s family farm, [PAWN_pronoun] fought valiantly but lost everything. Now, [PAWN_pronoun] travels the rimworld, bringing [PAWN_possessive] expertise in moisture farming to new colonies, hoping to create a sustainable future in the midst of the vast, unpredictable wilderness.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_SpiceRunner</defName>
+		<title>Spice Runner</title>
+		<titleShort>Spice Runner</titleShort>
+		<baseDesc>Once a daring spice runner in the criminal underworld, [PAWN_nameDef] was known for [PAWN_possessive] ability to smuggle and distribute illegal spices across the galaxy. [PAWN_pronoun] thrived in the shadows, evading law enforcement and rival gangs with cunning and speed. However, a dangerous deal went wrong, leading to a high-stakes chase through hyperspace. [PAWN_nameDef] barely escaped, crash-landing on a rimworld far from the criminal syndicates [PAWN_pronoun] once knew. Now, [PAWN_pronoun] uses [PAWN_possessive] expertise to navigate the dangers of the rimworld, always watching [PAWN_possessive] back for old enemies and new threats.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticArchaeologist</defName>
+		<title>Galactic Archaeologist</title>
+		<titleShort>Archaeologist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a renowned galactic archaeologist, uncovering ancient civilizations and artifacts across star systems. [PAWN_pronoun] delved into ruins, deciphering forgotten languages and revealing the mysteries of the past. During an excavation, [PAWN_nameDef] triggered a spatial anomaly, transporting [PAWN_pronoun] to a rimworld. Now, [PAWN_pronoun] applies [PAWN_possessive] expertise to explore the rimworld's secrets, uncovering lost knowledge while hoping to find a way back to [PAWN_possessive] archaeological discoveries.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StarshipCaptain</defName>
+		<title>Starship Captain</title>
+		<titleShort>Captain</titleShort>
+		<baseDesc>[PAWN_nameDef] was a respected starship captain, leading a crew through the vastness of space. [PAWN_pronoun] commanded a freighter, exploring uncharted territories and taking daring smuggling missions. After evading a space blockade, [PAWN_nameDef]'s ship was damaged and crash-landed on a rimworld. Now, [PAWN_pronoun] leads colonists with [PAWN_possessive] strategic prowess, navigating the challenges of the rimworld while hoping to repair [PAWN_possessive] ship and return to the stars.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StarfighterPilot</defName>
+		<title>Starfighter Pilot</title>
+		<titleShort>Pilot</titleShort>
+		<baseDesc>[PAWN_nameDef] was an elite starfighter pilot, skilled in aerial combat and space battles. [PAWN_pronoun] served in planetary defense forces and engaged in dogfights against enemy ships. During a skirmish, [PAWN_nameDef] was shot down, leading to an unexpected crash landing on a rimworld. Now, [PAWN_pronoun] uses [PAWN_possessive] piloting expertise to defend rimworld colonies from aerial threats, all the while hoping for a way back to [PAWN_possessive] home galaxy.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticTrader</defName>
+		<title>Galactic Trader</title>
+		<titleShort>Trader</titleShort>
+		<baseDesc>[PAWN_nameDef] was a seasoned galactic trader, voyaging across star systems to exchange goods and establish lucrative trade routes. [PAWN_pronoun] negotiated deals with diverse species, acquiring rare resources and technology. During a trading mission, [PAWN_nameDef] encountered a wormhole that transported [PAWN_pronoun] to a rimworld. Now, [PAWN_pronoun] leverages [PAWN_possessive] trading expertise to build interstellar connections, enriching rimworld colonies while hoping to find a way back to the vast expanse of the galaxy.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_MasterDroidEngineer</defName>
+		<title>Droid Engineer</title>
+		<titleShort>Droid Engineer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a master droid engineer, skilled in creating and repairing robotic companions for various purposes. [PAWN_pronoun] designed astromech droids, protocol droids, and even combat droids used in skirmishes across the galaxy. After a space battle, [PAWN_nameDef]'s escape pod crash-landed on a rimworld. Now, [PAWN_pronoun] applies [PAWN_possessive] expertise to construct and maintain robotic helpers for rimworld colonies, ensuring both survival and technological advancement.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticHistorian</defName>
+		<title>Galactic Historian</title>
+		<titleShort>Historian</titleShort>
+		<baseDesc>[PAWN_nameDef] dedicated [PAWN_possessive] life to studying the history and cultures of countless planets in the galaxy. [PAWN_pronoun] specialized in ancient artifacts, deciphering lost languages, and preserving the rich heritage of various species. During an archaeological expedition, [PAWN_nameDef] stumbled upon a hidden relic that transported [PAWN_pronoun] to a rimworld. Now, [PAWN_pronoun] shares [PAWN_possessive] knowledge, educating colonists about the galaxy's past while hoping to uncover more secrets hidden within the rimworld.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StarshipMechanic</defName>
+		<title>Starship Mechanic</title>
+		<titleShort>Mechanic</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled starship mechanic, adept at repairing and modifying spacecraft. [PAWN_pronoun] spent years tinkering with hyperdrives, engines, and shields, ensuring ships could make the Kessel Run in record time. After a space battle left [PAWN_nameDef]'s ship damaged beyond repair, [PAWN_pronoun] crash-landed on a remote rimworld. Now, [PAWN_pronoun] uses [PAWN_possessive] mechanical expertise to keep colonies' spacecraft running, dreaming of one day repairing [PAWN_possessive] own ship and exploring the stars once more.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_HolonetTechnician</defName>
+		<title>Holonet Technician</title>
+		<titleShort>Technician</titleShort>
+		<baseDesc>[PAWN_nameDef] worked as a skilled holonet technician, maintaining communication networks that spanned entire star systems. [PAWN_pronoun] ensured smooth transmission of data, news, and entertainment across the galaxy. During a routine maintenance operation, [PAWN_nameDef] was accidentally ejected in an escape pod to a nearby rimworld. Now, [PAWN_pronoun] applies [PAWN_possessive] technical expertise to establish communication systems, connecting colonies while hoping to find a way back to the interconnected galaxy [PAWN_pronoun] once knew.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticEntrepreneur</defName>
+		<title>Galactic Entrepreneur</title>
+		<titleShort>Entrepreneur</titleShort>
+		<baseDesc>[PAWN_nameDef] was a shrewd galactic entrepreneur, establishing successful businesses across star systems. [PAWN_pronoun] engaged in trade, technology, and entertainment ventures, amassing considerable wealth. During a business trip, [PAWN_nameDef] found [PAWN_pronoun]self stranded on a rimworld due to a ship crash. Now, [PAWN_pronoun] uses [PAWN_possessive] business acumen to manage rimworld colonies, fostering economic growth and stability while hoping for a chance to return to [PAWN_possessive] entrepreneurial empire.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarCartographer</defName>
+		<title>Stellar Cartographer</title>
+		<titleShort>Cartographer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled stellar cartographer, mapping unexplored star systems and celestial phenomena. [PAWN_pronoun] charted hyperspace routes, enabling safe travel for explorers and traders. During a cosmic anomaly, [PAWN_nameDef] found [PAWN_pronoun]self marooned on a rimworld. Now, [PAWN_pronoun] applies [PAWN_possessive] astronomical knowledge to navigate the rimworld, studying its unique skies while yearning for the infinite unknown.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticEngineer</defName>
+		<title>Galactic Engineer</title>
+		<titleShort>Engineer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a renowned galactic engineer, designing advanced technology for starships and settlements. [PAWN_pronoun] developed energy systems, defensive shields, and communication arrays. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] applies [PAWN_possessive] engineering expertise to fortify colonies and harness the planet's resources, all while seeking a way back to [PAWN_possessive] home galaxy.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_AsteroidMiner</defName>
+		<title>Asteroid Miner</title>
+		<titleShort>Miner</titleShort>
+		<baseDesc>[PAWN_nameDef] worked as an asteroid miner, extracting precious minerals and resources from space rocks. [PAWN_pronoun] operated heavy machinery and participated in zero-gravity mining operations. A space anomaly jettisoned [PAWN_nameDef] to a rimworld, where [PAWN_pronoun] now mines the planet's crust, uncovering valuable ores and gems while dreaming of the vast asteroids of [PAWN_possessive] past.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Mining</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_Astrobiologist</defName>
+		<title>Astrobiologist</title>
+		<titleShort>Biologist</titleShort>
+		<baseDesc>[PAWN_nameDef] specialized in astrobiology, studying extraterrestrial life forms and ecosystems. [PAWN_pronoun] conducted experiments in space stations and alien planets, unraveling the mysteries of interstellar biology. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] applies [PAWN_possessive] expertise to research local fauna and flora, hoping to uncover unique adaptations while searching for a way back to [PAWN_possessive] laboratory.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StarshipNavigator</defName>
+		<title>Starship Navigator</title>
+		<titleShort>Navigator</titleShort>
+		<baseDesc>[PAWN_nameDef] served as a starship navigator, plotting courses through asteroid fields and cosmic storms. [PAWN_pronoun] guided ships safely through space, relying on [PAWN_possessive] keen sense of direction and astronomical knowledge. A sudden wormhole redirected [PAWN_nameDef] to a rimworld, where [PAWN_pronoun] now uses [PAWN_possessive] skills to lead colonies, steering them toward prosperity while seeking a way back to the infinite expanse of the cosmos.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticBotanist</defName>
+		<title>Galactic Botanist</title>
+		<titleShort>Botanist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a renowned galactic botanist, studying plants from various planets and climates. [PAWN_pronoun] specialized in alien flora, discovering unique properties and potential uses for agriculture and medicine. [PAWN_nameDef] found [PAWN_pronoun]self on a rimworld after a mysterious phenomenon, where [PAWN_pronoun] now explores local plant life, crossbreeding species, and cultivating resilient crops while aiming to unlock the secrets of the planet's ecology.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarGeologist</defName>
+		<title>Stellar Geologist</title>
+		<titleShort>Geologist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a stellar geologist, exploring planets to understand their geological formations and mineral resources. [PAWN_pronoun] analyzed rock strata, identified valuable ores, and advised mining operations. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now applies [PAWN_possessive] expertise to prospect for minerals, uncovering the planet's hidden wealth while dreaming of the geological wonders of [PAWN_possessive] previous assignments.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Mining</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticMedic</defName>
+		<title>Galactic Medic</title>
+		<titleShort>Medic</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled galactic medic, providing medical aid in various planetary emergencies. [PAWN_pronoun] treated injuries, diseases, and alien ailments, saving lives across star systems. After an interdimensional rift, [PAWN_nameDef] found [PAWN_pronoun]self on a rimworld, where [PAWN_pronoun] now tends to the sick and injured, using [PAWN_possessive] medical expertise to heal colonists and research local medical plants, all while longing for [PAWN_possessive] previous patients.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticSurveyor</defName>
+		<title>Galactic Surveyor</title>
+		<titleShort>Surveyor</titleShort>
+		<baseDesc>[PAWN_nameDef] worked as a galactic surveyor, exploring uncharted planets and cataloging their natural resources. [PAWN_pronoun] studied ecosystems, identified wildlife, and assessed the habitability of alien worlds. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now conducts environmental surveys, preserving local biodiversity while dreaming of the diverse planets [PAWN_possessive] team explored in the past.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarPhysicist</defName>
+		<title>Stellar Physicist</title>
+		<titleShort>Physicist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a brilliant stellar physicist, unraveling the mysteries of the cosmos through equations and experiments. [PAWN_pronoun] delved into quantum mechanics, dark matter, and hyperspace theory, pushing the boundaries of scientific understanding. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] applies [PAWN_possessive] knowledge to solve local scientific challenges while yearning for the celestial puzzles of [PAWN_possessive] past.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_Exoarchaeologist</defName>
+		<title>Exoarchaeologist</title>
+		<titleShort>Archaeologist</titleShort>
+		<baseDesc>[PAWN_nameDef] was an exoarchaeologist, studying ancient civilizations on distant planets. [PAWN_pronoun] unearthed alien artifacts, deciphered lost languages, and reconstructed past cultures. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] archaeological pursuits, exploring the ruins of an ancient civilization while longing for the extraterrestrial mysteries [PAWN_possessive] team once uncovered.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarAstrologer</defName>
+		<title>Stellar Astrologer</title>
+		<titleShort>Astrologer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a revered stellar astrologer, interpreting cosmic events and celestial omens. [PAWN_pronoun] predicted planetary alignments, solar flares, and interstellar phenomena, guiding civilizations with [PAWN_possessive] celestial wisdom. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now studies the planet's skies, finding meaning in its unique constellations while longing for the infinite cosmos [PAWN_possessive] gaze once beheld.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarBiologist</defName>
+		<title>Stellar Biologist</title>
+		<titleShort>Biologist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a renowned stellar biologist, studying alien life forms in the far reaches of the galaxy. [PAWN_pronoun] observed extraterrestrial ecosystems, documenting unique adaptations and symbiotic relationships. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] applies [PAWN_possessive] biological expertise to research local flora and fauna, discovering the planet's ecological wonders while longing for the diverse habitats [PAWN_possessive] expeditions once explored.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_RenownedGalacticHistorian</defName>
+		<title>Galactic Historian</title>
+		<titleShort>Historian</titleShort>
+		<baseDesc>[PAWN_nameDef] was a renowned galactic historian, chronicling the rise and fall of civilizations across star systems. [PAWN_pronoun] studied ancient texts, artifacts, and oral traditions, preserving the collective memory of the galaxy. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now collects the oral histories of local tribes, recording the tales of the rimworld while yearning for the vast tapestry of galactic history [PAWN_possessive] once documented.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarDiplomat</defName>
+		<title>Stellar Diplomat</title>
+		<titleShort>Diplomat</titleShort>
+		<baseDesc>[PAWN_nameDef] was a respected stellar diplomat, negotiating peace treaties and alliances between star systems. [PAWN_pronoun] mediated disputes, fostered interplanetary cooperation, and upheld interstellar laws. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now serves as a mediator among local factions, finding common ground while longing for the diplomatic challenges [PAWN_possessive] previous missions presented.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_Astrophotographer</defName>
+		<title>Astrophotographer</title>
+		<titleShort>Photographer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled astrophotographer, capturing breathtaking images of celestial phenomena and distant galaxies. [PAWN_pronoun] documented supernovae, nebulae, and cosmic events, inspiring awe and wonder among star gazers. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now documents the planet's unique landscapes and night skies, finding beauty in the rimworld's natural wonders while longing for the cosmic splendors [PAWN_possessive] camera once captured.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StellarExplorer</defName>
+		<title>Stellar Explorer</title>
+		<titleShort>Explorer</titleShort>
+		<baseDesc>[PAWN_nameDef] was an intrepid stellar explorer, venturing into uncharted regions of space and discovering new star systems. [PAWN_pronoun] piloted advanced starships, charting new territories and cataloging unknown celestial bodies. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now explores the planet's surface, mapping its diverse landscapes while yearning for the unexplored frontiers of [PAWN_possessive] previous journeys.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticSmuggler</defName>
+		<title>Galactic Smuggler</title>
+		<titleShort>Smuggler</titleShort>
+		<baseDesc>[PAWN_nameDef] was a cunning galactic smuggler, trafficking illegal goods and evading authorities across star systems. [PAWN_pronoun] operated covert trade routes, slipping through blockades and customs checks. After a dangerous heist, [PAWN_nameDef] found [PAWN_pronoun]self stranded on a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] illicit activities, smuggling contraband while searching for a way back to [PAWN_possessive] criminal empire.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticBountyHunter</defName>
+		<title>Galactic Bounty Hunter</title>
+		<titleShort>Bounty Hunter</titleShort>
+		<baseDesc>[PAWN_nameDef] was a feared galactic bounty hunter, capturing criminals and collecting bounties across star systems. [PAWN_pronoun] tracked down fugitives, faced dangerous adversaries, and delivered justice to the highest bidder. After a daring chase, [PAWN_nameDef] found [PAWN_pronoun]self marooned on a rimworld, where [PAWN_pronoun] now hunts down local threats, collecting bounties while longing for [PAWN_possessive] galaxy-wide pursuits.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticPirate</defName>
+		<title>Galactic Pirate</title>
+		<titleShort>Pirate</titleShort>
+		<baseDesc>[PAWN_nameDef] was a notorious galactic pirate, commanding a ruthless crew and plundering starships across trade routes. [PAWN_pronoun] raided merchant vessels, hijacked cargo, and eluded galactic authorities. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] leads a band of cutthroats, raiding colonies and capturing valuable resources while dreaming of the interstellar treasures [PAWN_possessive] crew once looted.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticBlackmailer</defName>
+		<title>Galactic Blackmailer</title>
+		<titleShort>Blackmailer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled galactic blackmailer, gathering secrets and manipulating powerful figures across star systems. [PAWN_pronoun] used blackmail to gain influence, control, and credits. After a dangerous scheme went awry, [PAWN_nameDef] found [PAWN_pronoun]self on a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] manipulative tactics, blackmailing colonists and factions while scheming to regain [PAWN_possessive] lost empire.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticThief</defName>
+		<title>Galactic Thief</title>
+		<titleShort>Thief</titleShort>
+		<baseDesc>[PAWN_nameDef] was a masterful galactic thief, specializing in high-stakes heists and art theft across star systems. [PAWN_pronoun] infiltrated secure vaults, bypassed alarms, and disappeared without a trace. After a daring theft, [PAWN_nameDef] found [PAWN_pronoun]self stranded on a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] thieving ways, stealing valuable artifacts and technology while planning [PAWN_possessive] escape from the rimworld's grasp.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticAssassin</defName>
+		<title>Galactic Assassin</title>
+		<titleShort>Assassin</titleShort>
+		<baseDesc>[PAWN_nameDef] was a deadly galactic assassin, taking contracts to eliminate targets across star systems. [PAWN_pronoun] was precise, discreet, and merciless, eliminating high-profile individuals with cold efficiency. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] lethal work, assassinating targets and covering [PAWN_possessive] tracks while haunted by the ghosts of [PAWN_possessive] past victims.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticSaboteur</defName>
+		<title>Galactic Saboteur</title>
+		<titleShort>Saboteur</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled galactic saboteur, disrupting enemy operations and sabotaging critical systems across star systems. [PAWN_pronoun] planted explosives, disabled defenses, and created chaos behind enemy lines. After a sabotage mission went awry, [PAWN_nameDef] found [PAWN_pronoun]self stranded on a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] subversive work, sabotaging enemy colonies and installations while plotting [PAWN_possessive] return to [PAWN_possessive] criminal network.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticFence</defName>
+		<title>Galactic Fence</title>
+		<titleShort>Fence</titleShort>
+		<baseDesc>[PAWN_nameDef] was a notorious galactic fence, trading stolen goods and illicit artifacts across star systems. [PAWN_pronoun] had connections to thieves, smugglers, and criminals, providing a network to move stolen merchandise. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now operates a black market, dealing in contraband while building [PAWN_possessive] underground empire and dreaming of the galaxy's underworld [PAWN_possessive] once thrived in.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Outlander</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_GalacticConArtist</defName>
+		<title>Galactic Con Artist</title>
+		<titleShort>Con Artist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a charming galactic con artist, manipulating individuals and organizations with [PAWN_possessive] smooth talk and elaborate schemes. [PAWN_pronoun] ran confidence games, forged documents, and swindled the unsuspecting. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] deceptive ways, running scams and conning colonists while longing for the luxurious lifestyle [PAWN_possessive] cons once funded.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Outlander</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_PykeEnforcer</defName>
+		<title>Pyke Enforcer</title>
+		<titleShort>Enforcer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a feared enforcer in the Pyke Syndicate, enforcing the will of the criminal organization with ruthless efficiency. [PAWN_pronoun] carried out hits, protected Pyke interests, and instilled fear in rival gangs. After a mission gone wrong, [PAWN_nameDef] found [PAWN_pronoun]self stranded on a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] violent ways, cracking skulls and guarding the syndicate's secrets while plotting [PAWN_possessive] return to the Pyke Syndicate.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_PykeSmuggler</defName>
+		<title>Pyke Smuggler</title>
+		<titleShort>Smuggler</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled smuggler in the Pyke Syndicate, trafficking spice and illicit goods across the galaxy. [PAWN_pronoun] navigated treacherous routes, evaded authorities, and ensured the Pyke spice reached its destinations. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] smuggling operation, moving contraband while planning to expand Pyke influence in the rimworld.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_BountyHunterVeteran</defName>
+		<title>Bounty Hunter Veteran</title>
+		<titleShort>Veteran</titleShort>
+		<baseDesc>[PAWN_nameDef] was a seasoned bounty hunter, renowned across the galaxy for capturing high-value targets. [PAWN_pronoun] tracked down fugitives, faced dangerous adversaries, and delivered justice with unmatched precision. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] bounty hunting profession, capturing and neutralizing dangerous individuals while searching for a way back to [PAWN_possessive] interstellar pursuits.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_RuthlessBountyHunter</defName>
+		<title>Ruthless Bounty Hunter</title>
+		<titleShort>Ruthless</titleShort>
+		<baseDesc>[PAWN_nameDef] was a notorious bounty hunter feared across star systems for [PAWN_possessive] ruthless tactics. [PAWN_pronoun] captured targets alive or dead, always fulfilling the contract regardless of the cost. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] brutal methods, hunting down bounties and enforcing justice while haunted by [PAWN_possessive] past decisions.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_RelentlessBountyHunter</defName>
+		<title>Relentless Bounty Hunter</title>
+		<titleShort>Relentless</titleShort>
+		<baseDesc>[PAWN_nameDef] was a relentless bounty hunter known for [PAWN_possessive] unyielding pursuit of targets. [PAWN_pronoun] never gave up, tirelessly tracking down bounties across star systems and overcoming every obstacle. After a twist of fate, [PAWN_nameDef] found [PAWN_pronoun]self stranded on a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] tireless hunt, capturing fugitives and collecting bounties while longing for the thrill of interstellar chases.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_StealthyBountyHunter</defName>
+		<title>Stealthy Bounty Hunter</title>
+		<titleShort>Stealthy</titleShort>
+		<baseDesc>[PAWN_nameDef] was a covert bounty hunter known for [PAWN_possessive] silent and stealthy approach to capturing targets. [PAWN_pronoun] moved in the shadows, striking from unexpected angles and disappearing without a trace. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] stealthy methods, hunting down bounties with precise and quiet efficiency, while haunted by [PAWN_possessive] past missions.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_MasterHunter</defName>
+		<title>Master Hunter</title>
+		<titleShort>Master</titleShort>
+		<baseDesc>[PAWN_nameDef] was a legendary bounty hunter, unmatched in [PAWN_possessive] tracking and combat skills. [PAWN_pronoun] pursued the most elusive targets, faced dangerous creatures, and emerged victorious every time. After a rift in space-time, [PAWN_nameDef] found [PAWN_pronoun]self on a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] masterful hunts, capturing and neutralizing the most dangerous bounties while longing for the galaxy-wide challenges [PAWN_possessive] skills were renowned for.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_ReformedBountyHunter</defName>
+		<title>Reformed Bounty Hunter</title>
+		<titleShort>Reformed</titleShort>
+		<baseDesc>[PAWN_nameDef] was once a notorious bounty hunter, capturing targets and claiming bounties across star systems. [PAWN_pronoun] retired from [PAWN_possessive] violent past and sought redemption. [PAWN_nameDef] found [PAWN_pronoun] way to a rimworld, where [PAWN_pronoun] now leads a peaceful life, utilizing [PAWN_possessive] combat skills to protect [PAWN_possessive] new community while struggling to leave [PAWN_possessive] turbulent past behind.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Outlander</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_TatooineMoistureFarmer</defName>
+		<title>Tatooine Moisture Farmer</title>
+		<titleShort>Moisture Farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a hardworking moisture farmer on the desert planet Tatooine, extracting water from the arid landscape to sustain communities. [PAWN_pronoun] managed moisture vaporators, maintained water-harvesting equipment, and ensured the survival of settlements in the harsh desert. A strange anomaly transported [PAWN_nameDef] to a rimworld, where [PAWN_pronoun] now utilizes [PAWN_possessive] farming skills to cultivate crops, managing hydroponic farms and greenhouse facilities while adapting to the challenges of the alien environment.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_AlderaanCropFarmer</defName>
+		<title>Alderaan Crop Farmer</title>
+		<titleShort>Crop Farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled crop farmer on the peaceful planet Alderaan, cultivating diverse and abundant agricultural fields to feed the population. [PAWN_pronoun] nurtured crops, implemented sustainable farming practices, and contributed to Alderaan's reputation as the breadbasket of the galaxy. Tragically, Alderaan was destroyed, and [PAWN_nameDef] found [PAWN_pronoun]self on a rimworld. [PAWN_pronoun] now channels [PAWN_possessive] agricultural expertise, growing crops and sustaining colonies with nutritious food while mourning the loss of [PAWN_possessive] home world.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_DantooineHerbalist</defName>
+		<title>Dantooine Herbalist</title>
+		<titleShort>Herbalist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled herbalist on the serene planet Dantooine, specializing in the cultivation and utilization of medicinal plants and herbs. [PAWN_pronoun] studied the healing properties of various flora, creating herbal remedies and medicines to treat ailments. After leaving Dantooine, [PAWN_nameDef] found [PAWN_pronoun]self on a rimworld, where [PAWN_pronoun] continues [PAWN_possessive] herbalist practices, cultivating medicinal plants and providing essential medical support to colonies while longing for the tranquility of [PAWN_possessive] home world.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_KashyyykFruitGrower</defName>
+		<title>Kashyyyk Fruit Grower</title>
+		<titleShort>Fruit Grower</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled fruit grower on the lush planet Kashyyyk, cultivating exotic and nutritious fruits in the dense Wroshyr tree forests. [PAWN_pronoun] nurtured unique fruit-bearing plants, harvested vibrant crops, and contributed to Kashyyyk's agricultural prosperity. Stranded on a rimworld, [PAWN_nameDef] now applies [PAWN_possessive] expertise to cultivate alien fruits, managing orchards and providing essential sustenance to colonies while cherishing memories of [PAWN_possessive] home world.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_CorelliaCropFarmer</defName>
+		<title>Corellia Crop Farmer</title>
+		<titleShort>Crop Farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a dedicated crop farmer on the bustling planet Corellia, known for [PAWN_possessive] expertise in cultivating a wide variety of agricultural products. [PAWN_pronoun] managed vast fields, implemented innovative farming techniques, and contributed to Corellia's agricultural exports. Now on a rimworld, [PAWN_nameDef] continues [PAWN_possessive] farming legacy, growing crops and ensuring food security for colonies while reminiscing about the vibrant fields of [PAWN_possessive] home planet.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_HothHydroponicFarmer</defName>
+		<title>Hoth Hydroponic Farmer</title>
+		<titleShort>Hydroponic Farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a resourceful hydroponic farmer on the icy planet Hoth, pioneering indoor agriculture to survive the planet's extreme cold. [PAWN_pronoun] cultivated crops in controlled environments, optimized hydroponic systems, and provided sustenance to Hoth's inhabitants. Stranded on a rimworld, [PAWN_nameDef] adapts [PAWN_possessive] skills, managing hydroponic farms and ensuring the growth of vital crops while remembering the challenges of farming in the frozen tundra of [PAWN_possessive] home world.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_NabooAgriculturalist</defName>
+		<title>Naboo Agriculturalist</title>
+		<titleShort>Agriculturalist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled agriculturalist on the lush and vibrant planet Naboo, known for [PAWN_possessive] ability to cultivate diverse and exotic plants. [PAWN_pronoun] managed vast fields, nurtured unique flora, and contributed to Naboo's reputation as a haven of agriculture. Stranded on a rimworld, [PAWN_nameDef] applies [PAWN_possessive] expertise to grow alien crops, experimenting with new plant species while maintaining a connection to [PAWN_possessive] home world's natural beauty.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_KaminoanAquaculturist</defName>
+		<title>Kaminoan Aquaculturist</title>
+		<titleShort>Aquaculturist</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled aquaculturist on the water-covered planet of Kamino, specializing in the cultivation of aquatic life forms for sustenance. [PAWN_pronoun] managed vast underwater farms, nurtured diverse marine species, and ensured the survival of Kamino's population through innovative aquaculture techniques. Cast onto a rimworld, [PAWN_nameDef] applies [PAWN_possessive] expertise to manage aquatic farms, breeding and harvesting alien aquatic species while longing for the familiarity of [PAWN_possessive] home world's submerged ecosystems.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_RylothSpiceFarmer</defName>
+		<title>Ryloth Spice Farmer</title>
+		<titleShort>Spice Farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled spice farmer on the colorful planet Ryloth, cultivating exotic and valuable spices in the planet's unique environment. [PAWN_pronoun] managed spice plantations, nurtured rare and potent spice varieties, and contributed to Ryloth's economy through spice trade. Transported to a rimworld, [PAWN_nameDef] applies [PAWN_possessive] expertise to grow alien spices, carefully tending to valuable crops while recalling the vibrant hues of [PAWN_possessive] home world.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+</Defs>

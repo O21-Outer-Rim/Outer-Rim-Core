@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="LVF_BaseVehicle">
+		<defName>OuterRim_VehicleRace_V35Courier</defName>
+		<label>v-35 courier</label>
+		<description>A large landspeeder commonly used in the Outer Rim.</description>
+		<statBases>
+			<MarketValue>24000</MarketValue>
+			<MoveSpeed>5</MoveSpeed>
+			<ArmorRating_Blunt>1.7</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<CaravanRidingSpeedFactor>5.5</CaravanRidingSpeedFactor>
+			<CarryingCapacity>8400</CarryingCapacity>
+			<Mass>3000</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>Body</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>50.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<race>
+			<deathActionWorkerClass>VehiclesLite.DeathActionWorker_VehicleExplosion</deathActionWorkerClass>
+			<baseBodySize>7</baseBodySize>
+			<baseHealthScale>3</baseHealthScale>
+			<body>OuterRim_VehicleRepulsorlift</body>
+		</race>
+		<butcherProducts>
+			<OuterRim_Durasteel>2500</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>25</OuterRim_ComponentHypertech>
+		</butcherProducts>
+		<killedLeavings>
+			<OuterRim_Durasteel>750</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>5</OuterRim_ComponentHypertech>
+		</killedLeavings>
+		<comps>
+			<li Class="VehiclesLite.CompProperties_SoundLoop">
+				<sound>LVF_VehicleEngine_Ambience</sound>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>15</fuelConsumptionRate>
+				<fuelCapacity>450</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<initialFuelPercent>1</initialFuelPercent>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VehiclesLite.DefModExt_Vehicle">
+				<allowVechicleInCaravan>true</allowVechicleInCaravan>
+				<carryWeightInCaravan>8400</carryWeightInCaravan>
+				<explosionRadius>6</explosionRadius>
+				<durability>7500</durability>
+				<pawnCapacity>18</pawnCapacity>
+				<driverRequired>1</driverRequired>
+				<gunnerRequired>0</gunnerRequired>
+				<soundEnter>LVF_VehicleDoor</soundEnter>
+				<soundLeave>LVF_VehicleDoor</soundLeave>
+				<restEffectiveness>0.9</restEffectiveness>
+				<comfort>0.8</comfort>
+			</li>
+			<li Class="TabulaRasa.DefModExt_BigBox">
+				<directionBased>True</directionBased>
+				<westSize>5, 3</westSize>
+				<northSize>3, 5</northSize>
+				<eastSize>5, 3</eastSize>
+				<southSize>3, 5</southSize>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>OuterRim_VehicleBuilding_V35Courier</defName>
+		<label>v-35 courier</label>
+		<description>A large landspeeder commonly used in the Outer Rim.</description>
+		<graphicData>
+			<texPath>OuterRim/Vehicles/General/V35Courier</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(3,5)</size>
+		<statBases>
+			<MaxHitPoints>10000</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<costList>
+			<OuterRim_Durasteel>3000</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>35</OuterRim_ComponentHypertech>
+		</costList>
+		<designationCategory>LVF_DesignationCategory_Vehicle</designationCategory>
+		<researchPrerequisites />
+		<comps>
+			<li Class="VehiclesLite.CompProperties_BuildingToVehicle">
+				<vehicle>OuterRim_VehicleKind_V35Courier</vehicle>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="LVF_BaseVehiclePawnKind">
+		<defName>OuterRim_VehicleKind_V35Courier</defName>
+		<label>v-35 courier</label>
+		<race>OuterRim_VehicleRace_V35Courier</race>
+		<combatPower>0</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>OuterRim/Vehicles/General/V35Courier</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(7, 7)</drawSize>
+					<shadowData>
+						<volume>(2, 0.8, 2)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

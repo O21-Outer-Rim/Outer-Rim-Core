@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="OuterRim_JetpackBase" ParentName="OuterRim_ApparelFabricatedBase" Abstract="True">
+		<tickerType>Normal</tickerType>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_Jetpacks</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>0.3</Flammability>
+			<EquipDelay>6</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<costList>
+			<OuterRim_Durasteel>180</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
+		</costList>
+		<apparel>
+			<scoreOffset>4</scoreOffset>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>OuterRim/Apparel/Jetpack/Generic</wornGraphicPath>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<wornGraphicData>
+				<renderUtilityAsPack>false</renderUtilityAsPack>
+			</wornGraphicData>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>Jetpack</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_JetpackBase">
+		<defName>OuterRim_JT12Jetpack</defName>
+		<label>jt-12 jetpack</label>
+		<description>A model of jetpack commonly used by several factions including the Galactic Republic and Death Watch.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/JT12Jetpack/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>OuterRim/Apparel/JT12Jetpack/Apparel</wornGraphicPath>
+			<tags>
+				<li>RepublicJetpack</li>
+				<li>MandalorianJetpack</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_JT12JetpackJump</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
+		<defName>OuterRim_JT12JetpackJump</defName>
+		<iconPath>OuterRim/Apparel/JT12Jetpack/Apparel</iconPath>
+	</VFECore.Abilities.AbilityDef>
+
+	<ThingDef ParentName="OuterRim_JetpackBase">
+		<defName>OuterRim_IndustrialJetpack</defName>
+		<label>industrial jetpack</label>
+		<description>A model of jetpack commonly used by civilian contractors, particularly in building and starship construction. Due to the ease of access to the model, others also use these such as Mandalorians and bounty hunters.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/IndustrialJetpack/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>OuterRim/Apparel/IndustrialJetpack/Apparel</wornGraphicPath>
+			<tags>
+				<li>CivilianJetpack</li>
+				<li>BountyJetpack</li>
+				<li>MandalorianJetpack</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_IndustrialJetpackJump</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
+		<defName>OuterRim_IndustrialJetpackJump</defName>
+		<iconPath>OuterRim/Apparel/IndustrialJetpack/Apparel</iconPath>
+	</VFECore.Abilities.AbilityDef>
+
+	<ThingDef ParentName="OuterRim_JetpackBase">
+		<defName>OuterRim_MakeshiftJetpack</defName>
+		<label>makeshift jetpack</label>
+		<description>A jetpack that seems scrapped together from parts of others, nothing special to look at but does the job just as well. Bounty hunters will often build their own jetpacks so they can cheaply maintain them without having to pay others.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/MakeshiftJetpack/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>OuterRim/Apparel/MakeshiftJetpack/Apparel</wornGraphicPath>
+			<tags>
+				<li>CivilianJetpack</li>
+				<li>BountyJetpack</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_MakeshiftJetpackJump</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
+		<defName>OuterRim_MakeshiftJetpackJump</defName>
+		<iconPath>OuterRim/Apparel/MakeshiftJetpack/Apparel</iconPath>
+	</VFECore.Abilities.AbilityDef>
+
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>DoBills_OuterRim_HypertechFabricator</defName>
+		<label>work at hypertech fabricator</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>97</priorityInType>
+		<fixedBillGiverDefs>
+			<li>OuterRim_HypertechFabricator</li>
+			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_LightsaberForge</li>
+		</fixedBillGiverDefs>
+		<verb>fabricate at</verb>
+		<gerund>fabricating at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>

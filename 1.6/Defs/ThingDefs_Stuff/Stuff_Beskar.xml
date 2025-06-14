@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimMetal">
+		<defName>OuterRim_Beskar</defName>
+		<label>beskar</label>
+		<description>An extremely resiliant metal native to Mandalore, it is very rare to find used by someone who is not Mandalorian. While the pure version of this is much stronger, this more diluted variant of the material is still substantially better than most.</description>
+		<graphicData>
+			<color>(180, 180, 180)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>11.5</MarketValue>
+			<Mass>0.2</Mass>
+			<StuffPower_Armor_Sharp>1.35</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.45</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+		</statBases>
+		<deepCommonality>0.001</deepCommonality>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>2~3</deepLumpSizeRange>
+		<stuffProps>
+			<commonality>0.001</commonality>
+			<color>(180, 180, 180)</color>
+			<stuffAdjective>beskar</stuffAdjective>
+			<statFactors>
+				<MaxHitPoints>2.5</MaxHitPoints>
+				<Beauty>2</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>2.0</WorkToMake>
+				<WorkToBuild>2.0</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGCloneTrooper</defName>
+        <label>Clone Trooper</label>
+        <description>Splash screen based around Neronix17's custom battalion.</description>
+        <path>OuterRim/Backgrounds/CaptainSnack</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGThrawn</defName>
+        <label>Grand Admiral Thrawn</label>
+        <description>Splash screen featuring daddy blue.</description>
+        <path>OuterRim/Backgrounds/ThrawnNew</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGGalacticEmpire</defName>
+        <label>Galactic Empire</label>
+        <description>Generic splash screen for the Galactic Civil War.</description>
+        <path>OuterRim/Backgrounds/PlanetPockmark</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGGalacticRepublic</defName>
+        <label>Galactic Republic</label>
+        <description>Generic splash screen for the Clone Wars.</description>
+        <path>OuterRim/Backgrounds/PlanetVibrance</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGBespin</defName>
+        <label>Bespin</label>
+        <description>Simple background displaying the planet Bespin.</description>
+        <path>OuterRim/Backgrounds/Bespin</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGByss</defName>
+        <label>Byss</label>
+        <description>Simple background displaying the planet Byss.</description>
+        <path>OuterRim/Backgrounds/Byss</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGChandrilla</defName>
+        <label>Chandrilla</label>
+        <description>Simple background displaying the planet Chandrilla.</description>
+        <path>OuterRim/Backgrounds/Chandrilla</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGCorellia</defName>
+        <label>Corellia</label>
+        <description>Simple background displaying the planet Corellia.</description>
+        <path>OuterRim/Backgrounds/Corellia</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGCorfai</defName>
+        <label>Corfai</label>
+        <description>Simple background displaying the planet Corfai.</description>
+        <path>OuterRim/Backgrounds/Corfai</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGCoruscant</defName>
+        <label>Coruscant</label>
+        <description>Simple background displaying the planet Coruscant.</description>
+        <path>OuterRim/Backgrounds/Coruscant</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGLothal</defName>
+        <label>Lothal</label>
+        <description>Simple background displaying the planet Lothal.</description>
+        <path>OuterRim/Backgrounds/Lothal</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGMonCala</defName>
+        <label>Mon Cala</label>
+        <description>Simple background displaying the planet Mon Cala.</description>
+        <path>OuterRim/Backgrounds/MonCala</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+    <VBE.BackgroundImageDef>
+        <defName>OuterRim_BGTatooine</defName>
+        <label>Tatooine</label>
+        <description>Simple background displaying the planet Tatooine.</description>
+        <path>OuterRim/Backgrounds/Tatooine</path>
+        <iconPath>UI/Outpost21Logo</iconPath>
+    </VBE.BackgroundImageDef>
+	
+</Defs>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef ParentName="OuterRim_TraderBaseBase">
+		<defName>OuterRim_MoistureFarmers_Base</defName>
+		<faction>OuterRim_MoistureFarmers</faction>
+		<stockGenerators>
+			<!-- Weapons -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>OuterRim_AnyWeapons</tradeTag>
+				<thingDefCountRange>3~4</thingDefCountRange>
+				<countRange>3~6</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="OuterRim_TraderCaravanBase">
+		<defName>OuterRim_MoistureFarmers_Caravan</defName>
+		<faction>OuterRim_MoistureFarmers</faction>
+		<stockGenerators>
+			<!-- Weapons -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>OuterRim_AnyWeapons</tradeTag>
+				<thingDefCountRange>3~4</thingDefCountRange>
+				<countRange>3~6</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="OuterRim_TraderVisitorBase">
+		<defName>OuterRim_MoistureFarmers_Visitor</defName>
+		<faction>OuterRim_MoistureFarmers</faction>
+	</TraderKindDef>
+
+</Defs>

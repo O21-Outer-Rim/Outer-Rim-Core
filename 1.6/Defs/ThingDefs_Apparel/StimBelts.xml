@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_ApparelFabricatedBase" Name="OuterRim_StimBeltBase" Abstract="True">
+		<tickerType>Normal</tickerType>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_StimBelts</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.3</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<costList>
+			<OuterRim_Durasteel>180</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
+		</costList>
+		<apparel>
+			<scoreOffset>4</scoreOffset>
+			<wornGraphicPath>Things/Alpha/Alpha</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>StimBelt</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_StimBeltBase">
+		<defName>OuterRim_Belt_AdrenalAmplifier</defName>
+		<label>stim belt (adrenal amplifier)</label>
+		<description>A belt which keeps adrenaline pumping in the user at a higher rate than normal, allowing them to run faster.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_AdrenalineAmplifying</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<MoveSpeed>0.5</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>AdrenalAmplifier</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_StimBeltBase">
+		<defName>OuterRim_Belt_BloodCoagulator</defName>
+		<label>stim belt (blood coagulator)</label>
+		<description>A belt which coagulates the blood of the user around any wounds, dramatically slowing any bleeding.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_BloodCoagulator</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>BloodCoagulator</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.CompProperties_ApparelHediffs">
+				<hediffDefnames>
+					<li>OuterRim_BloodCoagulator</li>
+				</hediffDefnames>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<HediffDef>
+		<defName>OuterRim_BloodCoagulator</defName>
+		<label>belt (blood coagulator)</label>
+		<description>A belt which coagulates the blood of the user around any wounds, dramatically slowing any bleeding.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<totalBleedFactor>0.5</totalBleedFactor>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_StimBeltBase">
+		<defName>OuterRim_Belt_CardioRegulator</defName>
+		<label>stim belt (cardio regulator)</label>
+		<description>A belt which releases chemicals into the body if heartbeat or breathing become irregular, stabilizing them and giving the user a higher tolerance to pain.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_NerveAmplifying</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.50</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>CardioRegulator</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

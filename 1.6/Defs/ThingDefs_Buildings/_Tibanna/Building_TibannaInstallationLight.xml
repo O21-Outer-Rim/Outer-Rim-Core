@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_TibannaExtractorLight</defName>
+		<label>tibanna extractor (light)</label>
+		<description>Produces unrefined tibanna gas, must be placed outside of the coverage of any other Tibanna Extractors.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Installations/LightGas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.8,3.8)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<statBases>
+			<Mass>15</Mass>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<size>(3,3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<comps>
+			<li Class="OuterRimCore.CompProperties_ResourceExtractor">
+				<ticksPerPortion>360</ticksPerPortion>
+			</li>
+			<li Class="PipeSystem.CompProperties_ResourceStorage">
+				<pipeNet>OuterRim_TibannaNetwork</pipeNet>
+				<storageCapacity>5</storageCapacity>
+				<drawStorageBar>false</drawStorageBar>
+				<addStorageInfo>false</addStorageInfo>
+				<addTransferGizmo>false</addTransferGizmo>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>400</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>3</explosiveRadius>
+				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>OuterRimCore.PlaceWorker_ShowExtractableResources</li>
+		</placeWorkers>
+		<building>
+			<uninstallWork>1800</uninstallWork>
+			<buildingTags>
+			  <li>Production</li>
+			</buildingTags>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<costList>
+			<Steel>340</Steel>
+			<OuterRim_ComponentHypertech>8</OuterRim_ComponentHypertech>
+		</costList>
+		<researchPrerequisites>
+			<li>OuterRim_LightInstallations</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="OuterRimCore.DefModExt_ExtractableResource">
+				<thing>OuterRim_Tibanna</thing>
+			</li>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatTibanna</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

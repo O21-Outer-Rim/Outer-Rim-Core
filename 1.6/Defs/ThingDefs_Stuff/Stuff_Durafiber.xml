@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimFabric">
+		<defName>OuterRim_Durafiber</defName>
+		<label>durafiber</label>
+		<description>A strong flexible material that is commonly used to make environmental and vacuum suits. Often used as an undersuit material in militaries.</description>
+		<graphicData>
+			<color>(105, 105, 105)</color>
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Sharp>0.36</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.26</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+			<MaxHitPoints>80</MaxHitPoints>
+			<MarketValue>1.5</MarketValue>
+			<Mass>0.026</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<statFactors>
+				<Flammability>1.0</Flammability>
+				<Beauty>1</Beauty>
+			</statFactors>
+			<stuffAdjective>durafiber</stuffAdjective>
+			<color>(105, 105, 105)</color>
+			<commonality>1.4</commonality>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

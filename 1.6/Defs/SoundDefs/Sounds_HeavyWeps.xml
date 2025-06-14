@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_ATTBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/ATTBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/ATTBlaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/ATTBlaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_ATTLightBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/ATTLightBlaster01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_HeavyMinigunBlasterBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/BlasterMinigun01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/BlasterMinigun02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/BlasterMinigun03</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/BlasterMinigun04</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_FlameProjector</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/FlameProjector01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/FlameProjector02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/FlameProjector03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_RocketLauncher</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/HH12Launcher01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/HH12Launcher02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/HH12Launcher03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Shot_PulseCannon</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/PulseCannon01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/PulseCannon02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Heavy/PulseCannon03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

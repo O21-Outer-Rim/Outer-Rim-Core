@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Terrain -->
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_BoltedFloors</defName>
+		<label>bolted floor</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_BrickRoadPatterned</defName>
+		<label>patterned brick road</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_StoneHex</defName>
+		<label>hex brick road</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_PaneledFloorH</defName>
+		<label>paneled floor (h)</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_PaneledFloorV</defName>
+		<label>paneled floor (v)</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_VentedFloors</defName>
+		<label>vented floor</label>
+	</DesignatorDropdownGroupDef>
+
+	<!-- Production-->
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_Fabricators</defName>
+		<label>fabricators</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_MineralMiners</defName>
+		<label>mineral miners</label>
+	</DesignatorDropdownGroupDef>
+
+	<!-- Power -->
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_FusionReactors</defName>
+		<label>fusion reactors</label>
+	</DesignatorDropdownGroupDef>
+
+	<!-- Misc -->
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_HypertechTerminals</defName>
+		<label>hypertech terminals</label>
+	</DesignatorDropdownGroupDef>
+
+	<!-- Tibanna -->
+	
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_TibannaExtractors</defName>
+		<label>tibanna extractors</label>
+	</DesignatorDropdownGroupDef>
+
+	<!-- Security -->
+
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_LightLaserCannons</defName>
+		<label>light laser cannons</label>
+	</DesignatorDropdownGroupDef>
+
+	<!-- Storage -->
+	
+	<DesignatorDropdownGroupDef>
+		<defName>OuterRim_StorageCrates</defName>
+		<label>storage crates</label>
+	</DesignatorDropdownGroupDef>
+
+</Defs>

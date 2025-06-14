@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsStonePrettyBase">
+		<defName>OuterRim_BrickRoadPatternedStuffed</defName>
+		<label>patterned brick road</label>
+		<description>Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay.</description>
+		<texturePath>OuterRim/Terrain/PatternedBrickRoad</texturePath>
+		<obsoletes>
+			<li>OuterRim_BrickRoadPatterned_Sandstone</li>
+			<li>OuterRim_BrickRoadPatterned_Granite</li>
+			<li>OuterRim_BrickRoadPatterned_Limestone</li>
+			<li>OuterRim_BrickRoadPatterned_Slate</li>
+			<li>OuterRim_BrickRoadPatterned_Marble</li>
+			<li>OuterRim_BrickRoadPatterned_Duracrete</li>
+			<li>OuterRim_BrickRoadPatterned_Permacrete</li>
+			<li>OuterRim_BrickRoadPatterned_Plastcrete</li>
+		</obsoletes>
+	</StuffedFloors.FloorTypeDef>
+	
+</Defs>

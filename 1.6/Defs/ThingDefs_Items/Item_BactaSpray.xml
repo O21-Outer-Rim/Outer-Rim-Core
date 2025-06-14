@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="MedicineBase">
+		<defName>OuterRim_BactaSpray</defName>
+		<label>bacta spray</label>
+		<description>An advanced, fast acting medical spray produced from bacta which almost instantly seals and cures wounds, preventing bleeding out.</description>
+		<thingClass>Medicine</thingClass>
+		<graphicData>
+			<texPath>OuterRim/Items/BactaAmpule</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<stackLimit>25</stackLimit>
+		<tradeability>Buyable</tradeability>
+		<statBases>
+			<Mass>0.2</Mass>
+			<MarketValue>750</MarketValue>
+			<Flammability>0.3</Flammability>
+			<MedicalPotency>2.00</MedicalPotency>
+			<MedicalQualityMax>2.00</MedicalQualityMax>
+			<DeteriorationRate>0.1</DeteriorationRate>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>3000</WorkToMake>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Use bacta spray</useLabel>
+				<useDuration>300</useDuration>
+			</li>
+			<li Class="CompProperties_UseEffectPlaySound">
+				<soundOnUsed>MechSerumUsed</soundOnUsed>
+			</li>
+			<li Class="TabulaRasa.CompProperties_UseHealthPack">
+				<compClass>TabulaRasa.Comp_UseHealthPack</compClass>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf">
+				<compClass>CompUseEffect_DestroySelf</compClass>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>OR_Bacta</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

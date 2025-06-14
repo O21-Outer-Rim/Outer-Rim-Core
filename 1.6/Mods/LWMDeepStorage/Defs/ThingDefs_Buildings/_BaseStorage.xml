@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="OuterRimStorageBase" ParentName="OuterRimBuildingBase" Abstract="true">
+		<thingClass>Building_Storage</thingClass>
+		<size>(1,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<pathCost>150</pathCost>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<costStuffCount>30</costStuffCount>
+		<surfaceType>Item</surfaceType>
+		<fillPercent>0.4</fillPercent>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>30</Mass>
+			<WorkToBuild>600</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+			<li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+		</inspectorTabs>
+	</ThingDef>
+
+</Defs>

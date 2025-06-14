@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef>
+		<defName>OuterRim_Blaster</defName>
+		<label>blaster bolt</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<hediff>OuterRim_BlasterBurn</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Heat</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+	</DamageDef>
+	
+	<HediffDef ParentName="InjuryBase">
+		<defName>OuterRim_BlasterBurn</defName>
+		<label>blaster burn</label>
+		<description>A blaster burn.</description>
+		<labelNoun>a blaster burn</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>sutured</labelTendedWellInner>
+				<labelSolidTendedWell>set</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.10</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>blaster burn scar</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.01875</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<destroyedLabel>Burned off</destroyedLabel>
+			<destroyedOutLabel>Burned out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+	<DamageDef>
+		<defName>OuterRim_BlasterIon</defName>
+		<label>ion bolt</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death.</deathMessage>
+		<hediff>OuterRim_BlasterBurn</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Heat</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<additionalHediffs>
+			<li>
+				<hediff>OuterRim_IonBuildup</hediff>
+				<severityFixed>0.5</severityFixed>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+</Defs>

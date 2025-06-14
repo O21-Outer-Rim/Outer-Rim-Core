@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[@Name="BaseMechanoid"]/comps/li[@Class="CompProperties_Stunnable"]</xpath>
+		<match Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[@Name="BaseMechanoid"]/comps/li[@Class="CompProperties_Stunnable"]/affectedDamageDefs</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[@Name="BaseMechanoid"]/comps/li[@Class="CompProperties_Stunnable"]/affectedDamageDefs</xpath>
+				<value>
+					<li>OuterRim_Ion</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[@Name="BaseMechanoid"]/comps/li[@Class="CompProperties_Stunnable"]</xpath>
+				<value>
+					<affectedDamageDefs>
+						<li>OuterRim_Ion</li>
+					</affectedDamageDefs>
+				</value>
+			</nomatch>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name="BaseMechanoid"]/comps</xpath>
+			<value>
+				<li Class="CompProperties_Stunnable">
+					<affectedDamageDefs>
+						<li>OuterRim_Ion</li>
+					</affectedDamageDefs>
+				</li>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

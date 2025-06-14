@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Rifle">
+		<defName>OuterRim_AB75BoRifle</defName>
+		<label>ab-75 bo-rifle</label>
+		<description>he AB-75 bo-rifle was a model of bo-rifle manufactured by the Lasan-Malamut Firearms Corporation. Bo-rifles had a long tradition in the Lasat culture, and were used exclusively by the Lasan High Honor Guard.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/AB75BoRifle</texPath>
+		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<weaponTags Inherit="False">
+			<li>ORRifleRare</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_RifleRed</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>32</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>OuterRim_Shot_AB75BoRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

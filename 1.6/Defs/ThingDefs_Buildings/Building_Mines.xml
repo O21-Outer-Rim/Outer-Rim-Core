@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="OuterRimIEDBase" ParentName="OuterRimBuildingBase" Abstract="True">
+		<thingClass>Building_TrapExplosive</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconOffset>(0, 0)</uiIconOffset>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<stealable>false</stealable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<uiOrder>40</uiOrder>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>2400</WorkToBuild>
+			<Flammability>1</Flammability>
+			<Beauty>-2</Beauty>
+			<TrapSpringChance>1.0</TrapSpringChance>
+		</statBases>
+		<building>
+			<isTrap>true</isTrap>
+			<trapPeacefulWildAnimalsSpringChanceFactor>0.25</trapPeacefulWildAnimalsSpringChanceFactor>
+			<expandHomeArea>false</expandHomeArea>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+			<li>IEDs</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_NeverAdjacentTrap</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatSecurity</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- <ThingDef ParentName="OuterRimIEDBase">
+		<defName>OuterRim_Mine_Concussion</defName>
+		<label>hypertech mine (concussion)</label>
+		<description>A powerful mine designed to release a stunning explosion, doing no damage but disorienting people caught in it temporarily.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Mines/Mine_Concussion</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<wickTicks>6</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>4.9</specialDisplayRadius>
+	</ThingDef> -->
+
+	<ThingDef ParentName="OuterRimIEDBase">
+		<defName>OuterRim_Mine_CryoBan</defName>
+		<label>hypertech mine (cryoban)</label>
+		<description>A powerful mine designed to release a freezing burst of cryoban chemicals, causing anyone caught in it to be temporarily frozen in place.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Mines/Mine_CryoBan</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveDamageType>OuterRim_CryoBan</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<wickTicks>6</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>4.9</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimIEDBase">
+		<defName>OuterRim_Mine_Frag</defName>
+		<label>hypertech mine (frag)</label>
+		<description>A powerful mine designed to release an explosion filled with shrapnel.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Mines/Mine_Frag</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<Chemfuel>15</Chemfuel>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<wickTicks>6</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>4.9</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimIEDBase">
+		<defName>OuterRim_Mine_Ion</defName>
+		<label>hypertech mine (ion)</label>
+		<description>A powerful mine designed to release a burst of ion energy, particularly dangerous to droids and will severely fuck up RimWorlds overpowered mechanoids with an equally overpowered explosive reaction.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Mines/Mine_Ion</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>9.9</explosiveRadius>
+				<explosiveDamageType>OuterRim_Ion</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<wickTicks>6</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>9.9</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimIEDBase">
+		<defName>OuterRim_Mine_Plasma</defName>
+		<label>hypertech mine (plasma)</label>
+		<description>A powerful mine designed to release an explosion of plasma energy, causing burns without starting fires.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Mines/Mine_Plasma</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<OuterRim_Tibanna>20</OuterRim_Tibanna>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<wickTicks>6</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>4.9</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimIEDBase" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>OuterRim_Mine_Tox</defName>
+		<label>hypertech mine (tox)</label>
+		<description>A powerful mine designed to release a toxic explosion, poisoning anyone in range.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Mines/Mine_Poison</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<Wastepack>10</Wastepack>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>8.9</explosiveRadius>
+				<explosiveDamageType>ToxGas</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<postExplosionGasType>ToxGas</postExplosionGasType>
+				<wickTicks>6</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>10.9</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimIEDBase">
+		<defName>OuterRim_Mine_Sonic</defName>
+		<label>hypertech mine (sonic)</label>
+		<description>A powerful mine designed to release a burst of sonic waves doing blunt damage to those in range.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Mines/Mine_Sonic</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveDamageType>OuterRim_Sonic</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<wickTicks>6</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>4.9</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRimIEDBase">
+		<defName>OuterRim_Mine_Thermal</defName>
+		<label>hypertech mine (thermal)</label>
+		<description>A powerful mine designed to release a powerful explosion but only when intended, damage will not set it off.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/Mines/Mine_Thermal</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>30</OuterRim_Durasteel>
+			<OuterRim_Tibanna>15</OuterRim_Tibanna>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>8.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<wickTicks>6</wickTicks>
+			</li>
+		</comps>
+		<specialDisplayRadius>4.9</specialDisplayRadius>
+	</ThingDef>
+
+</Defs>
