@@ -73,7 +73,7 @@ namespace OuterRimCore
             });
         }
 
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode mode = DestroyMode.Vanish)
         {
             nextProduceTick = -1;
         }

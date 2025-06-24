@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<VFECore.Abilities.AbilityDef>
+	<VEF.Abilities.AbilityDef>
 		<defName>OuterRim_WhipcordStun</defName>
 		<label>whipcord stun</label>
-		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<abilityClass>VEF.Abilities.Ability_ShootProjectile</abilityClass>
 		<description>Fires out the whipcord intentionally hitting the target to stun them temporarily.</description>
 		<iconPath>OuterRim/Items/Vambraces/Vambrace_Whipcord</iconPath>
 		<showUndrafted>false</showUndrafted>
@@ -14,16 +14,16 @@
 		<cooldownTime>5000</cooldownTime>
 		<!-- <castSound>Outland_Spell_MysticismFail</castSound> -->
 		<modExtensions>
-			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+			<li Class="VEF.Abilities.AbilityExtension_Projectile">
 				<projectile>OuterRim_Bullet_WhipcordStun</projectile>
 			</li>
 		</modExtensions>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
-	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>OuterRim_Bullet_WhipcordStun</defName>
 		<label>whipcord stun</label>
-		<thingClass>VFECore.ExpandableProjectile</thingClass>
+		<thingClass>VEF.Weapons.ExpandableProjectile</thingClass>
 		<graphicData>
 			<texPath>OuterRim/Projectile/Proj_Whipcord</texPath>
 			<texPathFadeOut>OuterRim/Projectile/Proj_WhipcordFadeOut</texPathFadeOut>
@@ -46,6 +46,6 @@
 		<tickDamageRate>20</tickDamageRate>
 		<dealsDamageOnce>true</dealsDamageOnce>
 		<minDistanceToAffect>2</minDistanceToAffect>
-	</VFECore.ExpandableProjectileDef>
+	</VEF.Weapons.ExpandableProjectileDef>
 
 </Defs>

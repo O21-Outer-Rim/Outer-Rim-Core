@@ -50,7 +50,7 @@
 				<glowColor>(152,167,250,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Flickable" />
-			<li Class="VanillaStorytellersExpanded.CompProperties_QuestGiver">
+			<li Class="VEF.Storyteller.CompProperties_QuestGiver">
 				<floatOptionLabel>View contracts</floatOptionLabel>
 				<jobToGive>OuterRim_UseHoloTable</jobToGive>
 				<questGiver>OuterRim_HoloTable_QuestGiver</questGiver>
@@ -67,25 +67,25 @@
 
 	<JobDef>
 		<defName>OuterRim_UseHoloTable</defName>
-		<driverClass>VanillaStorytellersExpanded.JobDriver_UseQuestGiver</driverClass>
+		<driverClass>VEF.Storyteller.JobDriver_UseQuestGiver</driverClass>
 		<reportString>using holotable.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
 
-	<VanillaStorytellersExpanded.QuestGiverDef>
+	<VEF.Storyteller.QuestGiverDef>
 		<defName>OuterRim_HoloTable_QuestGiver</defName>
-		<currency Class="VanillaStorytellersExpanded.GoodwillCurrency">
+		<currency Class="VEF.Storyteller.GoodwillCurrency">
 			<costToAcceptQuest>0</costToAcceptQuest>
 			<minimunGoodwillRequirement>0</minimunGoodwillRequirement>
 		</currency>
-		<workerClass>VanillaStorytellersExpanded.QuestWorker</workerClass>
-		<windowClass>VanillaStorytellersExpanded.Window_Contracts</windowClass>
+		<workerClass>VEF.Storyteller.QuestWorker</workerClass>
+		<windowClass>VEF.Storyteller.Window_Contracts</windowClass>
 		<windowTitleKey>VEF.AvailableContracts</windowTitleKey>
 		<generateOnce>true</generateOnce>
 		<hideGeneratedQuestsInVanilla>true</hideGeneratedQuestsInVanilla>
 		<maximumAvailableQuestCount>10</maximumAvailableQuestCount>
 		<onlyOneReward>true</onlyOneReward>
 		<resetEveryTick>3600000</resetEveryTick> <!-- every 1 year -->
-	</VanillaStorytellersExpanded.QuestGiverDef>
+	</VEF.Storyteller.QuestGiverDef>
 
 </Defs>

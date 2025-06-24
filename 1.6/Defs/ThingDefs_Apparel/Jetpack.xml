@@ -72,7 +72,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_JT12JetpackJump</li>
 				</abilities>
@@ -80,10 +80,10 @@
 		</comps>
 	</ThingDef>
 
-	<VFECore.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
+	<VEF.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
 		<defName>OuterRim_JT12JetpackJump</defName>
 		<iconPath>OuterRim/Apparel/JT12Jetpack/Apparel</iconPath>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<ThingDef ParentName="OuterRim_JetpackBase">
 		<defName>OuterRim_IndustrialJetpack</defName>
@@ -102,7 +102,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_IndustrialJetpackJump</li>
 				</abilities>
@@ -110,10 +110,10 @@
 		</comps>
 	</ThingDef>
 
-	<VFECore.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
+	<VEF.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
 		<defName>OuterRim_IndustrialJetpackJump</defName>
 		<iconPath>OuterRim/Apparel/IndustrialJetpack/Apparel</iconPath>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<ThingDef ParentName="OuterRim_JetpackBase">
 		<defName>OuterRim_MakeshiftJetpack</defName>
@@ -131,7 +131,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_MakeshiftJetpackJump</li>
 				</abilities>
@@ -139,9 +139,9 @@
 		</comps>
 	</ThingDef>
 
-	<VFECore.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
+	<VEF.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
 		<defName>OuterRim_MakeshiftJetpackJump</defName>
 		<iconPath>OuterRim/Apparel/MakeshiftJetpack/Apparel</iconPath>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 </Defs>

@@ -45,6 +45,10 @@
 				<costDebuffPercent>0.02</costDebuffPercent>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 		</comps>
 		<inspectorTabs>
 			<li>TabulaRasa.ITab_Mining</li>
@@ -54,7 +58,6 @@
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 		</building>
 		<costList>
 			<Steel>350</Steel>
@@ -125,6 +128,10 @@
 				<costDebuffPercent>0.04</costDebuffPercent>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 		</comps>
 		<inspectorTabs>
 			<li>TabulaRasa.ITab_Mining</li>
@@ -134,7 +141,6 @@
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 		</building>
 		<costList>
 			<OuterRim_Durasteel>600</OuterRim_Durasteel>
@@ -206,6 +212,10 @@
 				<costDebuffPercent>0.06</costDebuffPercent>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 		</comps>
 		<inspectorTabs>
 			<li>TabulaRasa.ITab_Mining</li>
@@ -215,7 +225,6 @@
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 		</building>
 		<costList>
 			<OuterRim_Durasteel>1200</OuterRim_Durasteel>

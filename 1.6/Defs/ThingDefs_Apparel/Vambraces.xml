@@ -64,7 +64,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_FlameProjector</li>
 				</abilities>
@@ -85,7 +85,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_KnockoutDart</li>
 				</abilities>
@@ -106,7 +106,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_CryoBanProjector</li>
 				</abilities>
@@ -127,7 +127,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_WhipcordStun</li>
 					<li>OuterRim_WhipcordPull</li>
@@ -149,7 +149,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_ToxDart</li>
 				</abilities>

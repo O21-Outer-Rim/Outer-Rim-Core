@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
 
-using VFECore;
+using VEF.Weapons;
 
 namespace OuterRimCore
 {

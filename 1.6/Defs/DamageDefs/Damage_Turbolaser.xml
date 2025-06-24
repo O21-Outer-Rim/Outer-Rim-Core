@@ -4,7 +4,7 @@
 	<DamageDef ParentName="Bomb">
 		<defName>OuterRim_Turbolaser</defName>
 		<label>turbo laser</label>
-		<workerClass>NoCamShakeExplosions.DamageWorker_BombNoCamShake</workerClass>
+		<workerClass>VEF.Weapons.DamageWorker_BombNoCamShake</workerClass>
 		<hediff>OuterRim_BlasterBurn</hediff>
 		<armorCategory>Heat</armorCategory>
 		<deathMessage>{0} was obliterated by a turbolaser.</deathMessage>

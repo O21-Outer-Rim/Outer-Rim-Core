@@ -14,7 +14,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
 				<abilities>
 					<li>OuterRim_StealthField</li>
 				</abilities>

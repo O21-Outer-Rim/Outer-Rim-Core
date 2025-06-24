@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.6\\source\\outerrimcore\\patchoperations\\patchoperation_settingactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:patchoperations\\patchoperation_settingactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\comps\\comp_resourceextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:comps\\comp_resourceextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\projectiles\\projectile_expandablespray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:projectiles\\projectile_expandablespray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\questcurrency\\questcurrency_silver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:questcurrency\\questcurrency_silver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\utilities\\outerrimsoundsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:utilities\\outerrimsoundsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcorestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcorestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\abilities\\ability_pull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:abilities\\ability_pull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\abilities\\ability_jetpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:abilities\\ability_jetpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\hediffs\\hediff_ionbuildup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:hediffs\\hediff_ionbuildup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\hediffs\\hediff_ionbuildupexplosive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:hediffs\\hediff_ionbuildupexplosive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcoredefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcoredefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 231,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatchOperation_SettingActive.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\PatchOperations\\PatchOperation_SettingActive.cs",
+              "RelativeDocumentMoniker": "PatchOperations\\PatchOperation_SettingActive.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\PatchOperations\\PatchOperation_SettingActive.cs",
+              "RelativeToolTip": "PatchOperations\\PatchOperation_SettingActive.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:37:05.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuestCurrency_Silver.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\QuestCurrency\\QuestCurrency_Silver.cs",
+              "RelativeDocumentMoniker": "QuestCurrency\\QuestCurrency_Silver.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\QuestCurrency\\QuestCurrency_Silver.cs",
+              "RelativeToolTip": "QuestCurrency\\QuestCurrency_Silver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:36:26.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OuterRimSoundSetting.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Utilities\\OuterRimSoundSetting.cs",
+              "RelativeDocumentMoniker": "Utilities\\OuterRimSoundSetting.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Utilities\\OuterRimSoundSetting.cs",
+              "RelativeToolTip": "Utilities\\OuterRimSoundSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:36:00.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OuterRimCoreSettings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreSettings.cs",
+              "RelativeDocumentMoniker": "OuterRimCoreSettings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreSettings.cs",
+              "RelativeToolTip": "OuterRimCoreSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:35:50.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OuterRimCoreStartup.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreStartup.cs",
+              "RelativeDocumentMoniker": "OuterRimCoreStartup.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreStartup.cs",
+              "RelativeToolTip": "OuterRimCoreStartup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:35:48.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OuterRimCoreMod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreMod.cs",
+              "RelativeDocumentMoniker": "OuterRimCoreMod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreMod.cs",
+              "RelativeToolTip": "OuterRimCoreMod.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:34:20.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projectile_ExpandableSpray.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Projectiles\\Projectile_ExpandableSpray.cs",
+              "RelativeDocumentMoniker": "Projectiles\\Projectile_ExpandableSpray.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Projectiles\\Projectile_ExpandableSpray.cs",
+              "RelativeToolTip": "Projectiles\\Projectile_ExpandableSpray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:36:34.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comp_ResourceExtractor.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Comps\\Comp_ResourceExtractor.cs",
+              "RelativeDocumentMoniker": "Comps\\Comp_ResourceExtractor.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Comps\\Comp_ResourceExtractor.cs",
+              "RelativeToolTip": "Comps\\Comp_ResourceExtractor.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAnwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:31:56.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ability_Pull.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Abilities\\Ability_Pull.cs",
+              "RelativeDocumentMoniker": "Abilities\\Ability_Pull.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Abilities\\Ability_Pull.cs",
+              "RelativeToolTip": "Abilities\\Ability_Pull.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:31:57.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ability_Jetpack.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Abilities\\Ability_Jetpack.cs",
+              "RelativeDocumentMoniker": "Abilities\\Ability_Jetpack.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Abilities\\Ability_Jetpack.cs",
+              "RelativeToolTip": "Abilities\\Ability_Jetpack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:31:57.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OuterRimCoreDefOf.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreDefOf.cs",
+              "RelativeDocumentMoniker": "OuterRimCoreDefOf.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreDefOf.cs",
+              "RelativeToolTip": "OuterRimCoreDefOf.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:31:57.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Hediff_IonBuildupExplosive.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\Hediff_IonBuildupExplosive.cs",
+              "RelativeDocumentMoniker": "Hediffs\\Hediff_IonBuildupExplosive.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\Hediff_IonBuildupExplosive.cs",
+              "RelativeToolTip": "Hediffs\\Hediff_IonBuildupExplosive.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:31:57.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Hediff_IonBuildup.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\Hediff_IonBuildup.cs",
+              "RelativeDocumentMoniker": "Hediffs\\Hediff_IonBuildup.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\Hediff_IonBuildup.cs",
+              "RelativeToolTip": "Hediffs\\Hediff_IonBuildup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:31:57.264Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

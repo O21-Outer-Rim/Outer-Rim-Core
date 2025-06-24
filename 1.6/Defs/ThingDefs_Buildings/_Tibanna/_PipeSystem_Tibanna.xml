@@ -62,7 +62,7 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>35</WorkToBuild>
 		</statBases>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Conduits</drawStyleCategory>
 		<costList>
 			<OuterRim_Durasteel>1</OuterRim_Durasteel>
 		</costList>
@@ -128,7 +128,7 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>35</WorkToBuild>
 		</statBases>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Conduits</drawStyleCategory>
 		<costList>
 			<OuterRim_Durasteel>1</OuterRim_Durasteel>
 		</costList>
@@ -186,7 +186,6 @@
 			<Flammability>0.5</Flammability>
 			<Beauty>-2</Beauty>
 		</statBases>
-		<placingDraggableDimensions>0</placingDraggableDimensions>
 		<costList>
 			<Steel>15</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>

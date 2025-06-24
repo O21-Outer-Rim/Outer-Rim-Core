@@ -7,11 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
-using VFECore.Abilities;
+using VEF.Abilities;
 
 namespace OuterRimCore
 {
-	public class Ability_Jetpack : VFECore.Abilities.Ability
+	public class Ability_Jetpack : VEF.Abilities.Ability
 	{
 		public override void Cast(params GlobalTargetInfo[] targets)
 		{

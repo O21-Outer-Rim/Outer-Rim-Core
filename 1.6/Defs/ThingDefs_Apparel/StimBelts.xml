@@ -81,7 +81,7 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="VFECore.CompProperties_ApparelHediffs">
+			<li Class="VEF.Apparels.CompProperties_ApparelHediffs">
 				<hediffDefnames>
 					<li>OuterRim_BloodCoagulator</li>
 				</hediffDefnames>

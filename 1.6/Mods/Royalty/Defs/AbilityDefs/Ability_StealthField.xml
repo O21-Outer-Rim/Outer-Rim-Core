@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<VFECore.Abilities.AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
+	<VEF.Abilities.AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>OuterRim_StealthField</defName>
 		<label>stealth field</label>
-		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+		<abilityClass>VEF.Abilities.Ability_Blank</abilityClass>
 		<description>Use stealth field generator to temporarily turn invisible.</description>
 		<iconPath>OuterRim/Items/Belts/Belt_StealthFieldGen</iconPath>
 		<targetFlecks>
@@ -17,11 +17,11 @@
 		<cooldownTime>60000</cooldownTime>
 		<!-- <castSound>Outland_Spell_MysticismFail</castSound> -->
 		<modExtensions>
-			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+			<li Class="VEF.Abilities.AbilityExtension_Hediff">
 				<hediff>OuterRim_StealthFieldHediff</hediff>
 			</li>
 		</modExtensions>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>OuterRim_StealthFieldHediff</defName>

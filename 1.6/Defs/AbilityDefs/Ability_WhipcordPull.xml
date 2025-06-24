@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<VFECore.Abilities.AbilityDef>
+	<VEF.Abilities.AbilityDef>
 		<defName>OuterRim_WhipcordPull</defName>
 		<label>whipcord pull</label>
 		<abilityClass>OuterRimCore.Ability_Pull</abilityClass>
@@ -13,6 +13,6 @@
 		<targetMode>Pawn</targetMode>
 		<cooldownTime>10000</cooldownTime>
 		<!-- <castSound>Outland_Spell_MysticismFail</castSound> -->
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 </Defs>

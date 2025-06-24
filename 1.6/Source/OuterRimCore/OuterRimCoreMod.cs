@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
+using TabulaRasa;
 
 namespace OuterRimCore
 {
@@ -31,7 +32,7 @@ namespace OuterRimCore
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            LogUtil.LogMessage($"{CurrentVersion} ::");
+            Log.Message($":: Outer Rim - Core ::".Colorize(Color.cyan) + $" {CurrentVersion} ::");
 
             if (Prefs.DevMode)
             {
