@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
+
 	<ThingDef ParentName="OuterRim_MediumArmorFabricatedBase">
 		<defName>OuterRim_CompositeCuirass</defName>
 		<label>composite cuirass</label>
@@ -9,6 +9,9 @@
 			<texPath>OuterRim/Apparel/CompositeArmour/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<equippedStatOffsets>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
+		</equippedStatOffsets>
 		<apparel>
 			<tags Inherit="False">
 				<li>ORCompositeArmour</li>
@@ -18,22 +21,70 @@
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
-				<li> <weight>10</weight> <only>(184, 79, 72)</only> </li>
-				<li> <weight>10</weight> <only>(117, 70, 67)</only> </li>
-				<li> <weight>10</weight> <only>(117, 92, 67)</only> </li>
-				<li> <weight>10</weight> <only>(171, 124, 77)</only> </li>
-				<li> <weight>10</weight> <only>(158, 157, 100)</only> </li>
-				<li> <weight>10</weight> <only>(136, 158, 100)</only> </li>
-				<li> <weight>10</weight> <only>(132, 145, 110)</only> </li>
-				<li> <weight>10</weight> <only>(87, 130, 109)</only> </li>
-				<li> <weight>10</weight> <only>(107, 143, 135)</only> </li>
-				<li> <weight>10</weight> <only>(59, 59, 59)</only> </li>
-				<li> <weight>10</weight> <only>(104, 101, 130)</only> </li>
-				<li> <weight>10</weight> <only>(134, 115, 148)</only> </li>
-				<li> <weight>10</weight> <only>(168, 141, 163)</only> </li>
-				<li> <weight>10</weight> <only>(130, 130, 130)</only> </li>
-				<li> <weight>10</weight> <only>(179, 179, 179)</only> </li>
-				<li> <weight>10</weight> <only>(92, 92, 92)</only> </li>
+				<li>
+					<weight>10</weight>
+					<only>(184, 79, 72)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(117, 70, 67)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(117, 92, 67)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(171, 124, 77)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(158, 157, 100)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(136, 158, 100)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(132, 145, 110)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(87, 130, 109)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(107, 143, 135)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(59, 59, 59)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(104, 101, 130)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(134, 115, 148)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(168, 141, 163)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(130, 130, 130)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(179, 179, 179)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(92, 92, 92)</only>
+				</li>
 			</options>
 		</colorGenerator>
 	</ThingDef>
@@ -47,6 +98,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+		<equippedStatOffsets>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
+		</equippedStatOffsets>
 		<apparel>
 			<tags Inherit="False">
 				<li>ORCompositeArmour</li>
@@ -56,22 +110,70 @@
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
-				<li> <weight>10</weight> <only>(184, 79, 72)</only> </li>
-				<li> <weight>10</weight> <only>(117, 70, 67)</only> </li>
-				<li> <weight>10</weight> <only>(117, 92, 67)</only> </li>
-				<li> <weight>10</weight> <only>(171, 124, 77)</only> </li>
-				<li> <weight>10</weight> <only>(158, 157, 100)</only> </li>
-				<li> <weight>10</weight> <only>(136, 158, 100)</only> </li>
-				<li> <weight>10</weight> <only>(132, 145, 110)</only> </li>
-				<li> <weight>10</weight> <only>(87, 130, 109)</only> </li>
-				<li> <weight>10</weight> <only>(107, 143, 135)</only> </li>
-				<li> <weight>10</weight> <only>(59, 59, 59)</only> </li>
-				<li> <weight>10</weight> <only>(104, 101, 130)</only> </li>
-				<li> <weight>10</weight> <only>(134, 115, 148)</only> </li>
-				<li> <weight>10</weight> <only>(168, 141, 163)</only> </li>
-				<li> <weight>10</weight> <only>(130, 130, 130)</only> </li>
-				<li> <weight>10</weight> <only>(179, 179, 179)</only> </li>
-				<li> <weight>10</weight> <only>(92, 92, 92)</only> </li>
+				<li>
+					<weight>10</weight>
+					<only>(184, 79, 72)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(117, 70, 67)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(117, 92, 67)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(171, 124, 77)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(158, 157, 100)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(136, 158, 100)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(132, 145, 110)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(87, 130, 109)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(107, 143, 135)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(59, 59, 59)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(104, 101, 130)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(134, 115, 148)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(168, 141, 163)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(130, 130, 130)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(179, 179, 179)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(92, 92, 92)</only>
+				</li>
 			</options>
 		</colorGenerator>
 	</ThingDef>
@@ -93,24 +195,72 @@
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
-				<li> <weight>10</weight> <only>(184, 79, 72)</only> </li>
-				<li> <weight>10</weight> <only>(117, 70, 67)</only> </li>
-				<li> <weight>10</weight> <only>(117, 92, 67)</only> </li>
-				<li> <weight>10</weight> <only>(171, 124, 77)</only> </li>
-				<li> <weight>10</weight> <only>(158, 157, 100)</only> </li>
-				<li> <weight>10</weight> <only>(136, 158, 100)</only> </li>
-				<li> <weight>10</weight> <only>(132, 145, 110)</only> </li>
-				<li> <weight>10</weight> <only>(87, 130, 109)</only> </li>
-				<li> <weight>10</weight> <only>(107, 143, 135)</only> </li>
-				<li> <weight>10</weight> <only>(59, 59, 59)</only> </li>
-				<li> <weight>10</weight> <only>(104, 101, 130)</only> </li>
-				<li> <weight>10</weight> <only>(134, 115, 148)</only> </li>
-				<li> <weight>10</weight> <only>(168, 141, 163)</only> </li>
-				<li> <weight>10</weight> <only>(130, 130, 130)</only> </li>
-				<li> <weight>10</weight> <only>(179, 179, 179)</only> </li>
-				<li> <weight>10</weight> <only>(92, 92, 92)</only> </li>
+				<li>
+					<weight>10</weight>
+					<only>(184, 79, 72)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(117, 70, 67)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(117, 92, 67)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(171, 124, 77)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(158, 157, 100)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(136, 158, 100)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(132, 145, 110)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(87, 130, 109)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(107, 143, 135)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(59, 59, 59)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(104, 101, 130)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(134, 115, 148)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(168, 141, 163)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(130, 130, 130)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(179, 179, 179)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(92, 92, 92)</only>
+				</li>
 			</options>
 		</colorGenerator>
 	</ThingDef>
-	
+
 </Defs>

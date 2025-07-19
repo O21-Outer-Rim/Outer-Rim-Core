@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.6\\source\\outerrimcore\\outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.6\\source\\outerrimcore\\patchoperations\\patchoperation_settingactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\patchoperations\\patchoperation_settingactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:patchoperations\\patchoperation_settingactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,8 +74,7 @@
               "RelativeToolTip": "PatchOperations\\PatchOperation_SettingActive.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAqwB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:37:05.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T15:37:05.518Z"
             },
             {
               "$type": "Document",
