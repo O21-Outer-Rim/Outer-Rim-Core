@@ -9,7 +9,6 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<canOverlapZones>false</canOverlapZones>
-		<costStuffCount>30</costStuffCount>
 		<surfaceType>Item</surfaceType>
 		<fillPercent>0.4</fillPercent>
 		<drawGUIOverlay>true</drawGUIOverlay>
