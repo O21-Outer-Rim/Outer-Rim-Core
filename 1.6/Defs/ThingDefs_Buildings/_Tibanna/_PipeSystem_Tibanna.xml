@@ -86,9 +86,10 @@
 			<li>OuterRim_HypertechFabrication</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>OuterRim_SubCatTibanna</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Tibanna</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -152,9 +153,10 @@
 			<li>OuterRim_HypertechFabrication</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>OuterRim_SubCatTibanna</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Tibanna</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -211,9 +213,10 @@
 			<li>OuterRim_HypertechFabrication</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>OuterRim_SubCatTibanna</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Tibanna</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -290,9 +293,10 @@
 			<li>OuterRim_HypertechFabrication</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>OuterRim_SubCatTibanna</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Tibanna</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -370,9 +374,10 @@
 			<li>OuterRim_HypertechFabrication</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>OuterRim_SubCatTibanna</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Tibanna</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>

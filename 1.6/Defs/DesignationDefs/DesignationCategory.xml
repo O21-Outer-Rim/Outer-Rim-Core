@@ -8,8 +8,10 @@
 		<specialDesignatorClasses>
 			<li>Designator_Cancel</li>
 			<li>Designator_Deconstruct</li>
-			<li>TabulaRasa.Designator_SubCategory</li>
 		</specialDesignatorClasses>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay" />
+		</modExtensions>
 	</DesignationCategoryDef>
 
 </Defs>

@@ -40,9 +40,10 @@
 			<li>PlaceWorker_NeverAdjacentTrap</li>
 		</placeWorkers>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>OuterRim_SubCatSecurity</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Security</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
