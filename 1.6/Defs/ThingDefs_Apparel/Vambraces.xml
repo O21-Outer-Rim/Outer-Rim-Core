@@ -4,6 +4,7 @@
 	<ThingDef ParentName="OuterRim_ApparelFabricatedBase" Name="OuterRim_VambraceBase" Abstract="True">
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 			<color>(255, 255, 255)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
