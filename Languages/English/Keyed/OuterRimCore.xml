@@ -11,6 +11,27 @@
 	<OuterRim.TibannaValve>Switches tibanna flow on/off</OuterRim.TibannaValve>
 	<OuterRim.TibannaValveDesc>Switches tibanna flow on/off. A pawn will come open/close the valve.</OuterRim.TibannaValveDesc>
 
+	<!-- Bacta -->
+	<OuterRim.EnterBactaPod>enter bacta pod</OuterRim.EnterBactaPod>
+	<OuterRim.NotEnoughBactaForCycle>not enough bacta in connected storage for a full cycle</OuterRim.NotEnoughBactaForCycle>
+	<OuterRim.AlreadyOccupied>bacta pod already occupied</OuterRim.AlreadyOccupied>
+	<OuterRim.PawnHasNoWoundsToHeal>pawn has no wounds to heal</OuterRim.PawnHasNoWoundsToHeal>
+	<OuterRim.PawnIsNotOrganic>pawn is not an organic lifeform</OuterRim.PawnIsNotOrganic>
+	<OuterRim.CurrentState>Current State:</OuterRim.CurrentState>
+	<OuterRim.State_Inactive>Inactive</OuterRim.State_Inactive>
+	<OuterRim.State_Unpowered>Not Enough Power</OuterRim.State_Unpowered>
+	<OuterRim.State_AwaitingInput>Not Enough Bacta</OuterRim.State_AwaitingInput>
+	<OuterRim.State_Working>Working ({0} remaining)</OuterRim.State_Working>
+	<OuterRim.State_Finished>Complete!</OuterRim.State_Finished>
+	<OuterRim.State_Invalid>ERROR</OuterRim.State_Invalid>
+	<OuterRim.WoundsRemaining>Wounds Remaining: {0} ({1} more cycles)</OuterRim.WoundsRemaining>
+	<OuterRim.BactaUsedPerCycle>Bacta Used Per Cycle: {0} {1}</OuterRim.BactaUsedPerCycle>
+	<OuterRim.BactaTotalNeeded>Total Bacta Needed: {0}</OuterRim.BactaTotalNeeded>
+	<OuterRim.BactaPodEjectLabel>Eject Pawn Early</OuterRim.BactaPodEjectLabel>
+	<OuterRim.BactaPodEjectDesc>Ejects the pawn before they are fully healed. This will waste any resources used for the current cycle, which usually isn't much.</OuterRim.BactaPodEjectDesc>
+	<OuterRim.CarryPawnToBacta>carry {0} to bacta pod</OuterRim.CarryPawnToBacta>
+	<OuterRim.CannotCarryToBacta>cannot carry {0} to bacta pod</OuterRim.CannotCarryToBacta>
+
 	<!-- Force Users -->
 	<OuterRim.AbilityStatsForceEnergy>Force Energy</OuterRim.AbilityStatsForceEnergy>
 	<OuterRim.AbilityDisableReasonForceEnergyLack>Doesn't have enough force energy left</OuterRim.AbilityDisableReasonForceEnergyLack>

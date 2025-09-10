@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_BactaBreeder</defName>
+		<label>bacta breeder</label>
+		<description>Generates a field that stimulates the process in bacta causing it to slowly generate more of itself.</description>
+		<thingClass>OuterRimCore.Building_BactaBreeder</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>OuterRim/Building/BactaBreeder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5, 2.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<tickerType>Normal</tickerType>
+		<rotatable>False</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<costList>
+			<OuterRim_Durasteel>300</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>8</OuterRim_ComponentHypertech>
+			<OuterRim_Bacta>30</OuterRim_Bacta>
+		</costList>
+		<comps>
+			<li Class="PipeSystem.CompProperties_ResourceTrader">
+				<pipeNet>OuterRim_BactaNetwork</pipeNet>
+				<consumptionPerTick>-0.002</consumptionPerTick>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>OuterRim_HealingHypertech</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Resources</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

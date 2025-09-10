@@ -91,15 +91,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Comps\CompProperties_BactaPod.cs" />
     <Compile Include="Abilities\Ability_Pull.cs" />
     <Compile Include="Abilities\Ability_Jetpack.cs" />
+    <Compile Include="FloatMenus\FloatMenuOptionProvider_CarryToBactaPod.cs" />
+    <Compile Include="Buildings\Building_BactaBreeder.cs" />
+    <Compile Include="Comps\CompProperties_BactaPod.cs" />
     <Compile Include="Comps\CompProperties_ResourceExtractor.cs" />
     <Compile Include="Comps\Comp_ResourceExtractor.cs" />
-    <None Include="Comps\Comp_BactaPod.cs" />
+    <Compile Include="Comps\Comp_BactaPod.cs" />
+    <Compile Include="Data\CycleState.cs" />
+    <Compile Include="Hediffs\HediffCompProperties_SelfDisintegrator.cs" />
+    <Compile Include="Hediffs\HediffComp_SelfDisintegrator.cs" />
     <Compile Include="Hediffs\Hediff_Carbonite.cs" />
     <Compile Include="AI\JobDriver_FrozenInCarbonite.cs" />
     <Compile Include="Hediffs\Hediff_IonBuildupExplosive.cs" />
+    <Compile Include="AI\JobDriver_CarryToBactaPod.cs" />
+    <Compile Include="AI\JobDriver_EnterBactaPod.cs" />
     <Compile Include="ModExtensions\DefModExt_TrainingCurve.cs" />
     <Compile Include="Hediffs\Hediff_IonBuildup.cs" />
     <Compile Include="Hediffs\Hediff_Training.cs" />

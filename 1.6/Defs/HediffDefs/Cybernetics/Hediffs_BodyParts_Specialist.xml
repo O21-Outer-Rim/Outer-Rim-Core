@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>OuterRim_CyberneticsSpecialist</defName>
+		<label>cybernetics (specialist)</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
+
+	<!-- Cybernetic - Base Thing -->
+
+	<ThingDef Name="OuterRim_BodyPartCyberneticSpecialistBase" ParentName="OuterRim_BodyPartBase" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<thingCategories>
+			<li>OuterRim_CyberneticsSpecialist</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticGeneric</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<tradeTags>
+			<li>ORSpecialist</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>ORSpecialist</li>
+		</techHediffsTags>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>OuterRim_UnfinishedCybernetic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>OuterRim_Cybernetics</researchPrerequisite>
+			<recipeUsers>
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<displayPriority>300</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Cybernetic - Self Disintegrator -->
+
+	<HediffDef ParentName="OuterRim_ImplantHediffBase">
+		<defName>OuterRim_SelfDisintegrator</defName>
+		<label>self disintegrator</label>
+		<labelNoun>a self disintegrator</labelNoun>
+		<description>An installed self disintegrator.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_SelfDisintegrator</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OuterRim_SelfDisintegrator</spawnThingOnRemoved>
+		<comps>
+			<li Class="OuterRimCore.HediffCompProperties_SelfDisintegrator">
+				<!-- TODO: Replace acid effect with disintegration effect. -->
+				<fleck>AcidCloud</fleck>
+				<moteCount>6</moteCount>
+				<moteOffsetRange>0.25~0.75</moteOffsetRange>
+				<filth>Filth_Slime</filth>
+				<sound>DeathAcidifier</sound>
+				<injuryCreatedOnDeath>ChemicalBurn</injuryCreatedOnDeath>
+				<injuryCount>3~6</injuryCount>
+				<whitelist>
+					<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_Holocron</li>
+				</whitelist>
+				<blacklist>
+					<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_Lightsaber</li>
+					<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_Saberstaff</li>
+					<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_Saberpike</li>
+				</blacklist>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartBase">
+		<defName>OuterRim_SelfDisintegrator</defName>
+		<label>self disintegrator</label>
+		<description>A chest implant for preventing capture by the enemy. Upon incapacitation of the user, the device implodes and disintegrates the user completely, sometimes destroying equipment they had on them but otherwise dropping it where it is. These devices are illegal in the core systems, but we're not in the core systems.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallSelfDisintegrator</RecipeDef>
+		</descriptionHyperlinks>
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(189,169,118)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>400</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>OuterRim_CyberneticsSpecialist</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ORSpecialist</li>
+			<li>ORSelfDisintegrator</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>ORSelfDisintegrator</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallImplantBase">
+		<defName>OuterRim_InstallSelfDisintegrator</defName>
+		<label>install self disintegrator</label>
+		<description>Install a self disintegrator.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_SelfDisintegrator</ThingDef>
+			<HediffDef>OuterRim_SelfDisintegrator</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing self disintegrator.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_SelfDisintegrator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_SelfDisintegrator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_SelfDisintegrator</addsHediff>
+	</RecipeDef>
+	
+</Defs>

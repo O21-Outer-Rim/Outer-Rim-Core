@@ -20,10 +20,13 @@ namespace OuterRimCore
         public static DamageDef 
             OuterRim_Ion;
 
-        public static JobDef 
+        public static JobDef
+            OuterRim_CarryToBactaPod,
+            OuterRim_EnterBactaPod,
             OuterRim_FrozenInCarbonite;
 
         public static ThingDef 
+            OuterRim_BactaPod,
             OuterRim_JetpackJump_Flyer;
 
         public static SoundDef 

@@ -31,6 +31,41 @@
 		</links>
 	</TabulaRasa.UpdateDef> -->
 
+	<!-- <TabulaRasa.UpdateDef>
+		<defName>OuterRim_Core_12092025</defName>
+		<date>2025/09/12</date>
+		<banner>OuterRim/UpdateBanner</banner>
+		<contentList>
+			<li>
+				<header>Medical Systems</header>
+				<text>Big update adding a lot of new content! Yaay bloat!
+- Bacta Pod and Bacta Network with Bacta production method using a Bacta Breeder building. Bacta.
+- Bacta Spray now has a recipe using Bacta.
+- Cybernetics with cheap makeshift options, more expensive advanced options, and a number of specialist cybernetics for different purposes.
+- Cybernetics are affected by ion, they'll stop functioning entirely for the duration of the ion buildup effect.</text>
+			</li>
+			<li>
+				<header>Mineral Miner</header>
+				<text>Slight overhaul to mineral miners, overall should result in more consistent output and better flexibility in placement.
+-Mineral miners now do not prevent building nearby others and instead decrease efficiency depending on proximity and quantity of others, this is visible with a radius marked around them when selected or when placing. 
+- A debuff of 20% per material is only applied when narrowing the drilling down to less than 5 materials. Instead of adding a smaller debuff per material, which was an issue when you had several mods adding new ones.
+- Base time for cycles has increased, but output quantity has too.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919227155</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef> -->
+
 	<TabulaRasa.UpdateDef>
 		<defName>OuterRim_Core_04042024</defName>
 		<date>2024/04/04</date>

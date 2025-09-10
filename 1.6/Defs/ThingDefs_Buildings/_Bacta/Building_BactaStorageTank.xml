@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_BactaStorageTank</defName>
+		<label>bacta tank</label>
+		<description>Stores bacta for later use.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>OuterRim/Building/BactaStorageTank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5, 2.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<tickerType>Normal</tickerType>
+		<rotatable>False</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<costList>
+			<OuterRim_Durasteel>70</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<comps>
+			<li Class="PipeSystem.CompProperties_ResourceStorage">
+				<pipeNet>OuterRim_BactaNetwork</pipeNet>
+				<storageCapacity>200</storageCapacity>
+				<barSize>(1.3, 0.25)</barSize>
+				<margin>0.1</margin>
+				<centerOffset>(0.5, 0, 0)</centerOffset>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>OuterRim_HealingHypertech</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Resources</li>
+					<li>Storage</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

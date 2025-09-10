@@ -62,7 +62,8 @@
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
 				<subcategories>
-					<li>Tibanna</li>
+					<li>Resources</li>
+					<li>Storage</li>
 				</subcategories>
 			</li>
 		</modExtensions>

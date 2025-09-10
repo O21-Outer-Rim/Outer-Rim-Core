@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>OuterRim_Bacta</defName>
+		<label>bacta</label>
+		<description>A thick, gelatinous substance with seemingly magical healing properties. It's not much use in the field but when a patient is submerged in it for extended periods it can heal most if not all injuries.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/BactaTank</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<MarketValue>1.0</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

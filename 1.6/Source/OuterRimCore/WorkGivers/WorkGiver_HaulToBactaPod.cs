@@ -23,10 +23,6 @@ namespace OuterRimCore
 
 		public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
 		{
-			if (!ModLister.CheckIdeology("Biosculpting"))
-			{
-				return false;
-			}
 			if (t.IsForbidden(pawn) || !pawn.CanReserve(t, 1, -1, null, forced))
 			{
 				return false;
@@ -35,8 +31,8 @@ namespace OuterRimCore
 			{
 				return false;
 			}
-			Comp_BactaPod compBiosculpterPod = t.TryGetComp<Comp_BactaPod>();
-			if (compBiosculpterPod == null || !compBiosculpterPod.PowerOn || compBiosculpterPod.State != BiosculpterPodState.LoadingNutrition)
+			Comp_BactaPod compBactaPod = t.TryGetComp<Comp_BactaPod>();
+			if (compBactaPod == null || !compBactaPod.Powered || compBactaPod.cycleState != CycleState.Inactive)
 			{
 				return false;
 			}
@@ -44,28 +40,17 @@ namespace OuterRimCore
 			{
 				return false;
 			}
-			if (this.FindNutrition(pawn, compBiosculpterPod).Thing == null)
-			{
-				JobFailReason.Is("NoFood".Translate(), null);
-				return false;
-			}
 			return true;
 		}
 
 		public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
 		{
-			Comp_BactaPod compBiosculpterPod = t.TryGetComp<Comp_BactaPod>();
-			if (compBiosculpterPod == null)
+			Comp_BactaPod compBactaPod = t.TryGetComp<Comp_BactaPod>();
+			if (compBactaPod == null)
 			{
 				return null;
 			}
-			ThingCount thingCount = this.FindNutrition(pawn, compBiosculpterPod);
-			if (thingCount.Thing == null)
-			{
-				return null;
-			}
-			Job job = HaulAIUtility.HaulToContainerJob(pawn, thingCount.Thing, t);
-			job.count = Mathf.Min(job.count, thingCount.Count);
+			Job job = BactaUtil.HaulToBactaPodJob(pawn, t);
 			return job;
 		}
 	}

@@ -13,12 +13,15 @@ namespace OuterRimCore
     {
         public bool verboseLogging = false;
 
+        public bool disintegrationDestroys = false;
+
         public OuterRimSoundSetting_BigThreat soundPack_bigThreat = OuterRimSoundSetting_BigThreat.Vanilla;
 
         public override void ExposeData()
         {
             base.ExposeData();
 
+            Scribe_Values.Look(ref disintegrationDestroys, "disintegrationDestroys");
             Scribe_Values.Look(ref soundPack_bigThreat, "soundPack", OuterRimSoundSetting_BigThreat.Vanilla);
         }
 

@@ -42,7 +42,7 @@
 			</li>
 			<li Class="TabulaRasa.CompProperties_Mining">
 				<tickCostMultiplier>4</tickCostMultiplier>
-				<costDebuffPercent>0.02</costDebuffPercent>
+				<costDebuffPercent>0.0</costDebuffPercent>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AmbientSound">
@@ -53,9 +53,6 @@
 		<inspectorTabs>
 			<li>TabulaRasa.ITab_Mining</li>
 		</inspectorTabs>
-		<placeWorkers>
-			<li>TabulaRasa.PlaceWorker_PlaceNearThing</li>
-		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
@@ -68,17 +65,9 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_PlaceNearThing">
-				<radius>16</radius>
-				<thingDefs>
-					<li>OuterRim_MineralMinerLight</li>
-					<li>OuterRim_MineralMinerMedium</li>
-					<li>OuterRim_MineralMinerHeavy</li>
-				</thingDefs>
-				<blacklist>True</blacklist>
-			</li>
 			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
 				<subcategories>
+					<li>Resources</li>
 					<li>Production</li>
 				</subcategories>
 			</li>
@@ -126,7 +115,7 @@
 			</li>
 			<li Class="TabulaRasa.CompProperties_Mining">
 				<tickCostMultiplier>2.5</tickCostMultiplier>
-				<costDebuffPercent>0.04</costDebuffPercent>
+				<costDebuffPercent>0.0</costDebuffPercent>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AmbientSound">
@@ -137,9 +126,6 @@
 		<inspectorTabs>
 			<li>TabulaRasa.ITab_Mining</li>
 		</inspectorTabs>
-		<placeWorkers>
-			<li>TabulaRasa.PlaceWorker_PlaceNearThing</li>
-		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
@@ -152,17 +138,9 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_PlaceNearThing">
-				<radius>16</radius>
-				<thingDefs>
-					<li>OuterRim_MineralMinerLight</li>
-					<li>OuterRim_MineralMinerMedium</li>
-					<li>OuterRim_MineralMinerHeavy</li>
-				</thingDefs>
-				<blacklist>True</blacklist>
-			</li>
 			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
 				<subcategories>
+					<li>Resources</li>
 					<li>Production</li>
 				</subcategories>
 			</li>
@@ -211,7 +189,7 @@
 			</li>
 			<li Class="TabulaRasa.CompProperties_Mining">
 				<tickCostMultiplier>1.0</tickCostMultiplier>
-				<costDebuffPercent>0.06</costDebuffPercent>
+				<costDebuffPercent>0.0</costDebuffPercent>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AmbientSound">
@@ -222,9 +200,6 @@
 		<inspectorTabs>
 			<li>TabulaRasa.ITab_Mining</li>
 		</inspectorTabs>
-		<placeWorkers>
-			<li>TabulaRasa.PlaceWorker_PlaceNearThing</li>
-		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
@@ -237,17 +212,9 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_PlaceNearThing">
-				<radius>16</radius>
-				<thingDefs>
-					<li>OuterRim_MineralMinerLight</li>
-					<li>OuterRim_MineralMinerMedium</li>
-					<li>OuterRim_MineralMinerHeavy</li>
-				</thingDefs>
-				<blacklist>True</blacklist>
-			</li>
 			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
 				<subcategories>
+					<li>Resources</li>
 					<li>Production</li>
 				</subcategories>
 			</li>

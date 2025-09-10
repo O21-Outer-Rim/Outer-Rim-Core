@@ -24,6 +24,22 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>3000</WorkToMake>
 		</statBases>
+		<costList>
+			<OuterRim_Bacta>10</OuterRim_Bacta>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<recipeMaker>
+			<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+			<workSkill>Intellectual</workSkill>
+			<recipeUsers>
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<researchPrerequisite>OuterRim_HealingHypertech</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+				<Intellectual>6</Intellectual>
+			</skillRequirements>
+		</recipeMaker>
 		<comps>
 			<li Class="CompProperties_Usable">
 				<useJob>UseItem</useJob>
