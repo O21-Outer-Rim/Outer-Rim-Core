@@ -43,6 +43,12 @@
 			</recipeUsers>
 			<displayPriority>300</displayPriority>
 		</recipeMaker>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>OuterRim_Ion</damageDefIncoming>
+				<createHediff>BrainShock</createHediff>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<!-- Cybernetic - Self Disintegrator -->
@@ -58,22 +64,20 @@
 		<spawnThingOnRemoved>OuterRim_SelfDisintegrator</spawnThingOnRemoved>
 		<comps>
 			<li Class="OuterRimCore.HediffCompProperties_SelfDisintegrator">
-				<!-- TODO: Replace acid effect with disintegration effect. -->
-				<fleck>AcidCloud</fleck>
+				<fleck>BlastEMP</fleck>
 				<moteCount>6</moteCount>
 				<moteOffsetRange>0.25~0.75</moteOffsetRange>
-				<filth>Filth_Slime</filth>
+				<filth>Filth_BlastMark</filth>
 				<sound>DeathAcidifier</sound>
 				<injuryCreatedOnDeath>ChemicalBurn</injuryCreatedOnDeath>
 				<injuryCount>3~6</injuryCount>
 				<whitelist>
 					<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_Holocron</li>
-				</whitelist>
-				<blacklist>
 					<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_Lightsaber</li>
 					<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_Saberstaff</li>
 					<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_Saberpike</li>
-				</blacklist>
+				</whitelist>
+				<blacklist />
 			</li>
 		</comps>
 	</HediffDef>

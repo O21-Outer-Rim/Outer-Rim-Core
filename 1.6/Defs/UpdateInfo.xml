@@ -31,9 +31,9 @@
 		</links>
 	</TabulaRasa.UpdateDef> -->
 
-	<!-- <TabulaRasa.UpdateDef>
-		<defName>OuterRim_Core_12092025</defName>
-		<date>2025/09/12</date>
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Core_25092025</defName>
+		<date>2025/09/25</date>
 		<banner>OuterRim/UpdateBanner</banner>
 		<contentList>
 			<li>
@@ -42,14 +42,15 @@
 - Bacta Pod and Bacta Network with Bacta production method using a Bacta Breeder building. Bacta.
 - Bacta Spray now has a recipe using Bacta.
 - Cybernetics with cheap makeshift options, more expensive advanced options, and a number of specialist cybernetics for different purposes.
-- Cybernetics are affected by ion, they'll stop functioning entirely for the duration of the ion buildup effect.</text>
+- Cybernetics are affected by ion weapons, they'll stop functioning entirely for the duration of the ion buildup effect.
+- Cybernetics spawn on the Outer Rim factions, and are sold by their traders.</text>
 			</li>
 			<li>
 				<header>Mineral Miner</header>
-				<text>Slight overhaul to mineral miners, overall should result in more consistent output and better flexibility in placement.
--Mineral miners now do not prevent building nearby others and instead decrease efficiency depending on proximity and quantity of others, this is visible with a radius marked around them when selected or when placing. 
-- A debuff of 20% per material is only applied when narrowing the drilling down to less than 5 materials. Instead of adding a smaller debuff per material, which was an issue when you had several mods adding new ones.
-- Base time for cycles has increased, but output quantity has too.</text>
+				<text>Slight overhaul to mineral miners, simpler placement, should negate punishment for having a lot of mods adding mineable things.
+-Mineral miners now do not prevent building nearby others and instead decrease efficiency depending on proximity and quantity of others, this is visible with a radius marked around them when selected or when placing.
+- A debuff of 20% per material is only applied when allowing less than 5 materials. Instead of adding a smaller debuff per material, which was an issue when you had several mods adding new ones.
+- Base time for mining in the smaller two miners has been reduced, and overall output quantity is now affected by tier, so a more consistent output rate.</text>
 			</li>
 		</contentList>
 		<links>
@@ -64,7 +65,7 @@
 				<linkTex>TabulaRasa/UI/Steam</linkTex>
 			</li>
 		</links>
-	</TabulaRasa.UpdateDef> -->
+	</TabulaRasa.UpdateDef>
 
 	<TabulaRasa.UpdateDef>
 		<defName>OuterRim_Core_04042024</defName>

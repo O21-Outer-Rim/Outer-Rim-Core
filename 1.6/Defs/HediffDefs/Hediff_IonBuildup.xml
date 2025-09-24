@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
-    <HediffDef ParentName="DiseaseBase">
-        <defName>OuterRim_IonBuildup</defName>
-        <label>ion buildup</label>
-        <description>The way ion happens to overload mechanoids causes a feedback loop in their power supply, resulting in the quick disabling of them.</description>
-        <hediffClass>OuterRimCore.Hediff_IonBuildup</hediffClass>
+
+	<HediffDef ParentName="DiseaseBase">
+		<defName>OuterRim_IonBuildup</defName>
+		<label>ion buildup</label>
+		<description>The way ion happens to overload mechanoids causes a feedback loop in their power supply, resulting in the quick disabling of them.</description>
+		<hediffClass>OuterRimCore.Hediff_IonBuildup</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
 				<showRemainingTime>True</showRemainingTime>
@@ -13,13 +13,13 @@
 			</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath" />
 		</comps>
-    </HediffDef>
-  
-    <HediffDef ParentName="DiseaseBase">
-        <defName>OuterRim_IonBuildupExplosive</defName>
-        <label>ion buildup</label>
-        <description>The way ion happens to overload mechanoids causes a feedback loop in their power supply, resulting in an explosion which will vary by the size of the mechanoid.</description>
-        <hediffClass>OuterRimCore.Hediff_IonBuildupExplosive</hediffClass>
+	</HediffDef>
+
+	<HediffDef ParentName="DiseaseBase">
+		<defName>OuterRim_IonBuildupExplosive</defName>
+		<label>ion buildup</label>
+		<description>The way ion happens to overload mechanoids causes a feedback loop in their power supply, resulting in an explosion which will vary by the size of the mechanoid.</description>
+		<hediffClass>OuterRimCore.Hediff_IonBuildupExplosive</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
 				<showRemainingTime>True</showRemainingTime>
@@ -27,6 +27,6 @@
 			</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath" />
 		</comps>
-    </HediffDef>
+	</HediffDef>
 
 </Defs>

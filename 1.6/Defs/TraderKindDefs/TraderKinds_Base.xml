@@ -59,9 +59,9 @@
 				<totalPriceRange>700~1500</totalPriceRange>
 			</li>
 
-			<!-- Implants -->
+			<!-- Cybernetics -->
 			<li Class="StockGenerator_Tag">
-				<tradeTag>TechHediff</tradeTag>
+				<tradeTag>ORCybernetic</tradeTag>
 				<thingDefCountRange>2~4</thingDefCountRange>
 				<countRange>1~1</countRange>
 			</li>

@@ -46,6 +46,13 @@
 				<countRange>1~6</countRange>
 			</li>
 
+			<!-- Cybernetics -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>ORCybernetic</tradeTag>
+				<thingDefCountRange>2~4</thingDefCountRange>
+				<countRange>1~1</countRange>
+			</li>
+
 			<!-- Weapons -->
 			<!-- <li Class="StockGenerator_WeaponsRanged">
 				<countRange>0~1</countRange>
