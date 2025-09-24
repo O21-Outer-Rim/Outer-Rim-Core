@@ -41,8 +41,8 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="TabulaRasa.CompProperties_Mining">
-				<tickCostMultiplier>4</tickCostMultiplier>
-				<costDebuffPercent>0.0</costDebuffPercent>
+				<tickCostMultiplier>1.5</tickCostMultiplier>
+				<outputCountMultiplier>0.75</outputCountMultiplier>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AmbientSound">
@@ -114,8 +114,8 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="TabulaRasa.CompProperties_Mining">
-				<tickCostMultiplier>2.5</tickCostMultiplier>
-				<costDebuffPercent>0.0</costDebuffPercent>
+				<tickCostMultiplier>1.25</tickCostMultiplier>
+				<outputCountMultiplier>1.0</outputCountMultiplier>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AmbientSound">
@@ -188,8 +188,8 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="TabulaRasa.CompProperties_Mining">
-				<tickCostMultiplier>1.0</tickCostMultiplier>
-				<costDebuffPercent>0.0</costDebuffPercent>
+				<tickCostMultiplier>0.75</tickCostMultiplier>
+				<outputCountMultiplier>1.25</outputCountMultiplier>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AmbientSound">

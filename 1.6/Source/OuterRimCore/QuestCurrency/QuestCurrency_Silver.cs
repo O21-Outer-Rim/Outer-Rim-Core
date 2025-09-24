@@ -16,14 +16,14 @@ namespace OuterRimCore
     {
         public int minimumGoodwillRequirement = -100;
 
-        public override bool Allows(QuestGiverManager questGiverManager, Quest quest, Slate slate, out QuestInfo questInfo)
+        public override bool Allows(QuestGiverManager questGiverManager, Quest toCheck, Slate slate, out QuestInfo questInfo)
         {
             Pawn pawn = slate.Get<Pawn>("asker");
             if (pawn?.Faction != null && pawn.Faction.GoodwillWith(Faction.OfPlayer) >= minimumGoodwillRequirement && TradeUtility.ColonyHasEnoughSilver(Find.CurrentMap, (int)questGiverManager.def.currency.costToAcceptQuest))
             {
                 CurrencyInfo_Silver currencyInfo = new CurrencyInfo_Silver();
                 currencyInfo.amount = questGiverManager.def.currency.costToAcceptQuest;
-                questInfo = new QuestInfo(quest, pawn.Faction, currencyInfo, questGiverManager.def.onlyOneReward ? true : false);
+                questInfo = new QuestInfo(toCheck, pawn.Faction, currencyInfo, questGiverManager.def.onlyOneReward ? true : false);
                 return true;
             }
             questInfo = null;
