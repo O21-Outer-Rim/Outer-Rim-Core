@@ -34,6 +34,10 @@
 			<OuterRim_Durasteel>175</OuterRim_Durasteel>
 			<OuterRim_ComponentHypertech>7</OuterRim_ComponentHypertech>
 		</costList>
+		<building>
+			<workTableRoomRole>Laboratory</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
 			<li>Fabrication</li>
@@ -100,7 +104,8 @@
 		</statBases>
 		<building>
 			<joyKind>Gaming_Cerebral</joyKind>
-      		<forceShowRoomStats>true</forceShowRoomStats>
+			<forceShowRoomStats>true</forceShowRoomStats>
+			<workTableRoomRole>Laboratory</workTableRoomRole>
 		</building>
 		<researchPrerequisites>
 			<li>OuterRim_HypertechFabrication</li>
@@ -159,7 +164,7 @@
 		</statBases>
 		<building>
 			<joyKind>Gaming_Cerebral</joyKind>
-      		<forceShowRoomStats>true</forceShowRoomStats>
+			<forceShowRoomStats>true</forceShowRoomStats>
 		</building>
 		<costList>
 			<OuterRim_Durasteel>240</OuterRim_Durasteel>

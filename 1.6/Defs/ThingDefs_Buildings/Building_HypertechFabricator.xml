@@ -46,6 +46,8 @@
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<recipes>
 			<li>OuterRim_MakeComponentHypertech</li>
