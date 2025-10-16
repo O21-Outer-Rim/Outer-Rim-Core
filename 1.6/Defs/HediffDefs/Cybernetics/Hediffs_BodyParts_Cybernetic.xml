@@ -58,12 +58,6 @@
 			</recipeUsers>
 			<displayPriority>300</displayPriority>
 		</recipeMaker>
-		<comps>
-			<li Class="HediffCompProperties_ReactOnDamage">
-				<damageDefIncoming>OuterRim_Ion</damageDefIncoming>
-				<createHediff>BrainShock</createHediff>
-			</li>
-		</comps>
 	</ThingDef>
 
 	<!-- Cybernetic - Eye -->

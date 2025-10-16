@@ -37,6 +37,12 @@
 		<priceImpact>true</priceImpact>
 		<countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
 		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>OuterRim_Ion</damageDefIncoming>
+				<createHediff>BrainShock</createHediff>
+			</li>
+		</comps>
 	</HediffDef>
 
 	<!-- These replace natural parts entirely -->

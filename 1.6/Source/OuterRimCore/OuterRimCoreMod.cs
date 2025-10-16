@@ -68,6 +68,9 @@ namespace OuterRimCore
             listing.ValueLabeled("Big Threat Letter", "Changes the sound effect played during a large threat, like a raid.", ref settings.soundPack_bigThreat);
 
             UpdateSoundSettings();
+
+            listing.GapLine();
+            listing.ValueLabeled("Destroys Equipment", "If enabled, each equipment worn or item held by a disintegrated pawn has a chance to be destroyed along with them. If the pawn is player owned nothing ever will be destroyed.\n\nNote: Some items are blacklisted so they are never destroyed, and others are whitelisted so they are always destroyed, ignoring chance, this still affects them though it's just the chance of it happening that changes if disintegration is enabled.", ref settings.disintegrationDestroys);
         }
 
         public SoundDef original_threatBig;

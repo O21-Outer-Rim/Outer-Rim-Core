@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\questcurrency\\questcurrency_silver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\hediffs\\hediffcomp_selfdisintegrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:hediffs\\hediffcomp_selfdisintegrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.6\\source\\outerrimcore\\questcurrency\\questcurrency_silver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:questcurrency\\questcurrency_silver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.6\\source\\outerrimcore\\comps\\comp_bactapod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\comps\\comp_bactapod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:comps\\comp_bactapod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,14 +47,6 @@
       "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:hediffs\\hediffcompproperties_selfdisintegrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\hediffs\\hediffcomp_selfdisintegrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:hediffs\\hediffcomp_selfdisintegrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\data\\cyclestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:data\\cyclestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\ai\\jobdriver_enterbactapod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:ai\\jobdriver_enterbactapod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|solutionrelative:outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F190B4B-F02A-4CDE-ABC3-053ACC4DC557}|OuterRimCore.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\patchoperations\\patchoperation_settingactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,48 +102,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WorkGiver_HaulToBactaPod.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\WorkGivers\\WorkGiver_HaulToBactaPod.cs",
-              "RelativeDocumentMoniker": "WorkGivers\\WorkGiver_HaulToBactaPod.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\WorkGivers\\WorkGiver_HaulToBactaPod.cs",
-              "RelativeToolTip": "WorkGivers\\WorkGiver_HaulToBactaPod.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAtwDQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T15:50:59.446Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Comp_BactaPod.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Comps\\Comp_BactaPod.cs",
-              "RelativeDocumentMoniker": "Comps\\Comp_BactaPod.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Comps\\Comp_BactaPod.cs",
-              "RelativeToolTip": "Comps\\Comp_BactaPod.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:35:03.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JobDriver_CarryToBactaPod.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\AI\\JobDriver_CarryToBactaPod.cs",
-              "RelativeDocumentMoniker": "AI\\JobDriver_CarryToBactaPod.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\AI\\JobDriver_CarryToBactaPod.cs",
-              "RelativeToolTip": "AI\\JobDriver_CarryToBactaPod.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:32:38.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "OuterRimCoreDefOf.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreDefOf.cs",
               "RelativeDocumentMoniker": "OuterRimCoreDefOf.cs",
@@ -155,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CompProperties_BactaPod.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Comps\\CompProperties_BactaPod.cs",
               "RelativeDocumentMoniker": "Comps\\CompProperties_BactaPod.cs",
@@ -167,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "QuestCurrency_Silver.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\QuestCurrency\\QuestCurrency_Silver.cs",
               "RelativeDocumentMoniker": "QuestCurrency\\QuestCurrency_Silver.cs",
@@ -181,6 +144,81 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "OuterRimCoreSettings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreSettings.cs",
+              "RelativeDocumentMoniker": "OuterRimCoreSettings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreSettings.cs",
+              "RelativeToolTip": "OuterRimCoreSettings.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:35:50.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OuterRimCoreMod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreMod.cs",
+              "RelativeDocumentMoniker": "OuterRimCoreMod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreMod.cs",
+              "RelativeToolTip": "OuterRimCoreMod.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwEgAAADgAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:34:20.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HediffComp_SelfDisintegrator.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\HediffComp_SelfDisintegrator.cs",
+              "RelativeDocumentMoniker": "Hediffs\\HediffComp_SelfDisintegrator.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\HediffComp_SelfDisintegrator.cs",
+              "RelativeToolTip": "Hediffs\\HediffComp_SelfDisintegrator.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwHMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:35:36.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JobDriver_CarryToBactaPod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\AI\\JobDriver_CarryToBactaPod.cs",
+              "RelativeDocumentMoniker": "AI\\JobDriver_CarryToBactaPod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\AI\\JobDriver_CarryToBactaPod.cs",
+              "RelativeToolTip": "AI\\JobDriver_CarryToBactaPod.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:32:38.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comp_BactaPod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Comps\\Comp_BactaPod.cs",
+              "RelativeDocumentMoniker": "Comps\\Comp_BactaPod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Comps\\Comp_BactaPod.cs",
+              "RelativeToolTip": "Comps\\Comp_BactaPod.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:35:03.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorkGiver_HaulToBactaPod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\WorkGivers\\WorkGiver_HaulToBactaPod.cs",
+              "RelativeDocumentMoniker": "WorkGivers\\WorkGiver_HaulToBactaPod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\WorkGivers\\WorkGiver_HaulToBactaPod.cs",
+              "RelativeToolTip": "WorkGivers\\WorkGiver_HaulToBactaPod.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAtwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T15:50:59.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FloatMenuOptionProvider_CarryToBactaPod.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\FloatMenus\\FloatMenuOptionProvider_CarryToBactaPod.cs",
               "RelativeDocumentMoniker": "FloatMenus\\FloatMenuOptionProvider_CarryToBactaPod.cs",
@@ -192,31 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OuterRimCoreSettings.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreSettings.cs",
-              "RelativeDocumentMoniker": "OuterRimCoreSettings.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreSettings.cs",
-              "RelativeToolTip": "OuterRimCoreSettings.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:35:50.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HediffComp_SelfDisintegrator.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\HediffComp_SelfDisintegrator.cs",
-              "RelativeDocumentMoniker": "Hediffs\\HediffComp_SelfDisintegrator.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\HediffComp_SelfDisintegrator.cs",
-              "RelativeToolTip": "Hediffs\\HediffComp_SelfDisintegrator.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAD4vzMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:35:36.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "HediffCompProperties_SelfDisintegrator.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Hediffs\\HediffCompProperties_SelfDisintegrator.cs",
               "RelativeDocumentMoniker": "Hediffs\\HediffCompProperties_SelfDisintegrator.cs",
@@ -228,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CycleState.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Data\\CycleState.cs",
               "RelativeDocumentMoniker": "Data\\CycleState.cs",
@@ -240,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Building_BactaBreeder.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\Buildings\\Building_BactaBreeder.cs",
               "RelativeDocumentMoniker": "Buildings\\Building_BactaBreeder.cs",
@@ -252,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "JobDriver_EnterBactaPod.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\AI\\JobDriver_EnterBactaPod.cs",
               "RelativeDocumentMoniker": "AI\\JobDriver_EnterBactaPod.cs",
@@ -297,18 +311,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T15:35:48.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OuterRimCoreMod.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreMod.cs",
-              "RelativeDocumentMoniker": "OuterRimCoreMod.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.6\\Source\\OuterRimCore\\OuterRimCoreMod.cs",
-              "RelativeToolTip": "OuterRimCoreMod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:34:20.896Z"
             },
             {
               "$type": "Document",
