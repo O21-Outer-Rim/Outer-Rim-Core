@@ -8,7 +8,7 @@
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>OuterRim/Building/Installations/ShieldGenerator</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(6, 6)</drawSize>
 		</graphicData>
 		<statBases>
