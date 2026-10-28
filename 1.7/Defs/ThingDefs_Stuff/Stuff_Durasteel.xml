@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimMetal">
+		<defName>OuterRim_Durasteel</defName>
+		<label>durasteel</label>
+		<description>A strong and versatile alloy used in the construction of many different things.</description>
+		<graphicData>
+			<color>(150, 150, 150)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.25</Mass>
+			<StuffPower_Armor_Sharp>1.26</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.63</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.08</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+		</statBases>
+		<deepCommonality>3</deepCommonality>
+		<deepCountPerPortion>8</deepCountPerPortion>
+		<deepLumpSizeRange>2~10</deepLumpSizeRange>
+		<stuffProps>
+			<commonality>0.07</commonality>
+			<color>(150, 150, 150)</color>
+			<stuffAdjective>durasteel</stuffAdjective>
+			<statFactors>
+				<MaxHitPoints>2.8</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0.2</Flammability>
+				<WorkToMake>2.2</WorkToMake>
+				<WorkToBuild>2.2</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

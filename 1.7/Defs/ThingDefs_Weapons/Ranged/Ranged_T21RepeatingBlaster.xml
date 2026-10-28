@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_SniperRifle">
+		<defName>OuterRim_T21RepeatingBlaster</defName>
+		<label>t-21 repeating blaster</label>
+		<description>The T-21 light repeating blaster, also known as the T-21 heavy blaster or simply the T-21 blaster rifle, was a model of light repeating blaster manufactured by BlasTech Industries.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/T21RepeatingBlaster</texPath>
+			<drawSize>1.1</drawSize>	
+		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<statBases>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>ORImperialAny</li>
+			<li>ORImperialHeavy</li>
+			<li>ORRebelAny</li>
+			<li>ORRebelHeavy</li>
+			<li>ORHeavy</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_RebelWeapons</li>
+			<li>OuterRim_ImperialWeapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_PistolRed</defaultProjectile>
+				<warmupTime>1.4</warmupTime>
+				<range>36</range>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>4</burstShotCount>
+				<soundCast>OuterRim_Shot_HeavyMinigunBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

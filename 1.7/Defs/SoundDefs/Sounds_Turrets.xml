@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>OuterRim_Turret_KYD21Blaster</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/KYD21Blaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/KYD21Blaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/KYD21Blaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Turret_ProtonTorpedo</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/ProtonTorpedo01</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Turret_Turbolaser</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/Turbolaser01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/Turbolaser02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/Turbolaser03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_Turret_Standard</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/TurretBlaster01</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/TurretBlaster02</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/Turrets/TurretBlaster03</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>23.91304</min>
+					<max>23.91304</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

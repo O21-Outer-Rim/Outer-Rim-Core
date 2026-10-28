@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimMeleeBase_Sharp">
+		<defName>OuterRim_VibroCleaver</defName>
+		<label>vibro-cleaver</label>
+		<description>A variation of vibroweapon with a large blade lending itself to slow but highly damaging attacks.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/VibroCleaver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<techLevel>Ultra</techLevel>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+		<weaponTags>
+			<li>ORVibroweapon</li>
+		</weaponTags>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>

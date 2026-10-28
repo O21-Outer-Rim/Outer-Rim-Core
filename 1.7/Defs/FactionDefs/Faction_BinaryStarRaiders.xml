@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<FactionDef ParentName="OuterRimDiverseFactionBase">
+		<defName>OuterRim_BinaryStarRaiders</defName>
+		<label>binary star raiders</label>
+		<description>A notorious band of marauders haunting the galactic fringes, a formidable faction comprised of ruthless raiders and cunning opportunists. Emerging from the shadows, they strike fear into the hearts of spacefaring communities with their lightning-fast raids and merciless tactics. Masters of hit-and-run warfare, these raiders exploit the weaknesses of their enemies, seizing valuable resources and leaving chaos in their wake. Bound by a code of loyalty to their own, they are a tight-knit crew, always on the hunt for their next plunder in the vast, unforgiving cosmic frontier.</description>
+		<pawnSingular>raider</pawnSingular>
+		<pawnsPlural>raiders</pawnsPlural>
+		<listOrderPriority>10</listOrderPriority>
+		<configurationListOrderPriority>15</configurationListOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>boss</leaderTitle>
+		<factionIconPath>OuterRim/WorldObjects/BinaryStarRaiders</factionIconPath>
+		<factionNameMaker>NamerFactionPirate</factionNameMaker>
+		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+		<colorSpectrum>
+			<li>(217, 101, 69)</li>
+		</colorSpectrum>
+		<permanentEnemy>true</permanentEnemy>
+		<techLevel>Ultra</techLevel>
+		<allowedCultures>
+			<li>Kriminul</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</requiredMemes>
+		<allowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+		</allowedMemes>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Pirate</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>OuterRim_BinaryStarRaiderLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,200)</li>
+				<li>(70, 500)</li>
+				<li>(700, 1800)</li>
+				<li>(2000, 5000)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, ranged with melee mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<OuterRim_Drifter>10</OuterRim_Drifter>
+					<OuterRim_Thrasher>3</OuterRim_Thrasher>
+					<OuterRim_Scavenger>10</OuterRim_Scavenger>
+					<OuterRim_Pirate>10</OuterRim_Pirate>
+					<OuterRim_Grenadier_Ion>0.25</OuterRim_Grenadier_Ion>
+					<OuterRim_Grenadier_CryoBan>0.25</OuterRim_Grenadier_CryoBan>
+					<OuterRim_Grenadier_Destructive>2</OuterRim_Grenadier_Destructive>
+					<OuterRim_Mercenary_Gunner>10</OuterRim_Mercenary_Gunner>
+					<OuterRim_Mercenary_Heavy>6</OuterRim_Mercenary_Heavy>
+					<OuterRim_Mercenary_Slasher>3</OuterRim_Mercenary_Slasher>
+					<OuterRim_Mercenary_Sniper>7</OuterRim_Mercenary_Sniper>
+					<OuterRim_Mercenary_Elite>10</OuterRim_Mercenary_Elite>
+					<OuterRim_PirateBoss>5</OuterRim_PirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, melee-only -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<OuterRim_Thrasher>10</OuterRim_Thrasher>
+					<OuterRim_Mercenary_Slasher>10</OuterRim_Mercenary_Slasher>
+					<OuterRim_PirateBoss>5</OuterRim_PirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, ranged only -->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<OuterRim_Scavenger>10</OuterRim_Scavenger>
+					<OuterRim_Pirate>10</OuterRim_Pirate>
+					<OuterRim_Grenadier_Ion>0.25</OuterRim_Grenadier_Ion>
+					<OuterRim_Grenadier_CryoBan>0.25</OuterRim_Grenadier_CryoBan>
+					<OuterRim_Grenadier_Destructive>2</OuterRim_Grenadier_Destructive>
+					<OuterRim_Mercenary_Gunner>10</OuterRim_Mercenary_Gunner>
+					<OuterRim_Mercenary_Heavy>6</OuterRim_Mercenary_Heavy>
+					<OuterRim_Mercenary_Sniper>7</OuterRim_Mercenary_Sniper>
+					<OuterRim_Mercenary_Elite>10</OuterRim_Mercenary_Elite>
+					<OuterRim_PirateBoss>5</OuterRim_PirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, explosives with ranged mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>15</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<OuterRim_Grenadier_Ion>0.5</OuterRim_Grenadier_Ion>
+					<OuterRim_Grenadier_CryoBan>0.5</OuterRim_Grenadier_CryoBan>
+					<OuterRim_Grenadier_Destructive>10</OuterRim_Grenadier_Destructive>
+					<OuterRim_Mercenary_Gunner>1</OuterRim_Mercenary_Gunner>
+					<OuterRim_Mercenary_Heavy>10</OuterRim_Mercenary_Heavy>
+					<OuterRim_Mercenary_Elite>1</OuterRim_Mercenary_Elite>
+					<OuterRim_PirateBoss>1</OuterRim_PirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, snipers only -->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<OuterRim_Mercenary_Sniper>10</OuterRim_Mercenary_Sniper>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, drifters only (very rare) -->
+				<kindDef>Combat</kindDef>
+				<commonality>2.5</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<OuterRim_Drifter>10</OuterRim_Drifter>
+				</options>
+			</li>
+			<li>
+				<!-- Base defense, mainly ranged with melee mix-ins -->
+				<kindDef>Settlement</kindDef>
+				<options>
+					<OuterRim_Thrasher>3</OuterRim_Thrasher>
+					<OuterRim_Pirate>10</OuterRim_Pirate>
+					<OuterRim_Grenadier_Destructive>2</OuterRim_Grenadier_Destructive>
+					<OuterRim_Mercenary_Slasher>3</OuterRim_Mercenary_Slasher>
+					<OuterRim_Mercenary_Sniper>10</OuterRim_Mercenary_Sniper>
+					<OuterRim_Mercenary_Gunner>10</OuterRim_Mercenary_Gunner>
+					<OuterRim_Mercenary_Elite>10</OuterRim_Mercenary_Elite>
+					<OuterRim_PirateBoss>10</OuterRim_PirateBoss>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+	</FactionDef>
+
+	<ThingSetMakerDef>
+		<defName>OuterRim_BinaryStarRaiderLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>MealSurvivalPack</li>
+						<li>OuterRim_BactaSpray</li>
+						<li>OuterRim_KoltoGelPack</li>
+						<li>OuterRim_ComponentHypertech</li>
+						<li>OuterRim_Tibanna</li>
+						<li>OuterRim_Durasteel</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+
+</Defs>

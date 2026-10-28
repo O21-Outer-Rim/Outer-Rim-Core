@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PlaceDef>
+		<defName>OuterRim_Chandrila</defName>
+		<tags>
+			<li>OuterRim_OriginRepublic</li>
+		</tags>
+		<placeRules>
+			<rulesStrings>
+				<!-- A core world covered in calm seas and rolling hills -->
+				<li>place_name->Chandrila</li>
+				<li>place_adjective->Chandrilan</li>
+				<li>place_summary->calm temperate world</li>
+				<li>place_community->city</li>
+				<li>place_powerCenter->capital city</li>
+				<li>place_job->farmer</li>
+				<li>place_job->politician</li>
+				<li>place_job->trader</li>
+				<li>place_job->hunter</li>
+				<li>place_personalWeapon->blaster rifle</li>
+				<li>place_massWeapon->orbital bombardment</li>
+				<li>place_foeLeader->general</li>
+				<li>place_foeSoldiers->battle droids</li>
+			</rulesStrings>
+		</placeRules>
+	</PlaceDef>
+
+</Defs>

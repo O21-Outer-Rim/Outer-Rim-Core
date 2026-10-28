@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TerrainDef ParentName="OuterRimFloorBase">
+		<defName>OuterRim_WoodFloorPatterned</defName>
+		<label>wood floor patterned</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>OuterRim/Terrain/PatterenedWoodFloor</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<color>(108,78,55)</color>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.22</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<WoodLog>5</WoodLog>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimFloorBase">
+		<defName>OuterRim_WoodFloorInterlaced</defName>
+		<label>wood floor interlaced</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>OuterRim/Terrain/InterlacedWoodFloor</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<color>(108,78,55)</color>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.22</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<WoodLog>5</WoodLog>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+	</TerrainDef>
+
+</Defs>

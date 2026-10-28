@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<TerrainDef ParentName="OuterRimFloorBase" Name="OuterRimVentedFloorMetal" Abstract="True">
+		<texturePath>OuterRim/Terrain/VentedFloor</texturePath>
+		<constructEffect>ConstructMetal</constructEffect>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Cleanliness>0.6</Cleanliness>
+			<FilthMultiplier>0</FilthMultiplier>
+		</statBases>
+		<filthAcceptanceMask Inherit="False">None</filthAcceptanceMask>
+		<designatorDropdown>OuterRim_VentedFloors</designatorDropdown>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimVentedFloorMetal">
+		<defName>OuterRim_VentedFloor_Steel</defName>
+		<label>steel vented floor</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Vented steel flooring tiles. The vents prevent filth buildup.</description>
+		<color>(0.369, 0.369, 0.369)</color>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimVentedFloorMetal">
+		<defName>OuterRim_VentedFloor_Silver</defName>
+		<label>silver vented floor</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Vented silver flooring tiles. The vents prevent filth buildup.</description>
+		<color>(0.45, 0.45, 0.45)</color>
+		<statBases>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<Silver>100</Silver>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimVentedFloorMetal">
+		<defName>OuterRim_VentedFloor_Gold</defName>
+		<label>gold vented floor</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Vented gold flooring tiles. The vents prevent filth buildup.</description>
+		<color>(0.65, 0.65, 0.35)</color>
+		<statBases>
+			<Beauty>12</Beauty>
+		</statBases>
+		<costList>
+			<Gold>100</Gold>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimVentedFloorMetal">
+		<defName>OuterRim_VentedFloor_Durasteel</defName>
+		<label>durasteel vented floor</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Vented durasteel flooring tiles. The vents prevent filth buildup.</description>
+		<color>(150, 150, 150)</color>
+		<costList>
+			<OuterRim_Durasteel>5</OuterRim_Durasteel>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimVentedFloorMetal">
+		<defName>OuterRim_VentedFloor_Beskar</defName>
+		<label>beskar vented floor</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Vented beskar flooring tiles. The vents prevent filth buildup.</description>
+		<color>(180, 180, 180)</color>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList Inherit="False">
+			<OuterRim_Beskar>10</OuterRim_Beskar>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimVentedFloorMetal">
+		<defName>OuterRim_VentedFloor_PureBeskar</defName>
+		<label>pure beskar vented floor</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Vented pure beskar flooring tiles. The vents prevent filth buildup.</description>
+		<color>(190, 190, 190)</color>
+		<statBases>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<OuterRim_PureBeskar>10</OuterRim_PureBeskar>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+</Defs>

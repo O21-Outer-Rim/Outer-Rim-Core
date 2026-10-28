@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="MedicineBase">
+		<defName>OuterRim_KoltoGelPack</defName>
+		<label>kolto gel pack</label>
+		<description>An advanced medical gel used to tend most injuries and even illness.</description>
+		<thingClass>Medicine</thingClass>
+		<graphicData>
+			<texPath>OuterRim/Items/Kolto</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<stackLimit>25</stackLimit>
+		<tradeability>Buyable</tradeability>
+		<statBases>
+			<Mass>0.2</Mass>
+			<MarketValue>85</MarketValue>
+			<Flammability>0.1</Flammability>
+			<MedicalPotency>1.70</MedicalPotency>
+			<MedicalQualityMax>1.70</MedicalQualityMax>
+			<DeteriorationRate>0.1</DeteriorationRate>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>3000</WorkToMake>
+		</statBases>
+		<tradeTags>
+			<li>OR_Kolto</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

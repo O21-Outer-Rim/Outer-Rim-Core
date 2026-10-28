@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimMetal">
+		<defName>OuterRim_PureBeskar</defName>
+		<label>pure beskar</label>
+		<description>An extremely resiliant metal native to Mandalore, it is extremely rare to find outside of Mandalorian hands and known for its capability to withstand a great amount damage, even lightsabers struggle to cut it.</description>
+		<graphicData>
+			<color>(190, 190, 190)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>16.8</MarketValue>
+			<Mass>0.2</Mass>
+			<StuffPower_Armor_Sharp>1.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.8</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.2</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<commonality>0.0001</commonality>
+			<color>(190, 190, 190)</color>
+			<stuffAdjective>pure beskar</stuffAdjective>
+			<statFactors>
+				<MaxHitPoints>3.2</MaxHitPoints>
+				<Beauty>4</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>3.0</WorkToMake>
+				<WorkToBuild>3.0</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

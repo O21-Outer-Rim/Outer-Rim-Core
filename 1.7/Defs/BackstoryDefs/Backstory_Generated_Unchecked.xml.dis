@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>SithApprentice</defName>
+		<title>Sith Apprentice</title>
+		<titleShort>Sith Apprentice</titleShort>
+		<baseDesc>Trained in the dark arts of the Force, [PAWN_nameDef] was once a Sith Apprentice. However, [PAWN_pronoun] was betrayed by [PAWN_possessive] master and left for dead. Miraculously, [PAWN_pronoun] survived and now seeks vengeance against both Jedi and Sith alike. [PAWN_possessive] mastery of the dark side grants [PAWN_possessive] formidable power, but [PAWN_pronoun] anger often clouds [PAWN_possessive] judgment.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<workDisables>Caring</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>JediKnight</defName>
+		<title>Jedi Knight</title>
+		<titleShort>Jedi Knight</titleShort>
+		<baseDesc>[PAWN_nameDef] was once a promising Jedi Knight, trained in the ancient ways of the Force. [PAWN_pronoun] fought valiantly against the forces of darkness, defending peace and justice across the galaxy. However, the rise of the Sith led to a devastating battle where [PAWN_nameDef] lost [PAWN_possessive] master and many fellow Jedi. Now, [PAWN_pronoun] wanders the rimworld, seeking to rediscover the balance of the Force while facing the challenges of this untamed frontier.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_JediPadawan</defName>
+		<title>Jedi Padawan</title>
+		<titleShort>Jedi Padawan</titleShort>
+		<baseDesc>[PAWN_nameDef] was once a young Jedi Padawan, trained in the Jedi Temple on Coruscant. [PAWN_pronoun] exhibited a strong connection to the Force and a natural talent for lightsaber combat. During a mission to a distant planet, [PAWN_nameDef]'s master was slain by a Sith Lord, and [PAWN_pronoun] barely escaped with [PAWN_possessive] life. Now, [PAWN_pronoun] roams the rimworld, haunted by the memory of [PAWN_possessive] master's death. [PAWN_pronoun] seeks to complete [PAWN_possessive] training, mastering the ways of the Force and seeking vengeance against the Sith who took everything away.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>OuterRim_Backstory_RebelPilot</defName>
+		<title>Rebel Pilot</title>
+		<titleShort>Rebel Pilot</titleShort>
+		<baseDesc>[PAWN_nameDef] was a skilled pilot in the Rebel Alliance, fighting against the tyranny of the Galactic Empire. [PAWN_pronoun] flew starfighters in daring missions against Imperial forces, demonstrating exceptional agility and courage. During a critical battle, [PAWN_nameDef]'s squadron was ambushed, and [PAWN_pronoun] was one of the few survivors. With the Rebel Alliance scattered, [PAWN_nameDef] found [PAWN_pronoun]self stranded on a rimworld, far from the ongoing conflict. Now, [PAWN_pronoun] uses [PAWN_possessive] piloting skills to navigate the challenges of this untamed frontier, hoping to one day rejoin the fight against the Empire.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Offworld</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
+	
+</Defs>

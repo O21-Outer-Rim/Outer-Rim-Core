@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|g:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.7\\source\\outerrimcore\\workgivers\\workgiver_haultobactapod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|solutionrelative:workgivers\\workgiver_haultobactapod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|g:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.7\\source\\outerrimcore\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\obj\\Debug\\OuterRimCore.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\OuterRimCore.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|g:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.7\\source\\outerrimcore\\abilities\\ability_jetpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|solutionrelative:abilities\\ability_jetpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|g:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.7\\source\\outerrimcore\\outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|solutionrelative:outerrimcoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|g:\\rwmodcategories\\neronix17\\outerrim\\outer rim - core\\1.7\\source\\outerrimcore\\outerrimcoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA0838C-6053-2E03-E987-0E52462CE10F}|OuterRimCore.csproj|solutionrelative:outerrimcoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkGiver_HaulToBactaPod.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\WorkGivers\\WorkGiver_HaulToBactaPod.cs",
+              "RelativeDocumentMoniker": "WorkGivers\\WorkGiver_HaulToBactaPod.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\WorkGivers\\WorkGiver_HaulToBactaPod.cs",
+              "RelativeToolTip": "WorkGivers\\WorkGiver_HaulToBactaPod.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:57:29.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OuterRimCore.AssemblyInfo.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\obj\\Debug\\OuterRimCore.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\OuterRimCore.AssemblyInfo.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\obj\\Debug\\OuterRimCore.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\OuterRimCore.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:57:09.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ability_Jetpack.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\Abilities\\Ability_Jetpack.cs",
+              "RelativeDocumentMoniker": "Abilities\\Ability_Jetpack.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\Abilities\\Ability_Jetpack.cs",
+              "RelativeToolTip": "Abilities\\Ability_Jetpack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:55:59.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OuterRimCoreMod.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\OuterRimCoreMod.cs",
+              "RelativeDocumentMoniker": "OuterRimCoreMod.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\OuterRimCoreMod.cs",
+              "RelativeToolTip": "OuterRimCoreMod.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wCIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:55:36.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OuterRimCoreSettings.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\OuterRimCoreSettings.cs",
+              "RelativeDocumentMoniker": "OuterRimCoreSettings.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\OuterRimCoreSettings.cs",
+              "RelativeToolTip": "OuterRimCoreSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:55:35.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Core\\1.7\\Source\\OuterRimCore\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:55:27.063Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

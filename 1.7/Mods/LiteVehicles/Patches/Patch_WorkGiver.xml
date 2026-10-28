@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/WorkGiverDef[defName="LVF_DoBillModifyVehicle"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>OuterRim_VehicleRace_V35Courier</li>
+		</value>
+	</Operation>
+
+</Patch>

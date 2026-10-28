@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>OuterRim_CyberneticsAdvanced</defName>
+		<label>cybernetics (advanced)</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
+
+	<!-- Cybernetic - Base Thing -->
+
+	<ThingDef Name="OuterRim_BodyPartCyberneticAdvancedBase" ParentName="OuterRim_BodyPartBase" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<thingCategories>
+			<li>OuterRim_CyberneticsAdvanced</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticGeneric</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<tradeTags>
+			<li>ORAdvanced</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>ORAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>OuterRim_UnfinishedCybernetic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>OuterRim_Cybernetics</researchPrerequisite>
+			<recipeUsers>
+				<li>OuterRim_HypertechFabricator</li>
+			</recipeUsers>
+			<displayPriority>300</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Cybernetic - Eye -->
+
+	<HediffDef ParentName="OuterRim_AddedBodyPartBase">
+		<defName>OuterRim_CyberneticEye_Advanced</defName>
+		<label>cybernetic eye (advanced)</label>
+		<labelNoun>a advanced cybernetic eye</labelNoun>
+		<description>An installed advanced cybernetic eye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticEye_Advanced</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OuterRim_CyberneticEye_Advanced</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.75</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<!-- <woundAnchorRange>0</woundAnchorRange>
+		<displayWound>true</displayWound>
+		<eyeGraphicSouth>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Pawn/Wounds/CyberneticEye_south</texPath>
+		</eyeGraphicSouth>
+		<eyeGraphicEast>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Pawn/Wounds/CyberneticEye_east</texPath>
+		</eyeGraphicEast>
+		<eyeGraphicScale>0.2</eyeGraphicScale> -->
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartCyberneticAdvancedBase">
+		<defName>OuterRim_CyberneticEye_Advanced</defName>
+		<label>cybernetic eye (advanced)</label>
+		<description>An advanced artificial eye. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallCyberneticEye_Advanced</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticEye</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>15</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallBodyPartArtificialBase">
+		<defName>OuterRim_InstallCyberneticEye_Advanced</defName>
+		<label>install cybernetic eye (advanced)</label>
+		<description>Install a advanced cybernetic eye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticEye_Advanced</ThingDef>
+			<HediffDef>OuterRim_CyberneticEye_Advanced</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced cybernetic eye.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_CyberneticEye_Advanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_CyberneticEye_Advanced</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_CyberneticEye_Advanced</addsHediff>
+	</RecipeDef>
+
+	<!-- Cybernetic - Arm -->
+
+	<HediffDef ParentName="OuterRim_AddedBodyPartBase">
+		<defName>OuterRim_CyberneticArm_Advanced</defName>
+		<label>cybernetic arm (advanced)</label>
+		<labelNoun>a advanced cybernetic arm</labelNoun>
+		<description>An installed advanced cybernetic arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticArm_Advanced</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>OuterRim_CyberneticArm_Advanced</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.75</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartCyberneticAdvancedBase">
+		<defName>OuterRim_CyberneticArm_Advanced</defName>
+		<label>cybernetic arm (advanced)</label>
+		<description>An advanced artificial arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallCyberneticArm_Advanced</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticArm</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>15</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallBodyPartArtificialBase">
+		<defName>OuterRim_InstallCyberneticArm_Advanced</defName>
+		<label>install cybernetic arm (advanced)</label>
+		<description>Install a advanced cybernetic arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticArm_Advanced</ThingDef>
+			<HediffDef>OuterRim_CyberneticArm_Advanced</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced cybernetic arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_CyberneticArm_Advanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_CyberneticArm_Advanced</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_CyberneticArm_Advanced</addsHediff>
+	</RecipeDef>
+
+	<!-- Cybernetic - Leg -->
+
+	<HediffDef ParentName="OuterRim_AddedBodyPartBase">
+		<defName>OuterRim_CyberneticLeg_Advanced</defName>
+		<label>cybernetic leg (advanced)</label>
+		<labelNoun>a maksehfit cybernetic leg</labelNoun>
+		<description>An installed advanced cybernetic leg.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticLeg_Advanced</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OuterRim_CyberneticLeg_Advanced</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.75</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartCyberneticAdvancedBase">
+		<defName>OuterRim_CyberneticLeg_Advanced</defName>
+		<label>cybernetic leg (advanced)</label>
+		<description>An advanced artificial leg. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological leg in almost every way.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallCyberneticLeg_Advanced</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticLeg</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>15</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>8</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallBodyPartArtificialBase">
+		<defName>OuterRim_InstallCyberneticLeg_Advanced</defName>
+		<label>install cybernetic leg (advanced)</label>
+		<description>Install a makeshfit cybernetic leg.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticLeg_Advanced</ThingDef>
+			<HediffDef>OuterRim_CyberneticLeg_Advanced</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced cybernetic leg.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_CyberneticLeg_Advanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_CyberneticLeg_Advanced</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_CyberneticLeg_Advanced</addsHediff>
+	</RecipeDef>
+
+	<!-- Cybernetic - Spine -->
+
+	<HediffDef ParentName="OuterRim_AddedBodyPartBase">
+		<defName>OuterRim_CyberneticSpine_Advanced</defName>
+		<label>cybernetic spine (advanced)</label>
+		<labelNoun>a advanced cybernetic spine</labelNoun>
+		<description>An installed advanced cybernetic spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticSpine_Advanced</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OuterRim_CyberneticSpine_Advanced</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartCyberneticAdvancedBase">
+		<defName>OuterRim_CyberneticSpine_Advanced</defName>
+		<label>cybernetic spine (advanced)</label>
+		<description>An advanced artificial spine. A biogel nerve bundle runs down an articulated OuterRim_Durasteel core, surrounded by a lattice-dust healing system. It matches the performance of a biological spine.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallCyberneticSpine_Advanced</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticSpine</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>15</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallBodyPartArtificialBase">
+		<defName>OuterRim_InstallCyberneticSpine_Advanced</defName>
+		<label>install cybernetic spine (advanced)</label>
+		<description>Install a advanced cybernetic spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticSpine_Advanced</ThingDef>
+			<HediffDef>OuterRim_CyberneticSpine_Advanced</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced cybernetic spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_CyberneticSpine_Advanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_CyberneticSpine_Advanced</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_CyberneticSpine_Advanced</addsHediff>
+	</RecipeDef>
+
+	<!-- Cybernetic - Heart -->
+
+	<HediffDef ParentName="OuterRim_AddedBodyPartBase">
+		<defName>OuterRim_CyberneticHeart_Advanced</defName>
+		<label>cybernetic heart (advanced)</label>
+		<labelNoun>a advanced cybernetic heart</labelNoun>
+		<description>An installed advanced cybernetic heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticHeart_Advanced</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OuterRim_CyberneticHeart_Advanced</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.75</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartCyberneticAdvancedBase">
+		<defName>OuterRim_CyberneticHeart_Advanced</defName>
+		<label>cybernetic heart (advanced)</label>
+		<description>An advanced artificial heart. It has synthetic muscle fibers for a realistic heartbeat, plus a high-flow pump for rapid circulation during high stress. It is better than a biological heart in almost every way.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallCyberneticHeart_Advanced</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticHeart</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>15</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallBodyPartArtificialBase">
+		<defName>OuterRim_InstallCyberneticHeart_Advanced</defName>
+		<label>install cybernetic heart (advanced)</label>
+		<description>Install a advanced cybernetic heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticHeart_Advanced</ThingDef>
+			<HediffDef>OuterRim_CyberneticHeart_Advanced</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced cybernetic heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_CyberneticHeart_Advanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_CyberneticHeart_Advanced</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_CyberneticHeart_Advanced</addsHediff>
+	</RecipeDef>
+
+	<!-- Cybernetic - Stomach -->
+
+	<HediffDef ParentName="OuterRim_AddedBodyPartBase">
+		<defName>OuterRim_CyberneticStomach_Advanced</defName>
+		<label>cybernetic stomach (advanced)</label>
+		<labelNoun>a advanced cybernetic stomach</labelNoun>
+		<description>An installed advanced cybernetic stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticStomach_Advanced</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OuterRim_CyberneticStomach_Advanced</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<makeImmuneTo>
+					<li>GutWorms</li>
+				</makeImmuneTo>
+			</li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.75</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartCyberneticAdvancedBase">
+		<defName>OuterRim_CyberneticStomach_Advanced</defName>
+		<label>cybernetic stomach (advanced)</label>
+		<description>An advanced artificial stomach. A set of sensors and chemical synthesizers efficiently digest nearly any energy-bearing foodstuff. An integrated lattice-dust healing system automatically repairs any damage caused by the powerful acids. It is better than a biological stomach in almost every way.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallCyberneticStomach_Advanced</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticStomach</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>10</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallBodyPartArtificialBase">
+		<defName>OuterRim_InstallCyberneticStomach_Advanced</defName>
+		<label>install cybernetic stomach (advanced)</label>
+		<description>Install a advanced cybernetic stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticStomach_Advanced</ThingDef>
+			<HediffDef>OuterRim_CyberneticStomach_Advanced</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced cybernetic stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_CyberneticStomach_Advanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_CyberneticStomach_Advanced</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_CyberneticStomach_Advanced</addsHediff>
+	</RecipeDef>
+
+	<!-- Cybernetic - Ear -->
+
+	<HediffDef ParentName="OuterRim_AddedBodyPartBase">
+		<defName>OuterRim_CyberneticEar_Advanced</defName>
+		<label>cybernetic ear (advanced)</label>
+		<labelNoun>a advanced cybernetic ear</labelNoun>
+		<description>An installed advanced cybernetic ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticEar_Advanced</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OuterRim_CyberneticEar_Advanced</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.75</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartCyberneticAdvancedBase">
+		<defName>OuterRim_CyberneticEar_Advanced</defName>
+		<label>cybernetic ear (advanced)</label>
+		<description>An advanced artificial ear implant. A collection of invisible subdermal microphones capture sound and transmit it to a biogel nerve interface that links directly with the auditory nerve. It's sensitive enough to hear a cat before you see it, can't be damaged by loud noise, and automatically tunes itself to pick out meaningful sounds in noisy environments.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallCyberneticEar_Advanced</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticEar</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>10</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallBodyPartArtificialBase">
+		<defName>OuterRim_InstallCyberneticEar_Advanced</defName>
+		<label>install cybernetic ear (advanced)</label>
+		<description>Install a advanced cybernetic ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticEar_Advanced</ThingDef>
+			<HediffDef>OuterRim_CyberneticEar_Advanced</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced cybernetic ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_CyberneticEar_Advanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_CyberneticEar_Advanced</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_CyberneticEar_Advanced</addsHediff>
+	</RecipeDef>
+
+	<!-- Cybernetic - Tongue -->
+
+	<HediffDef ParentName="OuterRim_AddedBodyPartBase">
+		<defName>OuterRim_CyberneticTongue_Advanced</defName>
+		<label>cybernetic tongue (advanced)</label>
+		<labelNoun>a advanced cybernetic tongue</labelNoun>
+		<description>An installed advanced cybernetic tongue.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticTongue_Advanced</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OuterRim_CyberneticTongue_Advanced</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.75</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="OuterRim_BodyPartCyberneticAdvancedBase">
+		<defName>OuterRim_CyberneticTongue_Advanced</defName>
+		<label>cybernetic tongue (advanced)</label>
+		<description>An artificial tongue replacement. Made of synthetic smooth-fibers and connected through a neurogel interface, it can match the performance of a natural tongue in speaking, eating, and tasting.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>OuterRim_InstallCyberneticTongue_Advanced</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>OuterRim/Items/Cybernetics/AdvancedCyberneticTongue</texPath>
+		</graphicData>
+		<costList>
+			<OuterRim_Durasteel>8</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="OuterRim_SurgeryInstallBodyPartArtificialBase">
+		<defName>OuterRim_InstallCyberneticTongue_Advanced</defName>
+		<label>install cybernetic tongue (advanced)</label>
+		<description>Install a advanced cybernetic tongue.</description>
+		<descriptionHyperlinks>
+			<ThingDef>OuterRim_CyberneticTongue_Advanced</ThingDef>
+			<HediffDef>OuterRim_CyberneticTongue_Advanced</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced cybernetic tongue.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OuterRim_CyberneticTongue_Advanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OuterRim_CyberneticTongue_Advanced</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Tongue</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>OuterRim_CyberneticTongue_Advanced</addsHediff>
+	</RecipeDef>
+	
+</Defs>

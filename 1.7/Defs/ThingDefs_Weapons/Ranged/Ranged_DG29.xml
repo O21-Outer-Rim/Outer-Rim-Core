@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_DG29Blaster</defName>
+		<label>dg-29 heavy blaster</label>
+		<description>The DG-29 heavy blaster pistol, also known as the DG-29 sideloader, is a model of heavy blaster pistol produced by BlasTech Industries,</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/DG29HeavyBlaster</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>ORImperialAny</li>
+			<li>ORImperialLight</li>
+			<li>ORRebelAny</li>
+			<li>ORRebelLight</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_SniperRed</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>24</range>
+				<soundCast>OuterRim_Shot_MediumBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

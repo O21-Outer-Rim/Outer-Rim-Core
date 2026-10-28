@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_SniperRifle">
+		<defName>OuterRim_HeavyIonRifle</defName>
+		<label>heavy ion rifle</label>
+		<description>A long range rifle designed to produce a precise ion pulse, heavily affecting any droid it hits with a strong EMP.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/HeavyIonRifle</texPath>
+			<drawSize>1.0</drawSize>	
+		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_HypertechFabrication</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORIonRifle</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>OuterRim_IonWeapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_SniperIon</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>42</range>
+				<soundCast>OuterRim_Shot_DLT19DBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

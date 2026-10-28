@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="OuterRimBuildingBase" ParentName="BuildingBase" Abstract="True">
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<thingClass>Building</thingClass>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimBenchBase" ParentName="OuterRimBuildingBase" Abstract="True">
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<Mass>20</Mass>
+		</statBases>
+		<interactionCellIcon>DiningChair</interactionCellIcon>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+	</ThingDef>
+
+	<ThingDef Name="OuterRimResearchCoreBase" ParentName="OuterRimBuildingBase" Abstract="True">
+		<description>Increases research speed when placed near hypertech research bench and unlocks new research projects. Each research bench can only connect to one of these.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<designationCategory />
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Mass>60</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>100</OuterRim_Durasteel>
+			<Plasteel>10</Plasteel>
+			<Gold>10</Gold>
+			<OuterRim_ComponentHypertech>8</OuterRim_ComponentHypertech>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.1</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

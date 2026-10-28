@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_TechBeltBase">
+		<defName>OuterRim_Belt_VacShield</defName>
+		<label>tech belt (vac shield)</label>
+		<description>A belt which generates an invisible barrier maintaining an safe oxygenated environment around the user.</description>
+		<graphicData>
+			<texPath>OuterRim/Items/Belts/Belt_SafetyHarness</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+            <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+            <VacuumResistance>1</VacuumResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+			<tags>
+				<li>VacShield</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

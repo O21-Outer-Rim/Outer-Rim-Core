@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<FactionDef Name="OuterRimDiverseFactionBase" ParentName="FactionBase" Abstract="True">
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+				<OuterRim_Abednedo MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Abednedo>
+				<OuterRim_Aqualish MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Aqualish>
+				<OuterRim_Bith MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Bith>
+				<OuterRim_Cerean MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Cerean>
+				<OuterRim_Duros MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Duros>
+				<OuterRim_Gungan MayRequire="Neronix17.OuterRim.GalacticDiversity">0.05</OuterRim_Gungan>
+				<OuterRim_Herglic MayRequire="Neronix17.OuterRim.GalacticDiversity">0.01</OuterRim_Herglic>
+				<OuterRim_Iktotchi MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Iktotchi>
+				<OuterRim_Iridonian MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Iridonian>
+				<OuterRim_Ithorian MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Ithorian>
+				<OuterRim_Miraluka MayRequire="Neronix17.OuterRim.GalacticDiversity">0.05</OuterRim_Miraluka>
+				<OuterRim_Mirialan MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Mirialan>
+				<OuterRim_MonCalamari MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_MonCalamari>
+				<OuterRim_Neimoidian MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Neimoidian>
+				<OuterRim_Nikto MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Nikto>
+				<OuterRim_Pantoran MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Pantoran>
+				<OuterRim_Pyke MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Pyke>
+				<OuterRim_Quarren MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Quarren>
+				<OuterRim_Selkath MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Selkath>
+				<OuterRim_Togruta MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Togruta>
+				<OuterRim_Trandoshan MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Trandoshan>
+				<OuterRim_Twilek MayRequire="Neronix17.OuterRim.GalacticDiversity">0.15</OuterRim_Twilek>
+				<OuterRim_Umbaran MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Umbaran>
+				<OuterRim_Wookiee MayRequire="Neronix17.OuterRim.GalacticDiversity">0.1</OuterRim_Wookiee>
+			</xenotypeChances>
+		</xenotypeSet>
+	</FactionDef>
+
+</Defs>

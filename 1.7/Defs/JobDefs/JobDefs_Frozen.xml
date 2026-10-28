@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<JobDef>
+		<defName>OuterRim_FrozenInCarbonite</defName>
+		<driverClass>OuterRimCore.JobDriver_FrozenInCarbonite</driverClass>
+		<reportString>standing.</reportString>
+		<carryThingAfterJob>true</carryThingAfterJob>
+		<dropThingBeforeJob>false</dropThingBeforeJob>
+		<casualInterruptible>false</casualInterruptible>
+		<playerInterruptible>false</playerInterruptible>
+	</JobDef>
+
+</Defs>

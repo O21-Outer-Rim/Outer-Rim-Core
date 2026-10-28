@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_DE10Blaster</defName>
+		<label>de-10 blaster</label>
+		<description>The DE-10 blaster pistol is a stylish and reliable heavy blaster pistol that is manufactured by Antrech Arms, a subsidiary of BlasTech Industries. It is vaunted for its reliability and ease of maintenance, and heavily resembled a slugthrower revolver.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/DE10Blaster</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>ORImperialAny</li>
+			<li>ORImperialLight</li>
+			<li>ORRebelAny</li>
+			<li>ORRebelLight</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_PistolRed</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>24</range>
+				<soundCast>OuterRim_Shot_MediumBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

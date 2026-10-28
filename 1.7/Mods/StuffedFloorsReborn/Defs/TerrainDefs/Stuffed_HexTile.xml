@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsStonePrettyBase">
+		<defName>OuterRim_StoneHexStuffed</defName>
+		<label>hex brick road</label>
+		<description>Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay.</description>
+		<texturePath>OuterRim/Terrain/StoneHex</texturePath>
+		<obsoletes>
+			<li>OuterRim_StoneHex_Sandstone</li>
+			<li>OuterRim_StoneHex_Granite</li>
+			<li>OuterRim_StoneHex_Limestone</li>
+			<li>OuterRim_StoneHex_Slate</li>
+			<li>OuterRim_StoneHex_Marble</li>
+			<li>OuterRim_StoneHex_Duracrete</li>
+			<li>OuterRim_StoneHex_Permacrete</li>
+			<li>OuterRim_StoneHex_Plastcrete</li>
+		</obsoletes>
+	</StuffedFloors.FloorTypeDef>
+	
+</Defs>

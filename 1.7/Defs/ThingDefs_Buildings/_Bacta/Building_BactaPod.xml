@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBuildingBase">
+		<defName>OuterRim_BactaPod</defName>
+		<label>bacta pod</label>
+		<description>A pod which fills with Bacta to completely submerge the patient so they can heal. Healing will take longer the worse the injuries are, and will automatically eject the patient when healing is completed to the best of the machines abilities.</description>
+		<graphicData>
+			<texPath>OuterRim/Building/BactaPod</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.65, 2.65)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<interactionCellOffset>(1,0,2)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<neverMultiSelect>true</neverMultiSelect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>28000</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>220</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<isPlayerEjectable>true</isPlayerEjectable>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<tickerType>Normal</tickerType>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>OuterRim_HealingHypertech</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>350</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="OuterRimCore.CompProperties_BactaPod">
+				<!-- <enterSound>OuterRim_BactaPodEnter</enterSound>
+				<exitSound>OuterRim_BactaPodExit</exitSound>
+				<runningSound>OuterRim_BactaPodSustainer</runningSound>
+				<effecter>OuterRim_BactaPodEffectActive</effecter> -->
+			</li>
+			<li Class="PipeSystem.CompProperties_ResourceTrader">
+				<pipeNet>OuterRim_BactaNetwork</pipeNet>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Resources</li>
+					<li>Production</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

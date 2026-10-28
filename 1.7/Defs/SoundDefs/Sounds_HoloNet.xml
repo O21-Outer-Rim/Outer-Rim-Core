@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>OuterRim_HoloNetArcadeA</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>2</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/HoloNet/ArcadeA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>4.46512</min>
+					<max>4.2651</max>
+				</volumeRange>
+				<distRange>
+					<min>20</min>
+					<max>25</max>
+				</distRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_HoloNetArcadeB</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>2</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/HoloNet/ArcadeB</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>4.46512</min>
+					<max>4.2651</max>
+				</volumeRange>
+				<distRange>
+					<min>20</min>
+					<max>25</max>
+				</distRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_HoloNetArcadeC</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>2</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/HoloNet/ArcadeC</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>4.46512</min>
+					<max>4.2651</max>
+				</volumeRange>
+				<distRange>
+					<min>20</min>
+					<max>25</max>
+				</distRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_HoloNetArcadeD</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>2</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/HoloNet/ArcadeD</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>4.46512</min>
+					<max>4.2651</max>
+				</volumeRange>
+				<distRange>
+					<min>20</min>
+					<max>25</max>
+				</distRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_HoloNetArcadeE</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>2</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/HoloNet/ArcadeE</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>4.46512</min>
+					<max>4.2651</max>
+				</volumeRange>
+				<distRange>
+					<min>20</min>
+					<max>25</max>
+				</distRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>OuterRim_HoloNetArcadeF</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>2</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OuterRim/HoloNet/ArcadeF</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>4.46512</min>
+					<max>4.2651</max>
+				</volumeRange>
+				<distRange>
+					<min>20</min>
+					<max>25</max>
+				</distRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

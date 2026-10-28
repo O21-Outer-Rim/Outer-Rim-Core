@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+		<defName>OuterRim_WoodFloorPatternedStuffed</defName>
+		<label>wood floor patterned</label>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>OuterRim/Terrain/PatterenedWoodFloor</texturePath>
+		<obsoletes>
+			<li>OuterRim_WoodFloorPatterned</li>
+		</obsoletes>
+	</StuffedFloors.FloorTypeDef>
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+		<defName>OuterRim_WoodFloorInterlacedStuffed</defName>
+		<label>wood floor interlaced</label>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>OuterRim/Terrain/InterlacedWoodFloor</texturePath>
+		<obsoletes>
+			<li>OuterRim_WoodFloorInterlaced</li>
+		</obsoletes>
+	</StuffedFloors.FloorTypeDef>
+	
+</Defs>

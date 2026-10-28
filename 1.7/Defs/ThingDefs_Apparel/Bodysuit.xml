@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="OuterRim_UniformBodyFabricatedBase">
+		<defName>OuterRim_Bodysuit</defName>
+		<label>durafiber bodysuit</label>
+		<description>A common bodysuit worn by many across the galaxy, its defensive properties along with the tight fit and flexibility make it a popular choice for wearing under full sets of armour and often included as part of a uniform in military and security sectors.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Undersuit/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<tags Inherit="False">
+				<li>ORBodysuit</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Undersuit/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

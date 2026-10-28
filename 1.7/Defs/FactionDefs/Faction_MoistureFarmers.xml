@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<FactionDef ParentName="OuterRimDiverseFactionBase">
+		<defName>OuterRim_MoistureFarmers</defName>
+		<label>moisture farmers</label>
+		<description>A collective of townspeople and farmers who have forged a self-sufficient community on this backwater world. With a profound understanding of agriculture, they transform barren planets into bountiful lands, sustaining themselves and others with their harvests. Fiercely independent yet deeply interconnected, these settlers embrace a communal way of life, fostering a spirit of cooperation and harmony. They navigate the challenges of the universe, relying on their resourcefulness and unity to thrive amidst the cosmic wilderness. As independant as they are, they are not above hiring mercenaries to protect them and their claims to the world.</description>
+		<pawnSingular>farmer</pawnSingular>
+		<pawnsPlural>farmers</pawnsPlural>
+		<categoryTag>Outlander</categoryTag>
+		<listOrderPriority>30</listOrderPriority>
+		<configurationListOrderPriority>5</configurationListOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>councilman</leaderTitle>
+		<factionIconPath>OuterRim/WorldObjects/MoistureFarmers</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<techLevel>Ultra</techLevel>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<colorSpectrum>
+			<li>(204, 201, 118)</li>
+		</colorSpectrum>
+		<allowedCultures>
+			<li>Rustican</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<caravanTraderKinds>
+			<li>OuterRim_MoistureFarmers_Caravan</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>OuterRim_MoistureFarmers_Visitor</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>OuterRim_MoistureFarmers_Base</li>
+		</baseTraderKinds>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>0.1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.9</commonality>
+			</li>
+		</backstoryFilters>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,200)</li>
+				<li>(70, 500)</li>
+				<li>(700, 1800)</li>
+				<li>(2000, 5000)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<options>
+					<OuterRim_TownSettler>5</OuterRim_TownSettler>
+					<OuterRim_TownGuard>10</OuterRim_TownGuard>
+					<OuterRim_Grenadier_Destructive>10</OuterRim_Grenadier_Destructive>
+					<OuterRim_Mercenary_Slasher>10</OuterRim_Mercenary_Slasher>
+					<OuterRim_Mercenary_Gunner>7</OuterRim_Mercenary_Gunner>
+					<OuterRim_Mercenary_Elite>10</OuterRim_Mercenary_Elite>
+					<OuterRim_TownCouncilman>10</OuterRim_TownCouncilman>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<OuterRim_TownSettler>30</OuterRim_TownSettler>
+					<OuterRim_TownGuard>10</OuterRim_TownGuard>
+					<OuterRim_TownCouncilman>10</OuterRim_TownCouncilman>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<OuterRim_TownTrader>1</OuterRim_TownTrader>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2</Alpaca>
+					<Elephant>1</Elephant>
+				</carriers>
+				<guards>
+					<OuterRim_TownSettler>3</OuterRim_TownSettler>
+					<OuterRim_TownGuard>10</OuterRim_TownGuard>
+					<OuterRim_Grenadier_Destructive>10</OuterRim_Grenadier_Destructive>
+					<OuterRim_Mercenary_Slasher>10</OuterRim_Mercenary_Slasher>
+					<OuterRim_Mercenary_Gunner>7</OuterRim_Mercenary_Gunner>
+					<OuterRim_Mercenary_Elite>10</OuterRim_Mercenary_Elite>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<OuterRim_TownSettler>10</OuterRim_TownSettler>
+					<OuterRim_TownGuard>10</OuterRim_TownGuard>
+					<OuterRim_Grenadier_Destructive>10</OuterRim_Grenadier_Destructive>
+					<OuterRim_Mercenary_Slasher>10</OuterRim_Mercenary_Slasher>
+					<OuterRim_Mercenary_Gunner>7</OuterRim_Mercenary_Gunner>
+					<OuterRim_Mercenary_Elite>10</OuterRim_Mercenary_Elite>
+					<OuterRim_TownCouncilman>10</OuterRim_TownCouncilman>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Miner>1</Miner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Hunter>1</Hunter>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Logger>1</Logger>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Farmer>1</Farmer>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+
+</Defs>

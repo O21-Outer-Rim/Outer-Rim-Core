@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TerrainDef ParentName="OuterRimFloorBase" Name="OuterRimPaneledFloorVMetal" Abstract="True">
+		<texturePath>OuterRim/Terrain/PaneledFloorV</texturePath>
+		<constructEffect>ConstructMetal</constructEffect>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<designatorDropdown>OuterRim_PaneledFloorV</designatorDropdown>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimPaneledFloorVMetal">
+		<defName>OuterRim_PaneledFloorV_Steel</defName>
+		<label>steel paneled floor (v)</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Bolted steel flooring tiles. They get a bonus to cleanliness.</description>
+		<color>(0.369, 0.369, 0.369)</color>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<Steel>5</Steel>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimPaneledFloorVMetal">
+		<defName>OuterRim_PaneledFloorV_Silver</defName>
+		<label>silver paneled floor (v)</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Bolted silver flooring tiles. They get a bonus to cleanliness.</description>
+		<color>(0.45, 0.45, 0.45)</color>
+		<statBases>
+			<Beauty>5</Beauty>
+			<WorkToBuild>800</WorkToBuild>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<Silver>50</Silver>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimPaneledFloorVMetal">
+		<defName>OuterRim_PaneledFloorV_Gold</defName>
+		<label>gold paneled floor (v)</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Bolted gold flooring tiles. They get a bonus to cleanliness.</description>
+		<color>(0.65, 0.65, 0.35)</color>
+		<statBases>
+			<Beauty>12</Beauty>
+			<WorkToBuild>800</WorkToBuild>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimPaneledFloorVMetal">
+		<defName>OuterRim_PaneledFloorV_Durasteel</defName>
+		<label>durasteel paneled floor (v)</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Bolted durasteel flooring tiles. They get a bonus to cleanliness.</description>
+		<color>(150, 150, 150)</color>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<OuterRim_Durasteel>5</OuterRim_Durasteel>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimPaneledFloorVMetal">
+		<defName>OuterRim_PaneledFloorV_Beskar</defName>
+		<label>beskar paneled floor (v)</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Bolted beskar flooring tiles. They get a bonus to cleanliness.</description>
+		<color>(180, 180, 180)</color>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<OuterRim_Beskar>5</OuterRim_Beskar>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="OuterRimPaneledFloorVMetal">
+		<defName>OuterRim_PaneledFloorV_PureBeskar</defName>
+		<label>pure beskar paneled floor (v)</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Bolted pure beskar flooring tiles. They get a bonus to cleanliness.</description>
+		<color>(190, 190, 190)</color>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>4</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<OuterRim_PureBeskar>5</OuterRim_PureBeskar>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
+
+</Defs>
